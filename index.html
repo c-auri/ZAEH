@@ -1,3 +1,13 @@
 ---
 title: ZAEH
 ---
+{% for chapter in site.chapters %}
+    <ul>
+        <li>
+            Buch {{ chapter.book }}, Teil {{ chapter.part }}, Kapitel {{ chapter.chapter }}: 
+            <a href="{{ chapter.url }}">
+                {{ chapter.title}}
+            </a>
+        </li>
+    </ul>
+{% endfor %}

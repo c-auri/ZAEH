@@ -1,3 +1,5 @@
+- name: Index
+  link: /
 - name: Lesefassung
   link: /lesefassung.html
 - name: Leser
