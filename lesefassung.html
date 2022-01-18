@@ -4,8 +4,9 @@ title: Krieg und Frieden
 
 {% for chapter in site.chapters %}
     <h2>
+        Buch {{ chapter.book }}, Teil {{ chapter.part }}, Kapitel {{ chapter.chapter }}: 
         <a href="{{ chapter.url }}">
-            Buch {{ chapter.book }}, Teil {{ chapter.part }}, Kapitel {{ chapter.chapter }}
+            {{ chapter.title}}
         </a>
     </h2>
     geschrieben am {{ chapter.date | date_to_string }} 

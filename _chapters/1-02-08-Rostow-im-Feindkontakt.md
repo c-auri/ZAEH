@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Rostow im Feindkontakt
 author: Bighead
 running: 36
 book: 1

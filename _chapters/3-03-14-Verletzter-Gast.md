@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Verletzter Gast
 author: Sunslayer
 running: 242
 book: 3

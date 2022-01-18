@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Andrej versteht den Tod
 author: myplaren
 running: 277
 book: 4

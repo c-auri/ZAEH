@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Helene gelangweilt vom Leben
 author: TripperK
 running: 235
 book: 3

@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Diplomatie in Brünn
 author: Sunslayer
 running: 38
 book: 1

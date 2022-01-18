@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Boris in Petersburg
 author: lubold
 running: 90
 book: 2

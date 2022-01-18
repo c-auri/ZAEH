@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Nikolaj im Krieg
 author: Rob
 running: 117
 book: 2

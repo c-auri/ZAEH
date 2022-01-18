@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Natashas Briefe
 author: blutgarten
 running: 158
 book: 2

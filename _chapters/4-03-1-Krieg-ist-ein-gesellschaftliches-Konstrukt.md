@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Krieg ist ein gesellschaftliches Konstrukt
 author: Rob
 running: 298
 book: 4

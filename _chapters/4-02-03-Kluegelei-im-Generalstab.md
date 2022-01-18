@@ -1,6 +1,7 @@
 ---
 layout: chapter
-author: TripperK
+title: Klüngelei im Generalstab
+author: Apocalypso
 running: 281
 book: 4
 part: 2

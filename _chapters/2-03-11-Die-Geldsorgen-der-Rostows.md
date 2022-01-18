@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Die Geldsorgen der Rostows
 author: Bighead
 running: 116
 book: 2

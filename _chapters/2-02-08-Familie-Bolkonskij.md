@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Familie Bolkonskij
 author: myplaren
 running: 92
 book: 2

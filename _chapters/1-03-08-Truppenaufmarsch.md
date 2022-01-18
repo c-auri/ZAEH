@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Truppenaufmarsch
 author: blutgarten
 running: 57
 book: 1

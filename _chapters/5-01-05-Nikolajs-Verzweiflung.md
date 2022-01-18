@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Nikolajs Verzweiflung
 author: l0sth0pe
 running: 341
 book: 5

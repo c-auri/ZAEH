@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Boris in Moskau
 author: blutgarten
 running: 149
 book: 2

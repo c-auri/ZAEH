@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Graf Besuchows Tod
 author: Rob
 running: 23
 book: 1

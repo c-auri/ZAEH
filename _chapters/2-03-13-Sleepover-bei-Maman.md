@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Sleepover bei Maman
 author: Zagdil
 running: 118
 book: 2

@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Es ist Krieg und keiner geht hin
 author: Zagdil
 running: 167
 book: 3

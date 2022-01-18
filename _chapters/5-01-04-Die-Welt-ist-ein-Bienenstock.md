@@ -1,5 +1,6 @@
 ---
 layout: chapter
+title: Die Welt ist ein Bienenstock
 author: Dumbaz
 running: 340
 book: 5
