@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1>Buch {{ page.book }}, Teil {{ page.part }}, Kapitel {{ page.chapter }}</h1>
+<p>
+    geschrieben am {{ page.date | date_to_string }} 
+    von 
+        {% assign author = site.readers | where: 'name', page.author | first %}
+        {% if author %}
+        - <a href="{{ author.url }}">{{ author.name }}</a>
+        {% endif %}
+</p>
+
+{{ content }}

@@ -1,0 +1,19 @@
+collections:
+  readers:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "readers"
+    values:
+      layout: "reader"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
