@@ -6,7 +6,7 @@ layout: default
 <h2>Gelesene Kapitel:</h2>
 
 <ul>
-  {% assign filtered_posts = site.posts | where: 'author', page.name %}
+  {% assign filtered_posts = site.chapters | where: 'author', page.name %}
   {% for post in filtered_posts %}
     <li>
       Buch {{ post.book }}, Teil {{ post.part}}, Kapitel {{ post.chapter}}: 
