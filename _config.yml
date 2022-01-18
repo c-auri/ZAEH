@@ -1,6 +1,8 @@
 collections:
   readers:
     output: true
+  chapters:
+    output: true
 
 defaults:
   - scope:
@@ -10,9 +12,9 @@ defaults:
       layout: "reader"
   - scope:
       path: ""
-      type: "posts"
+      type: "chapters"
     values:
-      layout: "post"
+      layout: "chapters"
   - scope:
       path: ""
     values:

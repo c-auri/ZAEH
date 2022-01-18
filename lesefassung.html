@@ -1,0 +1,17 @@
+---
+title: Krieg und Frieden
+---
+
+{% for chapter in site.chapters %}
+    <h2>
+        <a href="{{ chapter.url }}">
+            Buch {{ chapter.book }}, Teil {{ chapter.part }}, Kapitel {{ chapter.chapter }}
+        </a>
+    </h2>
+    geschrieben am {{ chapter.date | date_to_string }} 
+    von {% assign author = site.readers | where: 'name', chapter.author | first %}
+        {% if author %}
+        - <a href="{{ author.url }}">{{ chapter.author }}</a>
+        {% endif %}
+    {{ chapter.content }}
+{% endfor %}

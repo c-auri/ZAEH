@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: chapter
 author: Rob
 running: 117
 book: 2

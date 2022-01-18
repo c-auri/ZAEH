@@ -1,6 +1,6 @@
 - name: Home
   link: /
-- name: Blog
-  link: /blog.html
+- name: Lesefassung
+  link: /lesefassung.html
 - name: Leser
   link: /leser.html

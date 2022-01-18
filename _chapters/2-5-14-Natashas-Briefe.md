@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: chapter
 author: blutgarten
 running: 158
 book: 2
