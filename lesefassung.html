@@ -16,12 +16,11 @@ title: Krieg und Frieden - Lesefassung
                 <a href="{{ chapter.url }}">  {{ chapter.title }} </a>
             </h3>
             <p>
-                geschrieben am {{ chapter.date | date_to_string }}
-                von {% assign author = site.readers | where: 'name', chapter.author | first %}
-                    {% if author %}
-                    <a href="{{ author.url }}">{{ chapter.author }}</a>
-                    {% endif %}
-             </p>
+                {% assign author = site.readers | where: 'name', chapter.author | first %}
+                Zusammengefasst von <a href="{{ author.url }}">{{ author.name }}</a> 
+                am <span title='Verfasst {{ chapter.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ chapter.date_copied | date: "%-d.%-m.%Y, %R"}}'>{{ chapter.date_written | date: "%-d.%-m.%Y" }}</span>
+                - Link zum <a href="{% include thread_url.html %}?postID={{ page.postID }}#post{{ page.postID }}">Original</a>
+            </p>
             <p>
                 {{ chapter.content }}
             </p>
