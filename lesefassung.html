@@ -2,17 +2,21 @@
 title: Krieg und Frieden - Lesefassung
 ---
 
-{% for chapter in site.chapters %}
-    <h2>
-        Buch {{ chapter.book }}, Teil {{ chapter.part }}, Kapitel {{ chapter.chapter }}: 
-        <a href="{{ chapter.url }}">
-            {{ chapter.title}}
-        </a>
-    </h2>
-    geschrieben am {{ chapter.date | date_to_string }} 
-    von {% assign author = site.readers | where: 'name', chapter.author | first %}
-        {% if author %}
-        <a href="{{ author.url }}">{{ chapter.author }}</a>
-        {% endif %}
-    {{ chapter.content }}
+{% for book in site.books %}
+    <h1>{{ book.name }}</h1>
+    {% assign chapters = site.chapters | where: 'book', book.number %}
+    {% for chapter in chapters%}
+        <h2>
+            Teil {{ chapter.part }}, Kapitel {{ chapter.chapter }}: 
+            <a href="{{ chapter.url }}">
+                {{ chapter.title}}
+            </a>
+        </h2>
+        geschrieben am {{ chapter.date | date_to_string }} 
+        von {% assign author = site.readers | where: 'name', chapter.author | first %}
+            {% if author %}
+            <a href="{{ author.url }}">{{ chapter.author }}</a>
+            {% endif %}
+        {{ chapter.excerpt }}
+    {% endfor %}
 {% endfor %}
