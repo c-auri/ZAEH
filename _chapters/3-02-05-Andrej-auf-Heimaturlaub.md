@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: Andrej in Lysyja-Gory
+title: Andrej auf Heimaturlaub
 author: THC-Veraechter
 date_written: 2022-01-18T23:05:00UTC+1
 date_copied: 2022-01-19T13:44:00UTC+1
