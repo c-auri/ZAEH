@@ -2,6 +2,9 @@
 layout: chapter
 title: Truppenaufmarsch
 author: blutgarten
+date_written: 2022-01-18T08:50:00UTC+1
+date_copied: 2022-01-19T13:26:00UTC+1
+postID: 1573815
 running: 57
 book: 1
 part: 3

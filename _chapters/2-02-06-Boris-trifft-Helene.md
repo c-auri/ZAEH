@@ -1,7 +1,10 @@
 ---
 layout: chapter
-title: Boris in Petersburg
+title: Boris trifft Helene
 author: lubold
+date_written: 2022-01-16T23:18:00UTC+1
+date_copied: 2022-01-19T12:19:00UTC+1
+postID: 1573748
 running: 90
 book: 2
 part: 2

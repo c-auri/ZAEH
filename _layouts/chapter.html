@@ -1,14 +1,13 @@
 ---
 layout: default
 ---
-<h1>Buch {{ page.book }}, Teil {{ page.part }}, Kapitel {{ page.chapter }}: {{ page.title }}</h1>
-<p>
-    geschrieben am {{ page.date | date_to_string }} 
-    von 
-        {% assign author = site.readers | where: 'name', page.author | first %}
-        {% if author %}
-        - <a href="{{ author.url }}">{{ author.name }}</a>
-        {% endif %}
-</p>
 
+{% assign author = site.readers | where: 'name', page.author | first %}
+
+<h2>Buch {{ page.book }}, Teil {{ page.part }}, Kapitel {{ page.chapter }}: {{ page.title }}</h2>
+<p>
+    Zusammengefasst von <a href="{{ author.url }}">{{ author.name }}</a> 
+    am <span title='Verfasst {{ page.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ page.date_copied | date: "%-d.%-m.%Y, %R"}}'>{{ page.date_written | date: "%-d.%-m.%Y" }}</span>
+    - Link zum <a href="{% include thread_url.html %}?postID={{ page.postID }}#post{{ page.postID }}">Original</a>
+</p>
 {{ content }}

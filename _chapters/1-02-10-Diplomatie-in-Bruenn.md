@@ -2,6 +2,9 @@
 layout: chapter
 title: Diplomatie in Brünn
 author: Sunslayer
+date_written: 2022-01-18T14:10:00UTC+1
+date_copied: 2022-01-19T13:33:00UTC+1
+postID: 1573847
 running: 38
 book: 1
 part: 2

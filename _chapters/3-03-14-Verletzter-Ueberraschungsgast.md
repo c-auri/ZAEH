@@ -1,13 +1,16 @@
 ---
 layout: chapter
-title: Verletzter Gast
+title: Verletzter Überraschungsgast
 author: Sunslayer
+date_written: 2022-01-17T17:03:00UTC+1
+date_copied: 2022-01-19T12:59:00UTC+1
+postID: 1573772
 running: 242
 book: 3
 part: 3
 chapter: 14
 ---
-Madame Schoß verunsichert die Gräfin noch weiter, indem sie ihr von den Trunkenbolden erzählt, welche vor dem Branntweinladen lungern und den Filaxlümmel ausrufen. Sie hatte ein Taxi eine Kutsche gerufen um sie zu dodgen; der Kutscher erzählte ihr dass die Leute offensichtlich ein Befehl hatten die Filaxfässer zu vernichten.
+Madame Schoß verunsichert die Gräfin noch weiter, indem sie ihr von den Trunkenbolden erzählt, welche vor dem Branntweinladen lungern und den Filaxlümmel ausrufen. Sie hatte ~~ein Taxi~~ eine Kutsche gerufen um sie zu dodgen; der Kutscher erzählte ihr dass die Leute offensichtlich ein Befehl hatten die Filaxfässer zu vernichten.
 
 Meanwhile wird bei Rostows ne Reise vorbereitet. Der Graf schiebt richtig Stress und die Leute rennen alle chaotisch durcheinander. Natascha macht aber ernst und fängt an alle rumzukommandieren.
 Heldenhaft bringt sie das Porzellan und die Teppiche in zwei Kisten unter, indem sie den ganzen Billigkrams einfach nicht einpackt, während der faule Rest dabei ist eine dritte Kiste zu organisieren. Aber trotz Tricks wie diesem sind die Leute bis zum Abend nicht fertig mit dem Packen, sodass Graf und Gräfin die Abfahrt auf den nächsten Tag legen.

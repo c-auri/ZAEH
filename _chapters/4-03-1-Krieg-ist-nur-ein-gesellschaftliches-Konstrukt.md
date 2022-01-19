@@ -1,14 +1,15 @@
 ---
 layout: chapter
-title: Krieg ist ein gesellschaftliches Konstrukt
+title: Krieg ist nur ein gesellschaftliches Konstrukt
 author: Rob
+date_written: 2022-01-18T15:28:00UTC+1
+date_copied: 2022-01-19T13:35:00UTC+1
+postID: 1573857
 running: 298
 book: 4
 part: 3
 chapter: 1
 ---
-In der Einleitung zum dritten Teil des vierten Buches (also quasi kurz vor Feierabend) macht Tolstoi die Schlacht bei Borodino und deren Folgen zu einem militärisch-politisch-gesellschaftlichen Lehrstück:
-
 Krieg ist im Grunde die gemeinsame Einigung auf eine Illusion: "Nur" weil ein Hundertstel der gesamten Volkskraft in einer Schlacht unterliegt, drei - fünf- oder zehntausend Menschen dahingemordet werden, ergibt sich ein Volk von mehreren Millionen Menschen unter eine neue Herrschaft, obwohl es in der Realität ja der Armee des Siegers zahlenmäßig immer noch extrem überlegen ist. Das war in der Geschichte immer so und wurde als gegeben angesehen, bis eben zur Schlacht von Borodino. Napoleon hatte die Schlacht unter hohen Verlusten gewonnen und der Weg in die damals ehemalige russische Hauptstadt Moskau war frei. Er verlor auch danach keine weitere Schlacht, und musste sich dennoch zurückziehen und seinen Russlandfeldzug aufgeben. Seine sechsmalhunderttausend Mann starke Armee und gleich darauf das ganze Napoleonische Frankreich hörte einfach auf zu existieren. Französische Geschichtsschreiber begründen das damit, dass die russischen Bauern ihre Felder lieber verbrannten, als den Ertrag zu horrenden Preisen an die Franzosen zu verkaufen.
 
 Diese Weigerung, den militärischen Sieg des Feindes zu akzeptieren und sich unter seine Autorität unterzuordnen hält Tolstoi für beispiellos. Er vergleicht das ganze mit einem aufs kunstvollste ausgefochtenen Duell, in dem ein verwundeter Duellant angesichts der ernsten Lage seinen Degen beiseite wirft, den nächstbesten Knüppel aufhebt, damit ohne jegliche Finesse auf seinen Kontrahenten eindrischt und den Kampf so für sich entscheidet. Technisch gesehen hat der Prügler gewonnen, aber alle Zeugen des Duells wenden sich ob der Primitivität seines Sieges peinlich berührt ab und hätten eher erwartet, dass der Verwundete "nach allen Regeln der Kunst salutiert, den Degen umwendet und ihn anmutig und höflich einem großmütigen Sieger übergibt". Dieser Ansicht wären sicherlich alle versierten Fechter im Publikum, und entsprechend auch alle versierten Kriegstreiber in Russland (ergo die Oberschicht mit unseren Boys Bolkonskij, Besuchow und Roskow), die im Nachhinein selbstverständlich versuchen würden, alles so darzustellen, als hätten sie den Sieg nach allen Regeln der Kunst mit dem Degen errungen, weswegen es so viele gegenläufige Theorien zum Ende des Napoleonischen Russlandfeldzuges gibt.

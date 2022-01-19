@@ -1,7 +1,10 @@
 ---
 layout: chapter
-title: Familie Bolkonskij
+title: Familie Bolkonskij in Aufruhr
 author: myplaren
+date_written: 2022-01-17T18:16:00UTC+1
+date_copied: 2022-01-19T13:06:00UTC+1
+postID: 1573776
 running: 92
 book: 2
 part: 2
