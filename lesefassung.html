@@ -3,20 +3,28 @@ title: Krieg und Frieden - Lesefassung
 ---
 
 {% for book in site.books %}
+{% assign chapters_in_book = site.chapters | where: 'book', book.number %}
     <h1>{{ book.name }}</h1>
-    {% assign chapters = site.chapters | where: 'book', book.number %}
-    {% for chapter in chapters%}
-        <h2>
-            Teil {{ chapter.part }}, Kapitel {{ chapter.chapter }}: 
-            <a href="{{ chapter.url }}">
-                {{ chapter.title}}
-            </a>
-        </h2>
-        geschrieben am {{ chapter.date | date_to_string }} 
-        von {% assign author = site.readers | where: 'name', chapter.author | first %}
-            {% if author %}
-            <a href="{{ author.url }}">{{ chapter.author }}</a>
-            {% endif %}
-        {{ chapter.excerpt }}
+    {% assign parts = site.parts | where: 'book', book.number %}
+    
+    {% for part in parts %}
+    <h2>{{ part.name_in_book }}</h2>
+        {% assign chapters_in_part = chapters_in_book | where: 'part', part.number_in_book %}
+        {% for chapter in chapters_in_part %}
+            <h3>
+                Kapitel {{ chapter.chapter }}: 
+                <a href="{{ chapter.url }}">  {{ chapter.title }} </a>
+            </h3>
+            <p>
+                geschrieben am {{ chapter.date | date_to_string }}
+                von {% assign author = site.readers | where: 'name', chapter.author | first %}
+                    {% if author %}
+                    <a href="{{ author.url }}">{{ chapter.author }}</a>
+                    {% endif %}
+             </p>
+            <p>
+                {{ chapter.content }}
+            </p>
+        {% endfor %}
     {% endfor %}
 {% endfor %}
