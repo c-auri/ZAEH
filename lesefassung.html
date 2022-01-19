@@ -12,7 +12,7 @@ title: Krieg und Frieden
     geschrieben am {{ chapter.date | date_to_string }} 
     von {% assign author = site.readers | where: 'name', chapter.author | first %}
         {% if author %}
-        - <a href="{{ author.url }}">{{ chapter.author }}</a>
+        <a href="{{ author.url }}">{{ chapter.author }}</a>
         {% endif %}
     {{ chapter.content }}
 {% endfor %}
