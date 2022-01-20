@@ -18,7 +18,7 @@ characters: [
     Anatol,
 ]
 ---
-Marja Dmitrijewna hat mit Fürst Nikolaj gesprochen. Dieser war sehr erregt und ist dickköpfig geblieben. Sie rät Natascha und Ilja Andrejwitsch deshalb ihre Geschäfte abzuwickeln, nach Otradnoje zu fahren und den Rest von dort aus abzuwarten. Wenn Nataschas Bräutigam alleine mit dem Alten spricht, so könnte er ihn vielleicht noch überzeugen. Wenn sie aber hier alle zusammentreffen, dann würde es sicher nur Streit geben und die Trauung könne dann nur noch ohne seine Einwilligung stattfinden.
+Marja Dmitrijewna hat mit Fürst Nikolaj gesprochen. Dieser war sehr erregt und ist dickköpfig geblieben. Sie rät Natascha und den alten Grafen Ilja Andrejwitsch deshalb ihre Geschäfte abzuwickeln, nach Otradnoje zu fahren und den Rest von dort aus abzuwarten. Wenn Nataschas Bräutigam alleine mit dem Alten spricht, so könnte er ihn vielleicht noch überzeugen. Wenn sie aber hier alle zusammentreffen, dann würde es sicher nur Streit geben und die Trauung könne dann nur noch ohne seine Einwilligung stattfinden.
 
 Zum Ende des Gesprächs holt Marja Dmitrijewna noch einen Brief von Prinzessin Marja aus ihrem <span  title="(gehäkelte) Handtasche, Handarbeitsbeutel">Ridikül</span> und reicht ihn an Natascha weiter. Darin entschuldigt sich die Prinzessin für das entstandene Missverständnis. Sie könne doch gar nicht anders als die Auserkorene ihres Bruders ebenfalls zu lieben und versichert Natascha, dass ihr Vater das trotz seines Verhaltens letztendlich auch so sehen werde. Sie bittet Natascha schließlich sich noch einmal mit ihr zu treffen.
 
