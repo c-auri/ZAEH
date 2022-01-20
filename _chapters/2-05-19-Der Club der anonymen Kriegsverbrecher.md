@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: Der Club der anonymem Kriegsverbrecher
+title: Der Club der anonymen Kriegsverbrecher
 author: myplaren
 date_written: 2022-01-20T10:23:00UTC+1
 date_copied: 2022-01-20T11:19:00UTC+1
