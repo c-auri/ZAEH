@@ -9,6 +9,7 @@ running: 331
 book: 4
 part: 4
 chapter: 15
+characters: [ Rastoptschin ]
 ---
 Ein aufbrausender Herbstwind erhebte sich über dem Ural im Oktober 1813. Von den kriegerischen Auseinandersetzungen zwischen Russen und Franzosen unberührt geblieben gehen die Bewohner hier ihren herbstlichen Tätigkeiten nach, diesen Oktober sind die Äpfel besonders üppig ausgefallen. Das deutet auf einen harten Winter hin, wie man hier gemeinhin sagt. Der Wind gleitet hinab über die Tiefebenen rund um Moskau, zwischen kräftigen Flüssen sind viele Bauern unterwegs, auf ihren Karren Loot aus dem von den Franzosen zunächst besetzten, dann geplünderten und schließlich doch besiegt verlassenen Moskau. Moskau, Du Perle Russlands, Schatzkammer zwischen Europa und Sibirien, und doch nur noch eine ausgebrannte Ruine. Dies war ein Ende der napoleonischen Kriege. Nicht das Ende, das Rad der Zeit kennt keinen Anfang und kein Ende. Doch es war ein Ende. Und zugleich ein Neubeginn.
 

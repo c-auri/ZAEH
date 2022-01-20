@@ -5,6 +5,9 @@ collections:
   parts:
   chapters:
     output: true
+  groups:
+  characters:
+    output: true
 
 defaults:
   - scope:
@@ -17,6 +20,11 @@ defaults:
       type: "chapters"
     values:
       layout: "chapters"
+  - scope:
+      path: ""
+      type: "characters"
+    values:
+      layout: "character"
   - scope:
       path: ""
     values:

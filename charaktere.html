@@ -1,0 +1,17 @@
+---
+---
+{% assign groups = site.groups | sort: 'priority' %}
+{% for group in groups %}
+    <h3>{{ group.name }}</h3>
+    <ul>
+        {% assign characters = site.characters | where: 'group', group.alias | sort: 'priority' %}
+        {% for character in characters  %}
+            <li>
+                {% if character.noble %}
+                    {{ character.noble }}
+                {% endif %}
+                <a href="{{ character.url }}">{{ character.name }}</a>{% if character.position %}, {{ character.position }}{% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endfor %}

@@ -10,4 +10,18 @@ layout: default
     am <span title='Verfasst {{ page.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ page.date_copied | date: "%-d.%-m.%Y, %R"}}'>{{ page.date_written | date: "%-d.%-m.%Y" }}</span>
     - Link zum <a href="{% include thread_url.html %}?postID={{ page.postID }}#post{{ page.postID }}">Original</a>
 </p>
+{% if page.characters %}
+    Charaktere:
+    {% for alias in page.characters %}
+        {% for character in site.characters %}
+            {% if character.alias == alias %}
+                {% if character.tag_name %}
+                    <a href="{{ character.url }}">{{ character.tag_name }}</a>
+                {% else %}
+                    <a href="{{ character.url }}">{{ character.name }}</a>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endif %}
 {{ content }}

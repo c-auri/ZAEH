@@ -9,6 +9,14 @@ running: 242
 book: 3
 part: 3
 chapter: 14
+characters: [
+    Madame Schoß,
+    Gräfin Rostow,
+    Graf Rostow,
+    Natascha,
+    Andrej,
+    Mawra,
+]
 ---
 Madame Schoß verunsichert die Gräfin noch weiter, indem sie ihr von den Trunkenbolden erzählt, welche vor dem Branntweinladen lungern und den Filaxlümmel ausrufen. Sie hatte ~~ein Taxi~~ eine Kutsche gerufen um sie zu dodgen; der Kutscher erzählte ihr dass die Leute offensichtlich ein Befehl hatten die Filaxfässer zu vernichten.
 

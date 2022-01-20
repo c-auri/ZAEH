@@ -9,6 +9,7 @@ running: 235
 book: 3
 part: 3
 chapter: 17
+characters: [ Helene, Der Alte Graf ]
 ---
 Helene scheint gelangweilt vom Leben.
 Alle intimsten Geheimnisse hat sie bereits mit fast ganz Petersburg geteilt und so ziemt es sich nach Abwechslung.

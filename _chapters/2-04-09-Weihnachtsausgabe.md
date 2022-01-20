@@ -9,6 +9,16 @@ running: 140
 book: 2
 part: 4
 chapter: 9
+characters: [ 
+    Nikolaj, 
+    Natascha, 
+    Gräfin Rostow,
+    Petja,
+    Andrej, 
+    Sonja,
+    Mawra,
+    Nikita,
+]
 ---
 Heute kommt das langerwartete K&F - Christmasspecial, was die Simpsons können, kann Tostoy schon lange - lol.
 

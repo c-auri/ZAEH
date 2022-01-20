@@ -9,6 +9,7 @@ running: 31
 book: 1
 part: 2
 chapter: 3
+characters: [ Kutusow, Andrej ]
 ---
 Der Franzose steht bei Ulm an der Donau. Nach eigenen Angaben haben die Österreicher alles im Griff, aber inoffiziell sickert schon durch, dass die Kacke am Dampfen ist. General Kutusow schiebt im Hofkriegsrat aber eine ruhige Kugel. Er berät mit einem österreichischen General was zu tun ist und wann er denn zu seinen Verbündeten aufzubrechen gedenke. Der Österreicher und er komplimentieren um den heißen Brei herum, aber die Österreicher sind wohl zu eitel zuzugeben, dass Napoleon sie durchbimst. Kutusow reibt seinem Kollegen die eigenen aufgeblasenen Berichte unter die Nase und gibt dann seinem Adjutanten Fürst Andrej Bolkonskij den ganzen Papierkram und zwischen den Zeilen zu verstehen, er soll daraus irgendwelche guten Gründe zusammenbasteln, warum man den eigenen Verbündeten nicht hilft.
 

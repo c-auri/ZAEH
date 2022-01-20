@@ -9,6 +9,7 @@ running: 185
 book: 3
 part: 1
 chapter: 19
+characters: [ Pierre, Natascha, Rastoptschin, Andrej, Nikolai ]
 ---
 Pierre (Graf Besuchow) hat den Sinn des Lebens in Natasha Rostow gefunden und erschreckt sich nicht mehr an wertlosen Gesprächen, da hat er mir echt was vorraus. Er jizzt sich mit Natasha gegenseitig hoch. Als echte Dramaqueen sucht er natürlich instant wieder nach vorzeichen für die herrannahende Katastrophe und bastelt sich seine eigene schiefdenkmethode aus Zahlen und dem Johannesevangelium (inklusive unironischer Zahlen/Buchstabentabelle).
 

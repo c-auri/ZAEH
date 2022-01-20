@@ -9,6 +9,7 @@ running: 315
 book: 4
 part: 3
 chapter: 18
+characters: [ Napoleon ]
 ---
 In diesem Kapitel rastet Tolstoi einfach ein bisschen aus.
 Er stört sich an Historikern, die Napoleons Rückzug als geplant und geglückt darstellen. Dem ist seiner Meinung nach nämlich nicht so, sondern Napoleon ist Hals über Kopf geflohen und hat das Gros seines Heeres sich selbst (oder eher dem Tod) überlassen.

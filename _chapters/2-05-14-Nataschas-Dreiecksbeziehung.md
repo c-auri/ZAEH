@@ -9,6 +9,14 @@ running: 158
 book: 2
 part: 5
 chapter: 14
+characters: [ 
+    Marja Dmitrijewna, 
+    Fürst Bolkonskij, 
+    Natascha, 
+    Graf Rostow,
+    Prinzessin Marja,
+    Anatol,
+]
 ---
 Marja Dmitrijewna hat mit Fürst Nikolaj gesprochen. Dieser war sehr erregt und ist dickköpfig geblieben. Sie rät Natascha und Ilja Andrejwitsch deshalb ihre Geschäfte abzuwickeln, nach Otradnoje zu fahren und den Rest von dort aus abzuwarten. Wenn Nataschas Bräutigam alleine mit dem Alten spricht, so könnte er ihn vielleicht noch überzeugen. Wenn sie aber hier alle zusammentreffen, dann würde es sicher nur Streit geben und die Trauung könne dann nur noch ohne seine Einwilligung stattfinden.
 

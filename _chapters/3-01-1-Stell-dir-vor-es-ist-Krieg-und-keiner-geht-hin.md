@@ -9,6 +9,7 @@ running: 167
 book: 3
 part: 1
 chapter: 1
+characters: [ Napoleon, Alexander, Oldenburg ]
 ---
 In Buch 3 holt Tolstoy die LeserInnen erst mal wieder auf den Boden der Tatsachen zurück. Ausschweifend erörtert er wie es dazu kommen konnte, dass Millionen aus dem Westen nach Osten ziehen um einander totzuschlagen (sic!). Einige der Sachen musste ich tatsächlich erst mal auf Wikipedia nachlesen, was gemeint ist. Falls es jemanden interessiert: Die gängigen Gründe sind diplomatisches Missgeschick, Napoleons Größenwahn, Tsar Alexanders Dickköpfigkeit, ein Handelsembargo gegen England und seine vornehmlichste Durchlauchtheit Herzog Peter von Oldenburg, der ganz furchtbar schlimm beleidigt wurde.
 

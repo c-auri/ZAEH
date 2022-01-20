@@ -9,6 +9,7 @@ running: 168
 book: 3
 part: 1
 chapter: 2
+characters: [ Napoleon, Marie-Louise ]
 ---
 29.Mai.1913: Napoleon hat jetzt 3 Wochen in Dresden rumgehangen und es wurde ihm zu langweilig. Also hat er seiner zweiten Kaiserin (von Österreich) paar ergaunerte Juwelen geschenkt und hat sich auf die Socken gemacht. Natürlich vermisst Marie Luise den lieben Bonaparte schon jetzt ganz schrecklich. Während die Diplomaten sich noch für ne friedliche Lösung abmühen, sprintet Napoleon seinem Heer hinterher Richtung Russland. Als er dann endlich einen Blick aufs saftige Russland werfen konnte, ist ihm der Boxer gerissen und er hat kurzerhand die no war challenge für beendet erklärt und den Marsch auf Moskau befohlen.
 

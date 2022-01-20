@@ -9,6 +9,7 @@ running: 57
 book: 1
 part: 3
 chapter: 8
+characters: [ Alexander, Nikolaj, Kutusow, Andrej ]
 ---
 Die beiden verbündeten Kaiser aus Russland und Österreich besichtigen zusammen ihre Armee. Sowohl frisch aus Russland eingetroffene, als auch die aus dem Felde zurückgekehrten Truppen vollführen zu diesem Anlass einen Aufmarsch. Achzigtausend Soldaten haben ihre zahllosen Gewehre, Bajonette, Säbel und Kanonen blitzblank gesäubert, stellen sich am frühen Morgen in tadelloser Uniform in Reih und Glied und folgen den Kommandos ihrer Offiziere, welche sie in strikt geordneten Gruppen über den riesigen Exerzierplatz bewegen. Jeder einzelne in dieser Menschenmenge, egal ob einfacher Soldat, Offizier oder gar General fühlt sich in diesem Augenblick klein und unbedeutend wie ein Sandkörnchen, aber auch zugleich mächtig und stolz bei dem Gedanken ein Teil dieses gewaltigen Ganzens zu sein.
 
