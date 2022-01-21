@@ -4,5 +4,34 @@ body {
 }
 
 .current {
-    color: green;
-  }
+  color: green;
+}
+
+#index {
+  margin-top: 30px;
+}
+
+#index  tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#index tr:hover {
+  background-color: #ddd;
+}
+
+#index th {
+  padding: 8px;
+  background-color: #f2f2f2;
+}
+
+#index th.book {
+  padding: 12px;
+}
+
+td {
+  padding: 2px 5px;
+}
+
+td.enumeration {
+  text-align: right;
+}
