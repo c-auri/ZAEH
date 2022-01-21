@@ -10,12 +10,12 @@ book: 3
 part: 2
 chapter: 20
 characters: [ 
-    Fürst Bolkonskij,
     Prinzessin Marja,
+    Fürst Bolkonskij,
     Alpatytsch,
+    Dronuschka,
     Mademoiselle Bourienne,
     Rameau,
-    Dronuschka
 ]
 ---
 Nach der Beerdigung ihres Vaters (Fürst Nikolaj Andrejewitsch Bolkonskij) schließt sich die immertraurige Emoprinzessin Marja in ihrem Zimmer ein und ignoriert alle Anliegen ihres Hofvolkes, dass nun ratlos auf ihre Befehle wartet. Sogar Alpatytsch Anfrage auf ihren Befehl zur Abreise, scheint ihr unwichtig im Vergleich zu ihrer schlimmen Lage.

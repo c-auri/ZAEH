@@ -1,7 +1,7 @@
 ---
+title: Alexej Andrejewitsch
 name: Alexej Andrejewitsch
-group: Unklar
-position:
-priority: 3
 alias: Alexej Andrejewitsch
+group: Unklar
+priority: 2
 ---

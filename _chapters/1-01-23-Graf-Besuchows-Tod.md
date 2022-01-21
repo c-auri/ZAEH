@@ -9,7 +9,7 @@ running: 23
 book: 1
 part: 1
 chapter: 23
-characters: [ Graf Besuchow, Pierre ]
+characters: [ Pierre, Graf Besuchow, Anna Michailowna, Prinzessin Sophie  ]
 ---
 Unser schlimmer Finger Pierre ist zurück aus Paris und kann es selbst im sakralsten aller Kontexte nicht lassen.
 

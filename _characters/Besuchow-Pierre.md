@@ -1,8 +1,9 @@
 ---
-name: Pierre Besuchow
-noble: Graf
-group: Besuchow
-position:
-priority: 2
+title: Pierre Besuchow
+name: Pierre
 alias: Pierre
+noble: Graf
+group: Haus Besuchow
+info: Sohn des Grafen, Nataschas Geliebter
+priority: 2
 ---

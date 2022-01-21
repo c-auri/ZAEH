@@ -1,7 +1,8 @@
 ---
+title: Mawra
 name: Mawra
-group: Rostow
-position: Bedienstete
-priority: 10
 alias: Mawra
+group: Haus Rostow
+info: Bedienstete
+priority: 10
 ---

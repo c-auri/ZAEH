@@ -1,5 +1,4 @@
 ---
-name: Haus Drubezkoj
-alias: Drubezkoj
+title: Familie Drubezkoj
 priority: 4
 ---

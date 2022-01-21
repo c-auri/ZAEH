@@ -1,7 +1,8 @@
 ---
+title: Alpatytsch
 name: Alpatytsch
-group: Rostow
-position: Gutsverwalter
-priority: 5
 alias: Alpatytsch
+group: Haus Rostow
+info: Gutsverwalter
+priority: 5
 ---

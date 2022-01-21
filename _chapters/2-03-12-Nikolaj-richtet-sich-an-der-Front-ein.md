@@ -9,7 +9,7 @@ running: 117
 book: 2
 part: 3
 chapter: 12
-characters: [ Nikolaj, Natascha, Andrej ]
+characters: [ Nikolaj, Natascha, Andrej, Sonja ]
 ---
 Nikolaj Rostow hat ein kleines Problem: Natascha ist krank und hat mit Fürst Andrej gebrochen, was Nikolajs Eltern ihm schriftlich mitteilen und ihn bitten, deshalb schleunigst nach Hause zu kommen.
 

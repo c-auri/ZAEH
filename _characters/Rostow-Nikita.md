@@ -1,7 +1,8 @@
 ---
+title: Nikita
 name: Nikita
-group: Rostow
-position: Bediensteter
-priority: 10
 alias: Nikita
+group: Haus Rostow
+info: Bediensteter
+priority: 10
 ---

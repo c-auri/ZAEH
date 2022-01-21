@@ -1,9 +1,10 @@
 ---
+title: Graf Besuchow
 name: Besuchow
-tag_name: Graf Besuchow
-noble: Graf
-group: Besuchow
-position: verstorben
-priority: 1
+full_name: unbekannt
 alias: Graf Besuchow
+noble: Graf
+group: Haus Besuchow
+info: verstorben
+priority: 1
 ---

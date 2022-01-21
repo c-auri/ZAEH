@@ -1,7 +1,8 @@
 ---
+title: Dronuschka
 name: Dronuschka
-group: Bolkonskij
-position: Dorfschulze
-priority: 5
 alias: Dronuschka
+group: Haus Bolkonskij
+info: Dorfschulze
+priority: 5
 ---

@@ -10,11 +10,12 @@ book: 2
 part: 4
 chapter: 9
 characters: [ 
-    Nikolaj, 
     Natascha, 
-    Gräfin Rostow,
-    Petja,
     Andrej, 
+    Graf Rostow,
+    Gräfin Rostow,
+    Nikolaj, 
+    Petja,
     Sonja,
     Mawra,
     Nikita,

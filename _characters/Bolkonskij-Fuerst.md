@@ -1,9 +1,9 @@
 ---
-name: Nikolaj Andrejewitsch Bolkonskij
-tag_name: Fürst Bolkonskij
-noble: Fürst
-group: Bolkonskij
-position: Fürst
-priority: 1
+title: Fürst Nikolaj Bolkonskij
+name: Nikolaj Bolkonskij
+full_name: Nikolaj Andrejewitsch Bolkonskij
 alias: Fürst Bolkonskij
+noble: Fürst
+group: Haus Bolkonskij
+priority: 1
 ---

@@ -1,5 +1,4 @@
 ---
-name: Haus Rostow
-alias: Rostow
-priority: 1
+title: Haus Rostow
+priority: 2
 ---

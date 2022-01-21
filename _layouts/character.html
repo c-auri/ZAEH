@@ -2,11 +2,27 @@
 layout: default
 ---
 <h2>
-    {% if page.noble %}
-        {{ page.noble }}
-    {% endif %}
-    {{ page.name }}
+    {{ page.title }}
 </h2>
+<p>
+    {{ page.group -}}
+    {% if page.rank -%}
+        , {{ page.rank -}} 
+    {% endif %}
+    {%- if page.info -%}
+        , {{ page.info -}} 
+    {% endif %}
+    {%- if page.full_name %}
+    <br> Vollständiger Name: {{ page.full_name }}
+    {% endif %}
+    {%- if page.call_name %}
+    <br> Rufname: {{ page.call_name }}
+    {% endif %}
+    {%- if page.birth_name %}
+    <br> Geboren: {{ page.birth_name }}
+    {% endif %}
+</p>
+<h3>Kapitel:</h3>
 <ul>
     {% assign chapters = site.chapters | sort: 'running' %}
     {% for chapter in chapters %}

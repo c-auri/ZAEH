@@ -1,5 +1,4 @@
 ---
-name: Haus Bolkonskij
-alias: Bolkonskij
-priority: 2
+title: Haus Bolkonskij
+priority: 1
 ---

@@ -1,7 +1,7 @@
 ---
+title: Madame Schoß
 name: Madame Schoß
-group: Rostow
-position:
-priority: 6
 alias: Madame Schoß
+group: Haus Rostow
+priority: 6
 ---

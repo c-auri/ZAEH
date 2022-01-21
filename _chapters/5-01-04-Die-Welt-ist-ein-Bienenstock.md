@@ -9,7 +9,7 @@ running: 340
 book: 5
 part: 1
 chapter: 4
-characters: [ Napoleon, Alexander ]
+characters: [ Napoleon, Alexander I. ]
 ---
 Die französische Revolution und ihre Nachwehen sind am Verebben, Diplomaten bis hin zu Napoleon selbst bilden sich ein, irgendwas am Verlauf geändert zu haben aber eigentlich schwimmen auch sie alle nur mit wie Treibholz. Ein kurzer letztes auflodern der Gewalt ändert daran letztendlich auch nichts. Napoleon sitzt danach tief gekränkt davon, wie Bedeutungslos er doch ist, auf seiner Insel und flennt und schreibt melancholische Briefe.
 

@@ -15,11 +15,7 @@ layout: default
     {% for alias in page.characters %}
         {% for character in site.characters %}
             {% if character.alias == alias %}
-                {% if character.tag_name %}
-                    <a href="{{ character.url }}">{{ character.tag_name }}</a>
-                {% else %}
-                    <a href="{{ character.url }}">{{ character.name }}</a>
-                {% endif %}
+                <a href="{{ character.url }}">{{ character.alias }}</a>
             {% endif %}
         {% endfor %}
     {% endfor %}

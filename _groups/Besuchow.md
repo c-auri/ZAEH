@@ -1,5 +1,4 @@
 ---
-name: Haus Besuchow
-alias: Besuchow
+title: Haus Besuchow
 priority: 3
 ---

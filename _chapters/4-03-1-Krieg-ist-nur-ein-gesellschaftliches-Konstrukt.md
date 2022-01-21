@@ -9,7 +9,7 @@ running: 298
 book: 4
 part: 3
 chapter: 1
-characters: [ Napoleon, Kutusow, Alexander ]
+characters: [ Napoleon, Alexander I., Kutusow, Fürst Bolkonskij, Graf Besuchow, Graf Rostow ]
 ---
 Krieg ist im Grunde die gemeinsame Einigung auf eine Illusion: "Nur" weil ein Hundertstel der gesamten Volkskraft in einer Schlacht unterliegt, drei - fünf- oder zehntausend Menschen dahingemordet werden, ergibt sich ein Volk von mehreren Millionen Menschen unter eine neue Herrschaft, obwohl es in der Realität ja der Armee des Siegers zahlenmäßig immer noch extrem überlegen ist. Das war in der Geschichte immer so und wurde als gegeben angesehen, bis eben zur Schlacht von Borodino. Napoleon hatte die Schlacht unter hohen Verlusten gewonnen und der Weg in die damals ehemalige russische Hauptstadt Moskau war frei. Er verlor auch danach keine weitere Schlacht, und musste sich dennoch zurückziehen und seinen Russlandfeldzug aufgeben. Seine sechsmalhunderttausend Mann starke Armee und gleich darauf das ganze Napoleonische Frankreich hörte einfach auf zu existieren. Französische Geschichtsschreiber begründen das damit, dass die russischen Bauern ihre Felder lieber verbrannten, als den Ertrag zu horrenden Preisen an die Franzosen zu verkaufen.
 

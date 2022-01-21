@@ -14,12 +14,13 @@ characters: [
     Prinzessin Marja, 
     Metivier,
     Rastoptschin, 
+    Boris,
+    Pierre,
     Lopuchin,
     Tschatrow, 
-    Pierre,
-    Boris,
-    Alexander,
+    Alexander I.,
     Napoleon,
+    Herzog von Oldenburg,
 ]
 ---
 Wir schreiben das Jahr 1810 zum Nikolaustag, also den Namenstag des Fürsten Nikolaj Andrejewitsch. Obwohl dieser der Prinzessin Marja die Anweisung gegeben hat zu diesem besonderen Anlass nur eine kleine Liste an eingeladenen Gästen ins Haus zu lassen, lädt sich sein Hausarzt, ein Franzose namens Métivier, wie selbstverständlich selbst zum Gratulieren ein. Leider befand sich der Fürst an diesem Tage in allerschlechtester Laune und war am Morgen schon im Hause herumgelaufen und hatte überall Streit gesucht. Als der Arzt sich also von der Prinzessin in den Salon zum Fürsten geleiten lässt, wird er unverhofft zum Opfer eines Wutausbruchs. Den zornigen Äußerungen des Fürsten ist gerade noch so zu entnehmen, dass dieser seinen Arzt neuerdings für einen französischen Spion hält, bevor er ihm befielt sein Zuhause zu verlassen und die Salontür vor ihm zuknallt. Métivier, etwas ratlos aber scheinbar nicht zu sehr besorgt von dieser Affäre, sagte noch, dass der Fürst sich wohl nicht ganz wohl fühle bevor er versichterte am morgigen Tage wiederzukommen.

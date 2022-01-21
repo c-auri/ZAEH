@@ -9,7 +9,7 @@ running: 38
 book: 1
 part: 2
 chapter: 10
-characters: [ Andrej, Bilibin, Napoleon, Alexander ]
+characters: [ Andrej, Bilibin, Napoleon, Alexander I. ]
 ---
 Fürst Andrej steigt in Brünn (heute Tschechien) ab und besucht seinen Bekannten Diplomat Bilibin (35 Jahre alt, geistreich, Junggeselle und der Oberschicht angehörig). Dieser ist der Moukoko unter den Diplomaten und ist dementsprechend im Business seit er 16 ist. Er ist ebenfalls Russe aber aus irgendwelchen Gründen müssen sie sich auf Französisch unterhalten. Bolkonskij erzählt ihm wie die Gegner in Krems auf dem Schlachtfeld zerstört wurden, aber Bilibin betreibt Backseat-Gaming und fragt wie sie es geschafft haben keinen einzigen Marschall gefangen zu nehmen. Fürst Andrej countered mit Whataboutism und blamed Bilibin, weil er Bonaparte nicht überzeugt hat Genua aufzugeben. Bilibin nutzt die "Ich hör dich nicht"-Taktik und fragt weiter nach wieso Monier (ein Marschall anscheind) nicht gefangen genommen wurde. Desweiteren äußert er Eternal Sadness, weil er und sein Bro König Franz keinen Prater in Brünn haben. Fürst Andrej zählt jetzt die Niederlagen von Mack, Erzherzog Ferdinand und Erzherzog Karl auf um zu zeigen wie hefitg wichtig der Sieg der Schlacht ist und ist traurig, dass er nicht den Respect am receiven ist, den er sich vorgestellt hat.
 

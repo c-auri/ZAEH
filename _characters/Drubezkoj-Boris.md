@@ -1,7 +1,8 @@
 ---
-name: Boris Drubezkoj
-group: Drubezkoj
-position: 
-priority: 1
+title: Boris Drubezkoj
+name: Boris
 alias: Boris
+group: Familie Drubezkoj
+info: Adjutant
+priority: 1
 ---

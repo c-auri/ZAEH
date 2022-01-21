@@ -10,11 +10,11 @@ book: 3
 part: 3
 chapter: 14
 characters: [
-    Madame Schoß,
-    Gräfin Rostow,
-    Graf Rostow,
     Natascha,
     Andrej,
+    Gräfin Rostow,
+    Graf Rostow,
+    Madame Schoß,
     Mawra,
 ]
 ---

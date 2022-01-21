@@ -9,7 +9,7 @@ running: 341
 book: 5
 part: 1
 chapter: 5
-characters: [ Natascha, Pierre, Graf Rostow, Nikolaj, Gräfin Rostow, Sonja ]
+characters: [ Nikolaj, Graf Rostow, Gräfin Rostow, Natascha, Pierre, Sonja ]
 ---
 Nach der Hochzeit Natashas mit Besuchow geht es bergab mit der Familie Rostow aufgrund des Todes des Grafen Ilja Andrejewitsch. Der war in seinen letzten Wochen und Monaten dement und depressiv.
 Deshalb quittiert Nikolaj seinen Dienst und reist direkt von Moskau nach Paris, um die Angelegenheiten zu klären und findet dabei heraus, dass die Schulden das Doppelte des Familienvermögens betragen.

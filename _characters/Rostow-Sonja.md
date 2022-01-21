@@ -1,7 +1,8 @@
 ---
+title: Sonja
 name: Sonja
-group: Rostow
-position: Bedienstete
-priority: 10
 alias: Sonja
+group: Haus Rostow
+info: Bedienstete
+priority: 10
 ---
