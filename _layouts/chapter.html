@@ -8,7 +8,7 @@ layout: default
 <p>
     Zusammengefasst von <a href="{{ author.url }}">{{ author.name }}</a> 
     am <span title='Verfasst {{ page.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ page.date_copied | date: "%-d.%-m.%Y, %R"}}'>{{ page.date_written | date: "%-d.%-m.%Y" }}</span>
-    - Link zum <a href="{% include thread_url.html %}?postID={{ page.postID }}#post{{ page.postID }}">Original</a>
+    - Link zum <a href="{% include thread_url.html %}?postID={{ page.postID }}#post{{ page.postID }}">Beitrag</a>
 </p>
 {% if page.characters %}
     Charaktere:
