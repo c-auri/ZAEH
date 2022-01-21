@@ -5,10 +5,7 @@ author: Rob
 date_written: 2022-01-17T13:23:00UTC+1
 date_copied: 2022-01-19T12:51:00UTC+1
 postID: 1573766
-running: 117
-book: 2
-part: 3
-chapter: 12
+chapter: [ 117, 12 ]
 characters: [ Nikolaj, Natascha, Andrej, Sonja ]
 ---
 Nikolaj Rostow hat ein kleines Problem: Natascha ist krank und hat mit Fürst Andrej gebrochen, was Nikolajs Eltern ihm schriftlich mitteilen und ihn bitten, deshalb schleunigst nach Hause zu kommen.

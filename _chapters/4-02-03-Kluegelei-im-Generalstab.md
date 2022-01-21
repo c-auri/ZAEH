@@ -5,10 +5,7 @@ author: Apocalypso
 date_written: 2022-01-17T19:11:00UTC+1
 date_copied: 2022-01-19T13:16:00UTC+1
 postID: 1573782
-running: 281
-book: 4
-part: 2
-chapter: 3
+chapter: [ 281, 3 ]
 characters: [ Kutusow, Alexander I., Bagration, Bennigsen, Wintsigerode ]
 ---
 In meinem Kapitel gehts zum Glück um Krieg und nicht um Frieden. Kutusow der alte Hund ist der Oberbefehlshaber und Tsar Alexander die Dillgurke die von St. Petersburg aus rumstänkert und dem Boss ins Handwerk pfuschen will obwohl der schon ne nice Line of Play gepickt hat (nix tun wenn man ahead on Board ist und Ressourcen schonen). Der Tsar ist Mett, weil Kutusow nicht in Moskau fighten wollte und gedodged hat, aber eben "for tactical reasons" und nicht weil er ein Till ist, er sieht einfach weiter als der Aristokratenbengel.

@@ -5,10 +5,7 @@ author: THC-Veraechter
 date_written: 2022-01-18T23:05:00UTC+1
 date_copied: 2022-01-19T13:44:00UTC+1
 postID: 1573888
-running: 194
-book: 3
-part: 2
-chapter: 5
+chapter: [ 194, 5 ]
 characters: [ Andrej, Alpatytsch, Bagration, Alexej Andrejewitsch ]
 ---
 Fürst Andrej ist schlecht gelaunt. Er befindet sich mit dem ihm unterstellten Regiment seit dem 6. August auf dem Rückzug von Somolenks aus Richtung Moskau. Es ist sauwarm, die Luft ist staubig und trocken wie die Muschi von Ben Shapiros Frau beim Geschlechtsverkehr. Das wird ausführlich beschrieben. Also das Wetter und die Trockenheit, nicht die Muschi.

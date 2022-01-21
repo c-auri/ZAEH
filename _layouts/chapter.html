@@ -2,9 +2,20 @@
 layout: default
 ---
 
+<!-- Find author and the correct book and part numbers -->
 {% assign author = site.readers | where: 'name', page.author | first %}
+{% for current_part in site.parts %}
+    {% if page.chapter[0] >= current_part.from_chapter and page.chapter[0] <= current_part.to_chapter%}
+        {% assign part = current_part %}
+        {% assign book = site.books | where: 'number', part.book | first %}
+        {% break %}
+    {% endif %}
+{% endfor %}
 
-<h2>Buch {{ page.book }}, Teil {{ page.part }}, Kapitel {{ page.chapter }}: {{ page.title }}</h2>
+<h2>
+    {{ book.name }}, {{ part.name_in_book }}, Kapitel {{ page.chapter[1] }}:
+    <a href="{{ page.url }}">  {{ page.title }} </a>
+</h2>
 <p>
     Zusammengefasst von <a href="{{ author.url }}">{{ author.name }}</a> 
     am <span title='Verfasst {{ page.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ page.date_copied | date: "%-d.%-m.%Y, %R"}}'>{{ page.date_written | date: "%-d.%-m.%Y" }}</span>

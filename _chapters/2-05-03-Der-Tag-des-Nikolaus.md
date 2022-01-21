@@ -5,10 +5,7 @@ author: blutgarten
 date_written: 2022-01-20T12:31:00UTC+1
 date_copied: 2022-01-20T15:09:00UTC+1
 postID: 1574010
-running: 147
-book: 2
-part: 5
-chapter: 3
+chapter: [ 147, 3 ]
 characters: [ 
     Fürst Bolkonskij, 
     Prinzessin Marja, 

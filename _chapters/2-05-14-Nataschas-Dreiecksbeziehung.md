@@ -5,10 +5,7 @@ author: blutgarten
 date_written: 2022-01-17T14:56:00UTC+1
 date_copied: 2022-01-19T12:59:00UTC+1
 postID: 1573767
-running: 158
-book: 2
-part: 5
-chapter: 14
+chapter: [ 158, 14 ]
 characters: [ 
     Marja Dmitrijewna, 
     Natascha,

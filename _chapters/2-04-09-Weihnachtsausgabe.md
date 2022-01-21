@@ -5,10 +5,7 @@ author: Apocalypso
 date_written: 2022-01-19T19:28:00UTC+1
 date_copied: 2022-01-19T20:33:00UTC+1
 postID: 1573953
-running: 140
-book: 2
-part: 4
-chapter: 9
+chapter: [ 140, 9 ]
 characters: [ 
     Natascha, 
     Andrej, 

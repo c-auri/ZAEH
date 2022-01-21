@@ -5,10 +5,7 @@ author: Jan
 date_written: 2022-01-19T23:27:00UTC+1
 date_copied: 2022-01-20T09:32:00UTC+1
 postID: 1573974
-running: 209
-book: 3
-part: 2
-chapter: 20
+chapter: [ 209, 20 ]
 characters: [ 
     Prinzessin Marja,
     Fürst Bolkonskij,

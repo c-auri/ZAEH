@@ -5,10 +5,7 @@ author: Rob
 date_written: 2022-01-17T20:59:00UTC+1
 date_copied: 2022-01-19T13:20:00UTC+1
 postID: 1573796
-running: 23
-book: 1
-part: 1
-chapter: 23
+chapter: [ 23, 23 ]
 characters: [ Pierre, Graf Besuchow, Anna Michailowna, Prinzessin Sophie  ]
 ---
 Unser schlimmer Finger Pierre ist zurück aus Paris und kann es selbst im sakralsten aller Kontexte nicht lassen.

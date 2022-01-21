@@ -5,10 +5,7 @@ author: roterbaron
 date_written: 2022-01-19T19:04:00UTC+1
 date_copied: 2022-01-19T19:18:00UTC+1
 postID: 1573952
-running: 185
-book: 3
-part: 1
-chapter: 19
+chapter: [ 185, 19 ]
 characters: [ 
     Pierre, 
     Natascha, 

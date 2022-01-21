@@ -5,10 +5,7 @@ author: l0sth0pe
 date_written: 2022-01-19T08:30:00UTC+1
 date_copied: 2022-01-19T13:54:00UTC+1
 postID: 1573900
-running: 315
-book: 4
-part: 3
-chapter: 18
+chapter: [ 315, 18 ]
 characters: [ Napoleon ]
 ---
 In diesem Kapitel rastet Tolstoi einfach ein bisschen aus.

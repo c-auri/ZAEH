@@ -1,19 +1,34 @@
 ---
 title: Krieg und Frieden - Blog
 ---
-{% assign sorted_chapters = site.chapters | sort: 'date_written' | reverse %}
-{% for chapter in sorted_chapters %}
-<h2>
-    Buch {{ chapter.book }}, Teil {{ chapter.part }}, Kapitel {{ chapter.chapter }}: 
-    <a href="{{ chapter.url }}">  {{ chapter.title }} </a>
-</h2>
-<p>
-    {% assign author = site.readers | where: 'name', chapter.author | first %}
-    Zusammengefasst von <a href="{{ author.url }}">{{ author.name }}</a> 
-    am <span title='Verfasst {{ chapter.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ chapter.date_copied | date: "%-d.%-m.%Y, %R"}}'>{{ chapter.date_written | date: "%-d.%-m.%Y" }}</span>
-    - Link zum <a href="{% include thread_url.html %}?postID={{ chapter.postID }}#post{{ chapter.postID }}">Beitrag</a>
-</p>
-<p>
-    {{ chapter.excerpt }}
-</p>
+{% assign chapters = site.chapters | sort: 'date_written' | reverse %}
+{% for chapter in chapters %}
+
+    <!-- Find correct book and part number -->
+    {% for current in site.parts %}
+        {% if chapter.chapter[0] >= current.from_chapter and chapter.chapter[0] <= current.to_chapter%}
+        {% assign part = current %}
+        {% assign book = site.books | where: 'number', part.book | first %}
+        {% break %}
+        {% endif %}
+    {% endfor %}
+
+    <h2>
+        {{ book.name }}, {{ part.name_in_book }}, Kapitel {{ chapter.chapter[1] }}:
+        <a href="{{ chapter.url }}">  {{ chapter.title }} </a>
+    </h2>
+    <p>
+        {% assign author = site.readers | where: 'name', chapter.author | first %}
+        Zusammengefasst von <a href="{{ author.url }}">{{ author.name }}</a> am 
+        <span title='Verfasst {{ chapter.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ chapter.date_copied | date: "%-d.%-m.%Y, %R"}}'>
+            {{ chapter.date_written | date: "%-d.%-m.%Y" }}
+        </span>
+        - Link zum 
+        <a href="{% include thread_url.html %}?postID={{ chapter.postID }}#post{{ chapter.postID }}">
+            Beitrag
+        </a>
+    </p>
+    <p>
+        {{ chapter.excerpt }}
+    </p>
 {% endfor %}

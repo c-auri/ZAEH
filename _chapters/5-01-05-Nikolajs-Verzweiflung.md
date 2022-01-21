@@ -5,10 +5,7 @@ author: l0sth0pe
 date_written: 2022-01-18T15:30:00UTC+1
 date_copied: 2022-01-19T13:36:00UTC+1
 postID: 1573858
-running: 341
-book: 5
-part: 1
-chapter: 5
+chapter: [ 341, 5 ]
 characters: [ Nikolaj, Graf Rostow, Gräfin Rostow, Natascha, Pierre, Sonja ]
 ---
 Nach der Hochzeit Natashas mit Besuchow geht es bergab mit der Familie Rostow aufgrund des Todes des Grafen Ilja Andrejewitsch. Der war in seinen letzten Wochen und Monaten dement und depressiv.

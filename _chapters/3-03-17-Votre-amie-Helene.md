@@ -5,10 +5,7 @@ author: TripperK
 date_written: 2022-01-17T18:59:00UTC+1
 date_copied: 2022-01-19T13:13:00UTC+1
 postID: 1573781
-running: 235
-book: 3
-part: 3
-chapter: 17
+chapter: [ 235, 17 ]
 characters: [ Helene, Helenes alter Graf ]
 ---
 Helene scheint gelangweilt vom Leben.

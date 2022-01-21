@@ -5,10 +5,7 @@ author: myplaren
 date_written: 2022-01-21T14:18:00UTC+1
 date_copied: 2022-01-21T14:35:00UTC+1
 postID: 1574080
-running: 112
-book: 2
-part: 6
-chapter: 7
+chapter: [ 112, 7 ]
 characters: [ Pierre ]
 ---
 Pierre – gewissenhaftes, wenn auch eigentlich unwilliges, Oberhaupt der Petersburger Freimaurer – hat den inneren mallegrins (Limobier, Mia Julia und Doy Doy Version) nie ganz ablegen können. Zudem sind die ganzen Snobberia-Freimaurerbros alles ziemliche Heuchler. Im Groben gibt es für Pierre vier Kategorien innerhalb seiner Loge:

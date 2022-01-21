@@ -5,10 +5,7 @@ author: Dumbaz
 date_written: 2022-01-17T20:42:00UTC+1
 date_copied: 2022-01-19T13:18:00UTC+1
 postID: 1573794
-running: 340
-book: 5
-part: 1
-chapter: 4
+chapter: [ 340, 4 ]
 characters: [ Napoleon, Alexander I. ]
 ---
 Die französische Revolution und ihre Nachwehen sind am Verebben, Diplomaten bis hin zu Napoleon selbst bilden sich ein, irgendwas am Verlauf geändert zu haben aber eigentlich schwimmen auch sie alle nur mit wie Treibholz. Ein kurzer letztes auflodern der Gewalt ändert daran letztendlich auch nichts. Napoleon sitzt danach tief gekränkt davon, wie Bedeutungslos er doch ist, auf seiner Insel und flennt und schreibt melancholische Briefe.

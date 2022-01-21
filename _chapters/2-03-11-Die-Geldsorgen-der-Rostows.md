@@ -5,10 +5,7 @@ author: Bighead
 date_written: 2022-01-18T00:55:00UTC+1
 date_copied: 2022-01-19T13:24:00UTC+1
 postID: 1573807
-running: 116
-book: 2
-part: 3
-chapter: 11
+chapter: [ 116, 11 ]
 characters: [ Graf Rostow, Berg, Wera, Natascha, Pierre, Boris, Fräulein Peronskaja ]
 ---
 Dostojewiski beginnt dieses Kapitel mit dem Satz "Die Geldverhältnisse der Rostows waren in den zwei Jahren, die sie auf dem Lande verlebt hatten, keineswegs besser geworden." Dieser Satz fasst dann auch schon oberflächlich alles zusammen, was auf den nächsten Seiten passieren sollte, danach wiederholt der Autor sich nur noch. Das Familienoberhaupt (natürlich ein Mann) der Rostows, namentlich Graf Rostow, hat seine Familie durch Schicksal oder persönliches Unvermögen in die für seinen gesellschaftlichen Stand bemitleidens- sprich verachtenswerte Situation gebracht, nicht das nötige Einkommen für den einer gräflichen Familie angemessenen Lebensstandard erwirtschaften zu können. Für seine Töchter (mindestens 2, darunter eine mit 24 Jahren(!!!!) immer noch unverheiratete Wera) wurden einstmals 300 Seelen als Mitgift aus dem Vermögen der Rostows vorgesehen, wobei Seelen keine Fantasy Einheit ist, sondern euphemistisch für das Eigentum über diverse Menschen ländlicher Siedlungen steht. Die jeweils 300 Seelen sind nur leider längst verkauft und verpfändet und Bargeld ist eher was abstraktes ohne Sinn für ihn. Durch den wirtschaftlichen Verfall seiner (einst, wie man sagen könnte) angesehenen Familie sieht sich Graf Rostow in der unangenehmen Situation, gar einen Job "im Staatsdienst" in Petersburg anzunehmen.

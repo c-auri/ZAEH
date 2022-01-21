@@ -22,13 +22,24 @@ layout: default
     <br> Geboren: {{ page.birth_name }}
     {% endif %}
 </p>
+
 <h3>Kapitel:</h3>
 <ul>
-    {% assign chapters = site.chapters | sort: 'running' %}
+    {% assign chapters = site.chapters | sort: 'chapter[0]' %}
     {% for chapter in chapters %}
         {% if chapter.characters contains page.alias %}
+
+            <!-- Find correct book and part number -->
+            {% for current in site.parts %}
+                {% if chapter.chapter[0] >= current.from_chapter and chapter.chapter[0] <= current.to_chapter%}
+                    {% assign part = current %}
+                    {% assign book = site.books | where: 'number', part.book | first %}
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+
             <li>
-                Buch {{ chapter.book }}, Teil {{ chapter.part }}, Kapitel {{ chapter.chapter }}: 
+                {{ book.name }}, {{ part.name_in_book }}, Kapitel {{ chapter.chapter[1] }}: 
                 <a href="{{ chapter.url }}">{{ chapter.title }}</a>
             </li>
         {% endif %}

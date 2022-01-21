@@ -5,10 +5,7 @@ author: blutgarten
 date_written: 2022-01-17T06:45:00UTC+1
 date_copied: 2022-01-19T12:45:00UTC+1
 postID: 1573757
-running: 149
-book: 2
-part: 5
-chapter: 5
+chapter: [ 149, 5 ]
 characters: [ Boris, Julie, Anatol, Prinzessin Marja ]
 ---
 Nachdem es Boris in Petersburg nicht geglückt ist eine Verlobung mit einem reichen jungen Mädchen in die Wege zu leiten, begibt er sich nach Moskau um dort fündig zu werden. Er schwankt hier zwischen den beiden reichsten Partien der Stadt, Prinzessin Marja und Julie Karagina. Da er bei der Prinzessin keinen Eindruck machen konnte und Julie eine Bereitschaft für seine Avancen zeigt, entscheidet er sich dafür sein Glück bei letzterer zu versuchen. Dieser ist vor kurzem ein reiches Erbe in den Schoß gefallen, weshalb sie sich jetzt trotz ihrer Häßlichkeit für sehr begehrenswert hält. Sie veranstaltet zahlreiche Parties zu denen reichlich Männer erscheinen, die aber allesamt keine romantischen Absichten haben und auf Grund des gehobenen Alters der Gastgeberin (sie ist bereits s i e b e n u n d z w a n z i g) auch gar nicht vermuten ihr damit falsche Hoffnungen zu machen. Julie ist sich darüber allerdings nicht im Klaren.

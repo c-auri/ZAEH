@@ -5,10 +5,7 @@ author: Sunslayer
 date_written: 2022-01-17T17:03:00UTC+1
 date_copied: 2022-01-19T12:59:00UTC+1
 postID: 1573772
-running: 242
-book: 3
-part: 3
-chapter: 14
+chapter: [ 242, 14 ]
 characters: [
     Natascha,
     Andrej,
