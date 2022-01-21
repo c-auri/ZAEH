@@ -3,6 +3,6 @@ title: Anatol Kuragin
 name: Anatol Kuragin
 alias: Anatol
 group: Sonstige
-info: Pierres Schwager, Nataschas Geliebter
+info: Hélènes Bruder, Nataschas Geliebter
 priority: 1
 ---

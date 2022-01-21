@@ -4,6 +4,6 @@ name: Julie
 birth_name: Karagina
 alias: Julie
 group: Familie Drubezkoj
-info: Ehefrau von Boris
+info: Boris' Ehefrau
 priority: 2
 ---
