@@ -13,22 +13,35 @@ title: Krieg und Frieden - Blog
         {% endif %}
     {% endfor %}
 
-    <h2>
-        {{ book.name }}, {{ part.name_in_book }}, Kapitel {{ summary.chapter[1] }}:
-        <a href="{{ summary.url }}">  {{ summary.title }} </a>
-    </h2>
-    <p>
-        {% assign author = site.users | where: 'name', summary.author | first %}
-        Zusammengefasst von <a href="{{ author.url }}">{{ author.name }}</a> am 
-        <span title='Verfasst {{ summary.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ summary.date_copied | date: "%-d.%-m.%Y, %R"}}'>
-            {{ summary.date_written | date: "%-d.%-m.%Y" }}
-        </span>
-        - Link zum 
-        <a href="{% include thread_url.html %}?postID={{ summary.postID }}#post{{ summary.postID }}">
-            Beitrag
-        </a>
-    </p>
-    <p>
-        {{ summary.excerpt }}
-    </p>
+    {% assign author = site.users | where: 'name', summary.author | first %}
+    
+    <div class="blogpost">
+        <h2 class="blogpost-header">
+            <a href="{{ summary.url }}"> {{ summary.title }} </a>
+        </h2>
+        <p class="blogpost-metadata">
+            <span class="blogpost-enumeration">
+                {{ book.name }}, {{ part.name_in_book }}, Kapitel {{ summary.chapter[1] }} 
+            </span>
+            <span class="blogpost-source">
+                
+                von <a href="{{ author.url }}">{{ author.name }}</a> am 
+                <span title='Verfasst {{ summary.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ summary.date_copied | date: "%-d.%-m.%Y, %R"}}'>
+                        {{ summary.date_written | date: "%-d.%-m.%Y" }}
+                </span>
+            </span>
+        </p>
+        <p class="blogpost-content">
+            {{ summary.excerpt }}
+        </p>
+        <p class="blogpost-footer"> 
+            <a href="{% include thread_url.html %}?postID={{ summary.postID }}#post{{ summary.postID }}">
+                Forenpost
+            </a>
+            - 
+            <a href="#top">
+                Seitenanfang
+            </a>
+        </p>
+    </div>
 {% endfor %}

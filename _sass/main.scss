@@ -22,6 +22,30 @@ a.current {
   text-decoration: underline;
 }
 
+.blogpost-header > a:hover {
+  text-decoration: none;
+}
+
+.blogpost {
+  margin-bottom: 40px;
+}
+
+.blogpost-header {
+  margin-bottom: 0;
+}
+
+.blogpost-metadata {
+  color: #444;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogpost-footer {
+  font-size: 0.9em;
+  text-align: right;
+}
+
 #index {
   margin-top: 30px;
 }
