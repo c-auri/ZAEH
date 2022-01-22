@@ -2,7 +2,7 @@
 title: Der Tag des Nikolaus
 author: blutgarten
 date_written: 2022-01-20T12:31:00UTC+1
-date_copied: 2022-01-20T15:09:00UTC+1
+date_copied: 2022-01-22T10:57:00UTC+1
 postID: 1574010
 chapter: [ 147, 3 ]
 characters: [ 
@@ -19,7 +19,7 @@ characters: [
     Herzog von Oldenburg,
 ]
 ---
-Wir schreiben das Jahr 1810 zum Nikolaustag, also den Namenstag des Fürsten Nikolaj Andrejewitsch. Obwohl dieser der Prinzessin Marja die Anweisung gegeben hat zu diesem besonderen Anlass nur eine kleine Liste an eingeladenen Gästen ins Haus zu lassen, lädt sich sein Hausarzt, ein Franzose namens Métivier, wie selbstverständlich selbst zum Gratulieren ein. Leider befand sich der Fürst an diesem Tage in allerschlechtester Laune und war am Morgen schon im Hause herumgelaufen und hatte überall Streit gesucht. Als der Arzt sich also von der Prinzessin in den Salon zum Fürsten geleiten lässt, wird er unverhofft zum Opfer eines Wutausbruchs. Den zornigen Äußerungen des Fürsten ist gerade noch so zu entnehmen, dass dieser seinen Arzt neuerdings für einen französischen Spion hält, bevor er ihm befielt sein Zuhause zu verlassen und die Salontür vor ihm zuknallt. Métivier, etwas ratlos aber scheinbar nicht zu sehr besorgt von dieser Affäre, sagte noch, dass der Fürst sich wohl nicht ganz wohl fühle bevor er versichterte am morgigen Tage wiederzukommen.
+Wir schreiben das Jahr 1810 zum Nikolaustag, also den Namenstag des Fürsten Nikolaj Andrejewitsch. Obwohl dieser der Prinzessin Marja die Anweisung gegeben hat zu diesem besonderen Anlass nur eine kleine Liste an eingeladenen Gästen ins Haus zu lassen, lädt sich sein Hausarzt, ein Franzose namens Métivier, wie selbstverständlich selbst zum Gratulieren ein. Leider befand sich der Fürst an diesem Tage in allerschlechtester Laune. Als der Arzt sich also von der Prinzessin in den Salon zum Fürsten geleiten lässt, wird er unverhofft zum Opfer eines Wutausbruchs. Den zornigen Äußerungen des Fürsten ist gerade noch so zu entnehmen, dass dieser seinen Arzt neuerdings für einen französischen Spion hält, bevor er ihm befielt sein Zuhause zu verlassen und die Salontür vor ihm zuknallt. Métivier, etwas ratlos aber scheinbar nicht zu sehr besorgt von dieser Affäre, sagte noch, dass der Fürst sich wohl nicht ganz wohl fühle bevor er versichterte am morgigen Tage wiederzukommen.
 
 Als der Arzt das Haus verlassen hatte, rief der Fürst seine Tochter zu sich und entlud seinen Zorn über sie. Es sei ihre Schuld, dass sie diesen Spion ins Haus gelassen habe, obwohl er es ihr doch ausdrücklich verboten habe. Er lässt verlauten, dass es so nicht weiter gehen könne, dass man sich trennen müsse und sie sich einen anderen Aufenthaltsort suchen solle. Er versichert ihr, dass dies kein neuer Gedanke sei, den er in seinem Zorne nur so dahin sagt, nein, er habe sich das schon länger überlegt und es müsse jetzt unbedingt so kommen. "Wenn Sie doch nur irgendein Esel heiraten wollte" schrie er ihr noch zu, bevor er auch ihr seine Tür vor den Kopf stoß.
 
