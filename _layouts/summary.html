@@ -3,32 +3,48 @@ layout: default
 ---
 
 <!-- Find author and the correct book and part numbers -->
-{% assign author = site.readers | where: 'name', page.author | first %}
 {% for current_part in site.parts %}
-    {% if page.chapter[0] >= current_part.from_chapter and page.chapter[0] <= current_part.to_chapter%}
-        {% assign part = current_part %}
-        {% assign book = site.books | where: 'number', part.book | first %}
-        {% break %}
-    {% endif %}
+{% if page.chapter[0] >= current_part.from_chapter and page.chapter[0] <= current_part.to_chapter%}
+{% assign part = current_part %}
+{% assign book = site.books | where: 'number', part.book | first %}
+{% break %}
+{% endif %}
 {% endfor %}
 
-<h2>
-    {{ book.name }}, {{ part.name_in_book }}, Kapitel {{ page.chapter[1] }}:
-    <a href="{{ page.url }}">  {{ page.title }} </a>
-</h2>
-<p>
-    Zusammengefasst von <a href="{{ author.url }}">{{ author.name }}</a> 
-    am <span title='Verfasst {{ page.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ page.date_copied | date: "%-d.%-m.%Y, %R"}}'>{{ page.date_written | date: "%-d.%-m.%Y" }}</span>
-    - Link zum <a href="{% include thread_url.html %}?postID={{ page.postID }}#post{{ page.postID }}">Beitrag</a>
-</p>
-{% if page.characters %}
-    Charaktere:
-    {% for alias in page.characters %}
-        {% for character in site.characters %}
-            {% if character.alias == alias %}
-                <a href="{{ character.url }}">{{ character.alias }}</a>
-            {% endif %}
-        {% endfor %}
-    {% endfor %}
-{% endif %}
+
+<h1 class="summary-header">
+    {{ page.title }}
+</h1>
+<h3 class="summary-enumeration">
+    {{ book.name }}, {{ part.name_in_book }}, Kapitel {{ page.chapter[1] }}
+</h3>
+<div class="summary-metadata">
+    <p>
+        {% assign author = site.readers | where: 'name', page.author | first %}
+        Zusammengefasst von <a href="{{ author.url }}">{{ author.name }}</a> 
+        am <span title='Verfasst {{ page.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ page.date_copied | date: "%-d.%-m.%Y, %R"}}'>{{ page.date_written | date: "%-d.%-m.%Y" }}</span>
+    </p>
+    {% if page.characters %}
+        <p>
+            Charaktere:
+            {% for alias in page.characters %}
+                {% for character in site.characters %}
+                    {% if character.alias == alias %}
+                        <a href="{{ character.url }}">{{ character.alias }}</a>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </p>
+    {% endif %}
+</div>
+
 {{ content }}
+<p class="summary-footer">
+    <a href="{% include thread_url.html %}?postID={{ page.postID }}#post{{ page.postID }}">
+        Forenpost
+    </a>
+    - 
+    <a href="#top">
+        Seitenanfang
+    </a>
+</p>
