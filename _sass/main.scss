@@ -3,8 +3,23 @@ body {
   max-width: 95%;
 }
 
-.current {
-  color: green;
+a:link, a:visited {
+  color: darkblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:active {
+  color: lightseagreen;
+}
+
+a.current {
+  color: blue;
+  text-decoration: underline;
 }
 
 #index {
