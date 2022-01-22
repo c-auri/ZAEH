@@ -2,22 +2,22 @@
 title: Krieg und Frieden - Lesefassung
 ---
 {% for book in site.books %}
-    <h1>{{ book.name }}</h1>
+    <h1 class="reading-version">{{ book.name }}</h1>
     {% assign parts = site.parts | where: 'book', book.number %}
     {% for part in parts %}
-        <h2>{{ part.name_in_book }}</h2>
+        <h2 class="reading-version">{{ part.name_in_book }}</h2>
         {% for summary in site.summaries %}
             {% if summary.chapter[0] > part.to_chapter %}
                 {% break %}
             {% endif %}
             {% if summary.chapter[0] >= part.from_chapter  %}
-                <h3>
+                <h3 class="reading-version">
                     Kapitel {{ summary.chapter[1] }}: 
                     <a href="{{ summary.url }}">  {{ summary.title }} </a>
                 </h3>
-                <p>
+                <div class="test">
                     {{ summary.content }}
-                </p>
+                </div>
             {% endif %}
         {% endfor %}
     {% endfor %}

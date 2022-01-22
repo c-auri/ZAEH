@@ -22,7 +22,8 @@ a.current {
   text-decoration: underline;
 }
 
-.blogpost-header > a:hover {
+.blogpost-header > a:hover,
+.reading-version > a:hover {
   text-decoration: none;
 }
 
@@ -76,5 +77,22 @@ td.enumeration {
 }
 
 li.character {
+  color: #333;
+}
+
+h1.reading-version, h2.reading-version {
+  text-align: center;
+}
+
+h1.reading-version {
+  margin: 2.5em;
+}
+
+h2.reading-version {
+  margin: 2em;
+}
+
+h3.reading-version {
+  margin-top: 2em;
   color: #333;
 }
