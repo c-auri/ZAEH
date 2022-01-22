@@ -7,15 +7,17 @@ title: Krieg und Frieden - Charaktere
     <ul>
         {% assign characters = site.characters | where: 'group', group.title | sort: 'priority' %}
         {% for character in characters  %}
-            <li>
+            <li class="character">
                 {% if character.noble %}
                     {{ character.noble }}
                 {% endif %}
                 {% if character.rank %}
                     {{ character.rank }}
                 {% endif %}
-                <a href="{{ character.url }}">{{ character.name }}</a>
-                {%- if character.info %}, {{ character.info }}{% endif %}
+                <a href="{{ character.url }}">{{ character.name -}}</a>
+                {%- if character.info -%}
+                    , {{ character.info }}
+                {% endif %}
             </li>
         {% endfor %}
     </ul>
