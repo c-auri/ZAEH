@@ -67,8 +67,15 @@ a.current {
   margin-bottom: 0;
 }
 
-.blogpost-metadata {
+h3.reading-version,
+.blogpost-metadata,
+.summary-metadata,
+.summary-enumeration,
+li.character {
   color: #444;
+}
+
+.blogpost-metadata {
   margin-top: 0px;
   display: flex;
   justify-content: space-between;
@@ -110,10 +117,6 @@ td.enumeration {
   text-align: right;
 }
 
-li.character {
-  color: #333;
-}
-
 h1.reading-version, 
 h2.reading-version,
 h1.summary-header {
@@ -130,7 +133,6 @@ h2.reading-version {
 
 h3.reading-version {
   margin-top: 2em;
-  color: #333;
 }
 
 h1.summary-header {
@@ -142,7 +144,6 @@ h1.summary-header {
   margin-top: 0;
   margin-bottom: 2em;
   text-align: center;
-  color: #444;
 }
 
 .summary-metadata {
