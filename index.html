@@ -2,7 +2,7 @@
 title: Krieg und Frieden - Index
 ---
 <table id="index">
-{% assign chapters = site.chapters | sort: 'chapter' %}
+{% assign summaries = site.summaries | sort: 'chapter' %}
 {% for book in site.books %}
     {% assign parts = site.parts | where: 'book', book.number %}
     <tr>
@@ -21,16 +21,16 @@ title: Krieg und Frieden - Index
         <th>Kapitel</th>
     </tr>
     {% for part in parts %}
-        {% for chapter in chapters %}
-            {% if chapter.chapter[0] < part.from_chapter %} {% continue %} {% endif %}
-            {% if chapter.chapter[0] > part.to_chapter %} {% break %} {% endif %}
-            {% assign author = site.readers | where: 'name', chapter.author | first %}
+        {% for summary in summaries %}
+            {% if summary.chapter[0] < part.from_chapter %} {% continue %} {% endif %}
+            {% if summary.chapter[0] > part.to_chapter %} {% break %} {% endif %}
+            {% assign author = site.readers | where: 'name', summary.author | first %}
             <tr>
                 <td class="enumeration">{{ part.running }}</td>
-                <td class="enumeration">{{ chapter.chapter[0] }}</td>
+                <td class="enumeration">{{ summary.chapter[0] }}</td>
                 <td class="enumeration">{{ part.number_in_book }}</td>
-                <td class="enumeration">{{ chapter.chapter[1] }}</td>
-                <td><a href="{{ chapter.url }}">{{ chapter.title }}</a></td>
+                <td class="enumeration">{{ summary.chapter[1] }}</td>
+                <td><a href="{{ summary.url }}">{{ summary.title }}</a></td>
                 <td><a href="{{ author.url }}">{{ author.name }}</a></td>
             </tr>
         {% endfor %}

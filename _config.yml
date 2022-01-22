@@ -3,7 +3,7 @@ collections:
     output: true
   books:
   parts:
-  chapters:
+  summaries:
     output: true
   groups:
   characters:
@@ -17,9 +17,9 @@ defaults:
       layout: "reader"
   - scope:
       path: ""
-      type: "chapters"
+      type: "summaries"
     values:
-      layout: "chapters"
+      layout: "summary"
   - scope:
       path: ""
       type: "characters"

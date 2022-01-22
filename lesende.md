@@ -10,8 +10,8 @@ title: Krieg und Frieden - Lesende
   </tr>
   {% for reader in site.readers %}
   <tr>
-    {% assign read_chapters = site.chapters | where: 'author', reader.name %}
-    <td>{{ read_chapters.size }}</td>
+    {% assign summaries = site.summaries | where: 'author', reader.name %}
+    <td>{{ summaries.size }}</td>
     <td><a href="{{ reader.url }}">{{ reader.name }}</a></td>
   </tr>
   {% endfor %}

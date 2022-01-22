@@ -6,28 +6,28 @@ title: Krieg und Frieden - Lesefassung
     {% assign parts = site.parts | where: 'book', book.number %}
     {% for part in parts %}
         <h2>{{ part.name_in_book }}</h2>
-        {% for chapter in site.chapters %}
-            {% if chapter.chapter[0] > part.to_chapter %}
+        {% for summary in site.summaries %}
+            {% if summary.chapter[0] > part.to_chapter %}
                 {% break %}
             {% endif %}
-            {% if chapter.chapter[0] >= part.from_chapter  %}
+            {% if summary.chapter[0] >= part.from_chapter  %}
                 <h3>
-                    Kapitel {{ chapter.chapter[1] }}: 
-                    <a href="{{ chapter.url }}">  {{ chapter.title }} </a>
+                    Kapitel {{ summary.chapter[1] }}: 
+                    <a href="{{ summary.url }}">  {{ summary.title }} </a>
                 </h3>
                 <p>
-                    {% assign author = site.readers | where: 'name', chapter.author | first %}
+                    {% assign author = site.readers | where: 'name', summary.author | first %}
                     Zusammengefasst von <a href="{{ author.url }}">{{ author.name }}</a> am 
-                    <span title='Verfasst {{ chapter.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ chapter.date_copied | date: "%-d.%-m.%Y, %R"}}'>
-                        {{ chapter.date_written | date: "%-d.%-m.%Y" }}
+                    <span title='Verfasst {{ summary.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ summary.date_copied | date: "%-d.%-m.%Y, %R"}}'>
+                        {{ summary.date_written | date: "%-d.%-m.%Y" }}
                     </span>
                     - Link zum 
-                    <a href="{% include thread_url.html %}?postID={{ chapter.postID }}#post{{ chapter.postID }}">
+                    <a href="{% include thread_url.html %}?postID={{ summary.postID }}#post{{ summary.postID }}">
                         Beitrag
                     </a>
                 </p>
                 <p>
-                    {{ chapter.content }}
+                    {{ summary.content }}
                 </p>
             {% endif %}
         {% endfor %}
