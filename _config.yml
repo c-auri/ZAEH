@@ -1,5 +1,5 @@
 collections:
-  readers:
+  users:
     output: true
   books:
   parts:
@@ -12,9 +12,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "readers"
+      type: "users"
     values:
-      layout: "reader"
+      layout: "user"
   - scope:
       path: ""
       type: "summaries"
