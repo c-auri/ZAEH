@@ -1,5 +1,5 @@
 ---
-title: Entblösste Arme in der Oper
+title: Entblößte Arme in der Oper
 date_written: 2022-01-21T23:42:00UTC+1
 date_copied: 2022-01-21T23:59:00UTC+1
 postID: 1574117
