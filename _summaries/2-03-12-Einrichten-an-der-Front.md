@@ -1,5 +1,5 @@
 ---
-title: Nikolaj richtet sich an der Front ein
+title: Einrichten an der Front
 author: Rob
 date_written: 2022-01-17T13:23:00UTC+1
 date_copied: 2022-01-19T12:51:00UTC+1

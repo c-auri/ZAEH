@@ -1,5 +1,5 @@
 ---
-title: Familie Bolkonskij in Aufruhr
+title: Haus Bolkonskij in Aufruhr
 author: myplaren
 date_written: 2022-01-17T18:16:00UTC+1
 date_copied: 2022-01-19T13:06:00UTC+1

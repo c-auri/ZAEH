@@ -1,5 +1,5 @@
 ---
-title: Rostow hat Feindkontakt
+title: Feindkontakt
 author: Bighead
 date_written: 2022-01-18T14:01:00UTC+1
 date_copied: 2022-01-19T13:32:00UTC+1
