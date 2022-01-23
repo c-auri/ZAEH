@@ -28,6 +28,10 @@ nav > a {
   margin: 5px;
 }
 
+nav > a.current {
+  text-decoration: underline;
+}
+
 main {
   padding-top: 50px;
   padding-bottom: 100px;
@@ -47,11 +51,6 @@ a:hover {
 
 a:active {
   color: lightseagreen;
-}
-
-a.current {
-  color: blue;
-  text-decoration: underline;
 }
 
 .blogpost-header > a:hover,
