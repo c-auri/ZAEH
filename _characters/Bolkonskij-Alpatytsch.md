@@ -2,7 +2,7 @@
 title: Alpatytsch
 name: Alpatytsch
 alias: Alpatytsch
-group: Haus Rostow
+group: Haus Bolkonskij
 info: Gutsverwalter
 priority: 5
 ---
