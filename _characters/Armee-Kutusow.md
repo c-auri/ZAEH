@@ -1,5 +1,5 @@
 ---
-title: Gernerallfeldmarschall Kutusow
+title: Gerneralfeldmarschall Kutusow
 name: Kutusow
 full_name: Michail Illarionowitsch Kutusow-Smolenski
 alias: Kutusow
