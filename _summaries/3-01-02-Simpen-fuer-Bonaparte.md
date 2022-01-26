@@ -12,3 +12,7 @@ characters: [ Napoleon, Marie-Louise ]
 Das wäre auch alles ne prima Sache, aber so nen Krieg führen ist richtig nervig, wenn man Kaiser ist. Überall wimmelt es vor simps, die einen ständig nachlaufen und mit ihren Vivats und sonstigem Gebrüll vom Strategieren und Nachdenken abhalten. Natürlich ist das auch praktisch, man muss sich nur hinsetzen und schon springt ein sabbernder Page an und bückt sich, dass man das Fernrohr auf ihm abstellen kann.
 
 Als er an nen Fluß kommt befiehlt er eine Furt zu überqueren. Aber die ist 500m weit weg und da sieht der Napoleon ja gar nicht, wie heldenhaft seine simps den Fluss überqueren, also fragt ein Oberst, ob sie nicht vielleicht gleich so über den Fluss dürfen. Napoleon ignoriert das vollkommen, aber irgendein Adjutant sagt ihm, stören wird ihn der Eifer wohl nicht. Voller Begeisterung wirft sich der Oberst mit seinem Regiment in den Fluss und die Hälfte ersäuft. Der Rest kommt irgendwie drüben an. Napoleon ist derweil schon weiter und hat die NPCs mal machen lassen. Als Belohnung zur sinnlosen Ersäufung seiner Männer wird der Oberst im Nachhinein aber noch zum Mod ernannt und darf nun vorne mitreiten.
+
+Ich glaube ein Bild sagt mehr als tausend Worte:
+
+![Chibinapoleon](/assets/images/zaeh-168.jpg)
