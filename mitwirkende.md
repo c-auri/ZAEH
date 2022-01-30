@@ -1,7 +1,7 @@
 ---
-title: Krieg und Frieden - Lesende
+title: Krieg und Frieden - Mitwirkende
 ---
-<h1>Lesende</h1>
+<h1>Mitwirkende</h1>
 
 <table id="leaderboard">
   <tr>
