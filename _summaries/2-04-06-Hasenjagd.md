@@ -1,0 +1,27 @@
+---
+title: Hasenjagd
+author: blutgarten
+date_written: 2022-01-31T19:55:00UTC+1
+date_copied: 2022-01-31T23:ß5:00UTC+1
+postID: 1574582
+chapter: [ 137, 6 ]
+characters: [ 
+    Nikolaj, 
+    Ilagin,
+    Michail Nikanorytsch,
+    Natascha, 
+    Graf Rostow, 
+    Petja 
+]
+---
+Der alte Graf fuhr nach Hause und die Kinder versprachen gleich nachzukommen. Die Jagd ging noch weiter, gegen Mittag schickte man die Hunde in eine Schlucht und Nikolaj hielt auf einem Feld, von wo aus er alle seine Jäger überblicken konnte. Er beobachtete wie die Hunde losgelassen wurden und sie mit lautem Gebell einen Fuchs den Berg hinauf jagten, wie sie ihre Beute fingen und wie zwei Jäger, einer davon ein fremder, anschließend auf sie zuliefen. Die Jäger blieben noch lange nachdem sie den Hünden ihre Beute abgenommen haben stehen und fingen an heftig zu gestikulieren. Dann ertönte ein Hornruf, um zu signalisieren, dass ein Streit ausgebrochen war. Der Leibwächter des jungen Grafen erklärte noch, dass sich da ein Ilaginscher Jäger mit ihrem Iwanow streitete, als dieser nach seiner Schwester und Petja rief und zum Ort des Streites ritt.
+
+Es war so, dass Ilagin mit den Rostows schon ewig Streiterein und Prozesse hatte und oft auf Revieren jagte, die der Familie gehörten. Nikolaj hatte Ilagin noch nie gesehen, da er aber wie immer in seinem Urteil und seinen Gefühlen keine Mittelstraße kannte, hasste er ihn bereits von ganzer Seele und hielt ihn für seinen grimmigsten Feind. So ritt er zornig erregt auf die Ilaginsche Jagdgesellschaft zu und war entschlossen schonungslos gegen seinen Widersacher vorzugehen. Statt eines grimmigen Feindes fand er in Ilagin jedoch einen stattlichen, artigen Herrn. Als dieser bis zu Rostow herangeritten war, schilderte er, dass er den Vorfall aufs äußerste bedauere und er bereits den Jäger zu bestrafen befohlen hatte, der es sich unterstanden hatte, ein von fremden Hunden gehetztes Wild zu verfolgen. Er bat den Grafen um seine Bekanntschaft und bot ihm sein eigenes Revier zur Jagd an. Nikolaj willigte ein und gemeinsam ritt die gesamte Jagdgesellschaft zum etwa eine Werst entfernten Ilagischen Revier.
+
+Unterwegs begutachtete man die Meute, machte aus welcher fremde Hund eine Konkurrenz für die eigenen sein könnte und sprach sich in gespielter Gleichmütigkeit gegenseitig Komplimente über die besonders gelungenen Exemplare des anderen aus. Während Nikolaj noch seinem Leibwächter zuflüsterte, er solle jemanden finden der ihm einen geduckten Hasen aufspüre, damit er Ilagin mit den Jagdkünsten seiner Lieblingshündin Milka beeindrucken könne, schilderte dieser, dass er es nicht begreifen könne wie ein Jäger einen anderen um seine Beute oder seine Hunde beneiden könne. In netter Gesellschaft einen Spazierritt zu machen, das freue ihn ungemein (er nahm beim Aussprechen dieser Worte seine Bibermütze vor Natascha ab), aber wieviele Bälge er heimbringe, das wäre ihm ganz gleichgültig.
+
+Noch während dieses Gesprächs wurden die beiden durch den Ausruf eines Treibers überraschend darauf aufmerksam gemacht, dass man einen Hasen gefunden habe. Nach einem kurzen Hin und Her verzichtete Nikolajs Onkel Michail Nikanorytsch darauf an der bevorstehenden Jagd teilzunehmen, da sein Hund nicht mit den teuren Hunden der beiden anderen mithalten könne. Man einigte sich also darauf, dass Milka und Jorsa, die Lieblingshündin Ilagins, um die Wette rennen sollten.
+
+Noch bevor man sich in Stellung bringen konnte, verstand der im Versteck liegende Hase jedoch seine Situation und rannte überraschend davon. Daraufhin folgte ihm die gesamte Meute: die Reiter hoch zu Pferde, die Gruppe Hetzhunde und allen voran die beiden Windhunde. Erst sah es so aus, als würde Jorsa den Hasen als erste einfangen können, doch nachdem sie ihn fast eingeholt hatte, verfehlte sie ihn beim Versuch ihn in den Schwanz zu schnappen, wobei sie sich köpflings überschlug. Milka konnte aufschließen und ging in Führung, doch auch sie konnte den Hasen nicht fangen, sondern wurde von ihm durch geschicktes Hakenschlagen abgeschüttelt. Die beiden Hunde waren jetzt wieder gleichauf, doch der Hase hatte sich in eine Furche gerettet, in der er schneller voran kam als die Hunde. Dann hörte man plötzlich den Onkel seinen Hund Rugaj anfeuern, woraufhin dieser den Hasen aus seiner Furche in die Wintersaat hinein jagte, wo er ihn schließlich einfangen konnte.
+
+Der Onkel war außer sich vor Glück, folgte seinem Hund ins Feld und nahm ihm den Hasen ab. Er erklärte, dass so ein Hund alle aus dem Feld schläge. "Da habt ihr nun tausend Rubel für eure Hunde bezahlt! Klare Sache, und damit Hopp!" Nikolaj, Ilagin und ihre Jäger raunten währenddessen, dass es ja kein Kunststück sei einen Hasen zu fangen, der zuvor schon von zwei anderen Hunden halb zu Tode gehetzt wurde. Der Onkel aber befestigte den Hasen an seinem Sattel, wie als ob er allen seinen Sieg nochmal unter die Nase reiben wolle. Alle anderen gingen missmutig und beleidigt auseinander und konnten erst lange nachher ihren früheren, erheuchelten Gleichmut wiederfinden. Lange noch schielten sie verstohlen nach dem roten Rugaj hin. "Was wollt ihr denn? Ich bin ein Hund wie alle anderen auch, solange es nichts zu hetzen gibt. Dann aber rette sich, wer kann!" schien seine Miene zu sagen, wenigstens kam es Nikolaj so vor. Als lange nachher der Onkel auf Nikolaj zugeritten kam und ein Gespräch mit ihm anfing, da fühlte sich Nikolaj geschmeichelt, dass der Onkel nach alledem ihm noch einer Unterhaltung würdigte.

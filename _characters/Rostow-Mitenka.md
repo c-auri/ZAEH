@@ -4,5 +4,5 @@ name: Mitenka
 alias: Mitenka
 group: Haus Rostow
 info: Gutsverwalter
-priority: 5
+priority: 6
 ---
