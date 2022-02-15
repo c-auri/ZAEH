@@ -1,6 +1,6 @@
 ---
-title: Hélène Besuchow
-name: Hélène
+title: Helene Besuchow
+name: Helene
 birth_name: Kuragina
 noble: Gräfin
 alias: Helene
