@@ -25,21 +25,12 @@ layout: default
 
 <h3>Kapitel:</h3>
 <ul>
-    {% assign summaries = site.summaries | sort: 'chapter[0]' %}
+    {% assign summaries = site.summaries | sort: 'chapter' %}
     {% for summary in summaries %}
         {% if summary.characters contains page.alias %}
-
-            <!-- Find correct book and part number -->
-            {% for current in site.parts %}
-                {% if summary.chapter[0] >= current.from_chapter and summary.chapter[0] <= current.to_chapter%}
-                    {% assign part = current %}
-                    {% assign book = site.books | where: 'number', part.book | first %}
-                    {% break %}
-                {% endif %}
-            {% endfor %}
-
+            {% assign chapter = site.data.chapters | where: 'number', summary.chapter | first %}
             <li>
-                {{ book.name }}, {{ part.name_in_book }}, Kapitel {{ summary.chapter[1] }}: 
+                {{ chapter.book_name }}, {{ chapter.part_name_in_book }}, Kapitel {{ chapter.number }}: 
                 <a href="{{ summary.url }}">{{ summary.title }}</a>
             </li>
         {% endif %}

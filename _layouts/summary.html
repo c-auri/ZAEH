@@ -1,22 +1,12 @@
 ---
 layout: default
 ---
-
-<!-- Find author and the correct book and part numbers -->
-{% for current_part in site.parts %}
-{% if page.chapter[0] >= current_part.from_chapter and page.chapter[0] <= current_part.to_chapter%}
-{% assign part = current_part %}
-{% assign book = site.books | where: 'number', part.book | first %}
-{% break %}
-{% endif %}
-{% endfor %}
-
-
+{% assign chapter = site.data.chapters | where: 'number', page.chapter | first %}
 <h1 class="summary-header">
     {{ page.title }}
 </h1>
 <h3 class="summary-enumeration">
-    {{ book.name }}, {{ part.name_in_book }}, Kapitel {{ page.chapter[1] }}
+    {{ chapter.book_name }}, {{ chapter.part_name_in_book }}, Kapitel {{ chapter.number_in_part }}
 </h3>
 <div class="summary-metadata">
     <p>

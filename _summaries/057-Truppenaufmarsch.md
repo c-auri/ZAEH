@@ -1,0 +1,16 @@
+---
+title: Truppenaufmarsch
+author: blutgarten
+date_written: 2022-01-18T08:50:00UTC+1
+date_copied: 2022-01-19T13:26:00UTC+1
+postID: 1573815
+chapter: 57
+characters: [ Nikolaj, Alexander I., Andrej, Kutusow, Napoleon ]
+---
+Die beiden verbündeten Kaiser aus Russland und Österreich besichtigen zusammen ihre Armee. Sowohl frisch aus Russland eingetroffene, als auch die aus dem Felde zurückgekehrten Truppen vollführen zu diesem Anlass einen Aufmarsch. Achzigtausend Soldaten haben ihre zahllosen Gewehre, Bajonette, Säbel und Kanonen blitzblank gesäubert, stellen sich am frühen Morgen in tadelloser Uniform in Reih und Glied und folgen den Kommandos ihrer Offiziere, welche sie in strikt geordneten Gruppen über den riesigen Exerzierplatz bewegen. Jeder einzelne in dieser Menschenmenge, egal ob einfacher Soldat, Offizier oder gar General fühlt sich in diesem Augenblick klein und unbedeutend wie ein Sandkörnchen, aber auch zugleich mächtig und stolz bei dem Gedanken ein Teil dieses gewaltigen Ganzens zu sein.
+
+Als Rostow, in den vordersten Reihen der Kutusowschen Armee stehend, den Geleitzug des Kaisers in der Ferne heranreiten sieht ergreift ihn eine stolze Selbstvergessenheit und eine leidenschaftliche Hingabe für seinen Kaiser. Als der junge, hübsche Kaiser vorm Pawlograder Regiment hielt und unter Fanfaren und Jubelrufen seine Ansprache beginnt, überflutete Rostow ein Strom der Liebe. Wie selig wäre er gewesen, hätte er in diesem Augenblick für seinen Kaiser sterben dürfen. Als die Soldaten dem Kaiser aus voller Kehle zum Abschied zuriefen schrie Rostow ebenfalls, so laut er nur konnte. Er hätte sich in diesem Moment durch sein Schreien liebend gern selbst Schaden getan, wenn er dadurch nur die Begeisterung für seinen Kaiser stärker zum Ausdruck hätte bringen können.
+
+Der Kaiser verweilte noch einen kleinen Augenblick länger vor den Husaren, so als wäre er sich über etwas nicht ganz schlüssig. Rostow erschien diese Unschlüssigkeit erhaben und begeisternd wie eben alles, was der Kaiser tat. Der Moment der Unentschlossenheit dauerte aber nur kurz an, der Kaiser straffte seine Zügel und ritt davon. Rostow konnte bald nur noch seinen weißen Federbusch über das Gefolge hinweg beobachten. Bei dieser Gelegenheit sah er auch Bolkonskij, der unter den Offizieren lässig und leicht auf seinem Pferd saß. Er musste an seinen gestrigen Streit mit ihm denken und frage sich erneut, ob er ihn fordern müsse oder nicht. Im Angesichte des majestetischen Augenblickes welchen er gerade durchlebt hatte, wurde es Rostow klar, dass er ihn natürlich nicht fordern müsse. Was haben solche Streitereien zu bedeuteten, wenn man solche Liebe, Begeisterung und Selbstvergessenheit empfindet? Rostow liebte in diesem Moment alle und verzeihte jedem.
+
+Als die Besichtigung vorüber war unterhielten sich die russischen Offiziere noch über ihre Auszeichnungen, über die Österreicher, über Bonaparte und darüber, wie schlecht es diesem jetzt ergehen werde, wenn das Korps aus Essen und die Preußen auf ihre Seite treten werden. Vor allem sprach man aber vom Kaiser Alexander, man wiederholte seine Worte und Gesten und war von ihm entzückt. Möge er doch bald den Befehl geben und gegen den Feind losziehen. Unter dem persönlichen Kommando eines solchen Kaisers war ja gar nichts anderes möglich als zu siegen. 

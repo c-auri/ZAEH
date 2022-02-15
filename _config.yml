@@ -1,8 +1,6 @@
 collections:
   users:
     output: true
-  books:
-  parts:
   summaries:
     output: true
   groups:

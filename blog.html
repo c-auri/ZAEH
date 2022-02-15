@@ -3,16 +3,7 @@ title: Krieg und Frieden - Blog
 ---
 {% assign summaries = site.summaries | sort: 'date_written' | reverse %}
 {% for summary in summaries %}
-
-    <!-- Find correct book and part number -->
-    {% for current in site.parts %}
-        {% if summary.chapter[0] >= current.from_chapter and summary.chapter[0] <= current.to_chapter%}
-        {% assign part = current %}
-        {% assign book = site.books | where: 'number', part.book | first %}
-        {% break %}
-        {% endif %}
-    {% endfor %}
-
+    {% assign chapter = site.data.chapters | where: 'number', summary.chapter | first %}
     {% assign author = site.users | where: 'name', summary.author | first %}
     
     <div class="blogpost">
@@ -21,7 +12,7 @@ title: Krieg und Frieden - Blog
         </h2>
         <p class="blogpost-metadata">
             <span class="blogpost-enumeration">
-                {{ book.name }}, {{ part.name_in_book }}, Kapitel {{ summary.chapter[1] }} 
+                {{ chapter.book_name }}, {{ chapter.part_name_in_book }}, Kapitel {{ chapter.number_in_part }} 
             </span>
             <span class="blogpost-source">
                 

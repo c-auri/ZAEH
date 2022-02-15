@@ -8,18 +8,9 @@ layout: default
 <h2>Gelesene Kapitel ({{ summaries.size }}):</h2>
 <ul>
     {% for summary in summaries %}
-
-        <!-- Find correct book and part number -->
-        {% for current in site.parts %}
-            {% if summary.chapter[0] >= current.from_chapter and summary.chapter[0] <= current.to_chapter%}
-                {% assign part = current %}
-                {% assign book = site.books | where: 'number', part.book | first %}
-                {% break %}
-            {% endif %}
-        {% endfor %}
-
+    {% assign chapter = site.data.chapters | where: 'number', summary.chapter | first %}
         <li>
-            {{ book.name }}, {{ part.name_in_book }}, Kapitel {{ summary.chapter[1] }}: 
+            {{ chapter.book_name }}, {{ chapter.part_name_in_book }}, Kapitel {{ chapter.number }}: 
             <a href="{{ summary.url }}">{{ summary.title }}</a>
         </li>
     {% endfor %}

@@ -1,39 +1,42 @@
 ---
 title: Krieg und Frieden - Index
 ---
+{% assign chapters = site.data.chapters | sort: 'number' %}
+{% assign current_book = 0 %}
+
 <table id="index">
-{% assign summaries = site.summaries | sort: 'chapter' %}
-{% for book in site.books %}
-    {% assign parts = site.parts | where: 'book', book.number %}
-    <tr>
-        <th colspan="6" class="book">{{ book.name }}</th>
-    </tr>
-    <tr>
-        <th colspan="2">Fortl.</th>
-        <th colspan="2">Im Buch</th>
-        <th rowspan="2">Titel</th>
-        <th rowspan="2">Autor</th>
-    </tr>
-    <tr>
-        <th title="Teil">T</th>
-        <th title="Kapitel">K</th>
-        <th title="Teil">T</th>
-        <th title="Kapitel">K</th>
-    </tr>
-    {% for part in parts %}
-        {% for summary in summaries %}
-            {% if summary.chapter[0] < part.from_chapter %} {% continue %} {% endif %}
-            {% if summary.chapter[0] > part.to_chapter %} {% break %} {% endif %}
-            {% assign author = site.users | where: 'name', summary.author | first %}
-            <tr>
-                <td class="enumeration">{{ part.running }}</td>
-                <td class="enumeration">{{ summary.chapter[0] }}</td>
-                <td class="enumeration">{{ part.number_in_book }}</td>
-                <td class="enumeration">{{ summary.chapter[1] }}</td>
-                <td><a href="{{ summary.url }}">{{ summary.title }}</a></td>
-                <td><a href="{{ author.url }}">{{ author.name }}</a></td>
-            </tr>
-        {% endfor %}
-    {% endfor %}
+{% for chapter in chapters %}
+    {% if current_book != chapter.book_number %}
+        {% assign current_book = chapter.book_number %}
+        <tr>
+            <th colspan="6" class="book">{{ chapter.book_name }}</th>
+        </tr>
+        <tr>
+            <th colspan="2">Fortl.</th>
+            <th colspan="2">Im Buch</th>
+            <th rowspan="2">Titel</th>
+            <th rowspan="2">Autor</th>
+        </tr>
+        <tr>
+            <th title="Teil">T</th>
+            <th title="Kapitel">K</th>
+            <th title="Teil">T</th>
+            <th title="Kapitel">K</th>
+        </tr>
+    {% endif %}
+        
+    {% assign summary = site.summaries | where: 'chapter', chapter.number | first %}
+    {% if summary %}
+        {% assign author = site.users | where: 'name', summary.author | first %}
+        <tr>
+            <td class="enumeration">{{ chapter.part_number }}</td>
+            <td class="enumeration">{{ chapter.number }}</td>
+            <td class="enumeration">{{ chapter.part_number_in_book }}</td>
+            <td class="enumeration">{{ chapter.number_in_part }}</td>
+            <td><a href="{{ summary.url }}">{{ summary.title }}</a></td>
+            <td><a href="{{ author.url }}">{{ author.name }}</a></td>
+        </tr>
+    {% endif %}
+
 {% endfor %}
 </table>

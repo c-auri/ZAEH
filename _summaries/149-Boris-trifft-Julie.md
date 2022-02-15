@@ -1,0 +1,16 @@
+---
+title: Boris trifft Julie
+author: blutgarten
+date_written: 2022-01-17T06:45:00UTC+1
+date_copied: 2022-01-19T12:45:00UTC+1
+postID: 1573757
+chapter: 149
+characters: [ Boris, Julie, Anatol, Prinzessin Marja ]
+---
+Nachdem es Boris in Petersburg nicht geglückt ist eine Verlobung mit einem reichen jungen Mädchen in die Wege zu leiten, begibt er sich nach Moskau um dort fündig zu werden. Er schwankt hier zwischen den beiden reichsten Partien der Stadt, Prinzessin Marja und Julie Karagina. Da er bei der Prinzessin keinen Eindruck machen konnte und Julie eine Bereitschaft für seine Avancen zeigt, entscheidet er sich dafür sein Glück bei letzterer zu versuchen. Dieser ist vor kurzem ein reiches Erbe in den Schoß gefallen, weshalb sie sich jetzt trotz ihrer Häßlichkeit für sehr begehrenswert hält. Sie veranstaltet zahlreiche Parties zu denen reichlich Männer erscheinen, die aber allesamt keine romantischen Absichten haben und auf Grund des gehobenen Alters der Gastgeberin (sie ist bereits s i e b e n u n d z w a n z i g) auch gar nicht vermuten ihr damit falsche Hoffnungen zu machen. Julie ist sich darüber allerdings nicht im Klaren.
+
+Sie zeigt sich trotz ihrer Feierlust sehr melancholisch und erzählt oft davon wie sehr sie vom Leben enttäuscht wurde, obwohl ihr gar nichts weiter tragisches widerfahren ist. Als einer der wenigen Gäste, der auf diese melancholische Verstimmung eingeht, schafft es Boris ihre Aufmerksamkeit zu erlangen. Bald führen sie ausführliche Gespräche in Zweisamkeit, bei denen Boris ihr von den Enttäuschungen seines Lebens erzählen und damit ihre Sympathie gewinnen kann. Sie spielt für ihn schwermütige Stücke auf der Harfe, er liest ihr aus traurigen Büchern vor und beide schreiben sich gegenseitig französische Botschaften, die sie vorher anderswo kopiert haben. Kurzum: sie entdecken ihre Seelenverwandschaft.
+
+Boris kann sich aber, obwohl er gedanklich schon lange ihre Besitztümer für sich beansprucht hat, wiederholt nicht dazu durchringen ihr einen Antrag zu machen. Er empfindet ihr gegenüber insgeheim eine Abneigung und hat Skrupel davor sich fürs Leben an eine Frau zu binden, die er gar nicht liebt. Julie spürt seine Zurückhaltung und befürchtet gelegentlich, dass sie ihm zuwider ist, tröstet sich aber damit, dass er nur zu schüchtern sei um den letzten Schritt zu gehen. Um seinen Tatendrang anzufeuern entscheidet sie sich dazu ihn eifersüchtig zu machen: Sie lässt sich von Anatol Kuragin den Hof machen und scherzt mit Boris über ihren neuen Liebhaber. Dieser befürchtet daraufhin, dass seine Anstrengungen der letzten Wochen umsonst gewesen sein könnten und sieht seine sichergeglaubten neuen Besitztümer schon dahinschwinden. Um sich dieser Schmach nicht hingeben zu müssen deutet er Julie unmissverständlich seine Zuneigung an, in der Hoffnung ihre Hand ohne eine größere Geste gewinnen zu können. Diese erwartet von ihrem zukünftigen Bräutigam allerdings ein offenes Liebesgeständnis, das er ihr gegenüber mit florierenden Worten aussprechen soll. Da sie das aufgrund ihres Reichtums auch von ihm erwarten kann, kommt Boris nicht umhin die üblichen Gepflogenheiten über sich ergehen zu lassen.
+
+Das frisch verlobte Paar konnte schließlich die gemeinsame Melancholie überwinden und freut sich jetzt auf die pompöse Hochzeit und die Einrichtung eines glänzenden gemeinsamen Zuhauses in Petersburg. 
