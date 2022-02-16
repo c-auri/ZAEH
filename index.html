@@ -4,6 +4,8 @@ title: Krieg und Frieden - Index
 {% assign chapters = site.data.chapters | sort: 'number' %}
 {% assign current_book = 0 %}
 
+<p class="status">Es sind {{ site.summaries | size}} von {{ chapters | size }} Kapiteln zusammengefasst.</p>
+
 <table id="index">
 {% for chapter in chapters %}
     {% if current_book != chapter.book_number %}
