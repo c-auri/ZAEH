@@ -5,19 +5,19 @@
     ul {
         padding: 0 1rem;
         color: $black;
-
-        a {
-            color: $black;
-        }
-
-        a:hover {
-            color: $primary-clr;
-        }
     }
 
     &__column:last-child {
         display: none;
     }
+}
+
+.character__link {
+    color: inherit;
+}
+
+.character__link:hover {
+    color: $primary-clr;
 }
 
 .characters__group {

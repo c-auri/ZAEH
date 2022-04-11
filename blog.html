@@ -9,23 +9,25 @@ permalink: blog
 
 <section class="page__section">
 
-    <header>
-        {% include chapter-details.html %}
-        <a href="{{ summary.url }}">
+    <header class="summary__header">
+        {% include summary-enumeration.html %}
+        <a class="summary__link" href="{{ summary.url }}">
             <h2 class="h1">{{ summary.title }}</h2>
         </a>
+
+        <p class="summary__metadata">
+            <span>
+                
+                von <a class="author" href="{{ author.url }}">{{ author.name }}</a> am 
+                <span 
+                title='Verfasst {{ summary.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ summary.date_copied | date: "%-d.%-m.%Y, %R"}}'>
+                        {{ summary.date_written | date: "%-d.%-m.%Y" }}
+                </span>
+            </span>
+        </p>
+
     </header>
 
-    <p>
-        <span>
-            
-            von <a href="{{ author.url }}">{{ author.name }}</a> am 
-            <span 
-            title='Verfasst {{ summary.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ summary.date_copied | date: "%-d.%-m.%Y, %R"}}'>
-                    {{ summary.date_written | date: "%-d.%-m.%Y" }}
-            </span>
-        </span>
-    </p>
 
     {{ summary.excerpt }}
 

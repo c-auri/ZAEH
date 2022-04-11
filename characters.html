@@ -19,7 +19,7 @@ permalink: charaktere
                 {% assign characters = site.characters | where: 'group', group.title | sort: 'priority' %}
                 {% for character in characters  %}
                     <li class="character">
-                        <a href="{{ character.url }}">
+                        <a class="character__link" href="{{ character.url }}">
                             {% if character.noble %}
                                 {{ character.noble }}
                             {% endif %}
@@ -56,7 +56,7 @@ permalink: charaktere
                 {% assign characters = site.characters | where: 'group', group.title | sort: 'priority' %}
                 {% for character in characters  %}
                     <li class="character">
-                        <a href="{{ character.url }}">
+                        <a class="character__link" href="{{ character.url }}">
                             {% if character.noble %}
                                 {{ character.noble }}
                             {% endif %}
