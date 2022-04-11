@@ -1,0 +1,64 @@
+table {
+    font-family: $ff-sans;
+    color: $dark-gray;
+
+    a {
+        color: inherit;
+    }
+
+    a:hover {
+        color: $primary-clr;
+    }
+}
+
+th,
+td {
+    padding: .1rem .5rem;
+}
+
+th {
+    color: $medium-gray;
+    background-color: $light-gray;
+}
+
+tr:first-child th {
+    color: $almost-white;
+    background-color: $primary-clr;
+}
+
+tr:nth-child(even) {
+    background-color: $almost-white;
+}
+
+tr:hover {
+    color: $black;
+}
+
+.empty-row {
+    height: 10px !important;
+    background-color: $white;
+}
+
+.optional-column {
+    display: none;
+}
+
+@media (min-width: $bp-1) {
+    .optional-column {
+        display: table-cell;
+    }
+}
+
+#leaderboard {
+    font-family: $ff-sans;
+
+    th:first-child,
+    td:first-child {
+        text-align: right;
+    }
+
+    th:last-child,
+    td:last-child {
+        text-align: left
+    }
+}
