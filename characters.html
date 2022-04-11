@@ -2,37 +2,80 @@
 title: Krieg und Frieden - Charaktere
 permalink: charaktere
 ---
-<div class="page__section">
+<div class="page__section characters">
 
-    {% assign groups = site.groups | sort: 'priority' %}
-    {% for group in groups %}
+    <div class="characters__column">
 
-    <section>
-
-        <header>
-            <h2 class="h3">{{ group.title }}</h2>
-        </header>
+        {% assign groups = site.groups | sort: 'priority' %}
+        {% for group in groups %}
     
-        <ul>
-            {% assign characters = site.characters | where: 'group', group.title | sort: 'priority' %}
-            {% for character in characters  %}
-                <li class="character">
-                    {% if character.noble %}
-                        {{ character.noble }}
-                    {% endif %}
-                    {% if character.rank %}
-                        {{ character.rank }}
-                    {% endif %}
-                    <a href="{{ character.url }}">{{ character.name -}}</a>
-                    {%- if character.info -%}
-                        , {{ character.info }}
-                    {% endif %}
-                </li>
-            {% endfor %}
-        </ul>
+        <section class="characters__group">
+    
+            <header>
+                <h2 class="h3">{{ group.title }}</h2>
+            </header>
+        
+            <ul>
+                {% assign characters = site.characters | where: 'group', group.title | sort: 'priority' %}
+                {% for character in characters  %}
+                    <li class="character">
+                        <a href="{{ character.url }}">
+                            {% if character.noble %}
+                                {{ character.noble }}
+                            {% endif %}
+                            {% if character.rank %}
+                                {{ character.rank }}
+                            {% endif %}
+                            {{ character.name -}}
+                        </a>
+                        {%- if character.info -%}
+                            , <span class="character__info">{{ character.info }}</span>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+    
+        </section>
+    
+        {% endfor %}
 
-    </section>
+    </div>
 
-    {% endfor %}
+    <div class="characters__column">
+
+        {% assign groups = site.groups | sort: 'priority' %}
+        {% for group in groups %}
+    
+        <section class="characters__group">
+    
+            <header>
+                <h2 class="h3">{{ group.title }}</h2>
+            </header>
+        
+            <ul>
+                {% assign characters = site.characters | where: 'group', group.title | sort: 'priority' %}
+                {% for character in characters  %}
+                    <li class="character">
+                        <a href="{{ character.url }}">
+                            {% if character.noble %}
+                                {{ character.noble }}
+                            {% endif %}
+                            {% if character.rank %}
+                                {{ character.rank }}
+                            {% endif %}
+                            {{ character.name -}}
+                        </a>
+                        {%- if character.info -%}
+                            , <span class="character__info">{{ character.info }}</span>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+    
+        </section>
+    
+        {% endfor %}
+
+    </div>
 
 </section>
