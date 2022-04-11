@@ -1,6 +1,9 @@
 table {
+    padding: 0;
+    margin: 0;
     font-family: $ff-sans;
     color: $dark-gray;
+    border: none;
 
     a:hover {
         color: $primary-clr;
@@ -43,6 +46,10 @@ tr:hover {
     .optional-column {
         display: table-cell;
     }
+}
+
+table#index {
+    width: 100%;
 }
 
 #leaderboard {

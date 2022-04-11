@@ -1,11 +1,15 @@
-.summary__header,
-.summary__header--reading,
-.summary__content p,
-.summary__enumeration,
-.summary__metadata,
-.summary__characters {
-    margin: 0 auto;
-    max-width: $paragraph-width;
+.summary {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    padding-inline: 1rem;
+}
+
+@media (min-width: $bp-2) {
+    .summary {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+        padding-inline: 7rem;
+    }
 }
 
 .summary__header--reading {
@@ -53,6 +57,7 @@
 }
 
 .summary__footer {
+    padding-top: 2rem;
     display: flex;
     justify-content: flex-end;
 

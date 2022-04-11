@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign chapter = site.data.chapters | where: 'number', page.chapter | first %}
 
-<section class="page__section">
+<section class="page__section summary">
 
     <header class="summary__header">
         {% include summary-enumeration.html %}
@@ -36,9 +36,7 @@ layout: default
 
     </div>
 
-    <div class="summary__content">
-        {{ content }}
-    </div>
+    {{ content }}
     
     {% assign postID = page.postID %}
     {% include summary-footer.html %}

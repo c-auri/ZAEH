@@ -7,7 +7,7 @@ permalink: blog
     {% assign chapter = site.data.chapters | where: 'number', summary.chapter | first %}
     {% assign author = site.users | where: 'name', summary.author | first %}
 
-<section class="page__section">
+<section class="page__section summary">
 
     <header class="summary__header">
         {% include summary-enumeration.html %}
@@ -28,9 +28,7 @@ permalink: blog
         </p>
     </div>
 
-    <div class="summary__content">
-        {{ summary.excerpt }}
-    </div>
+    {{ summary.excerpt }}
 
     {% assign postID = summary.postID %}
     {% include summary-footer.html %}

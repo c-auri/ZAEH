@@ -10,7 +10,7 @@ permalink: lesefassung
 {% assign summary = site.summaries | where: 'chapter', chapter.number | first %}
 {% if summary %}
 
-<section class="page__section">
+<section class="page__section summary">
 
     <header class="summary__header--reading">
 
@@ -32,9 +32,7 @@ permalink: lesefassung
 
     </header>
 
-    <div class="summary__content">
-        {{ summary.content }}
-    </div>
+    {{ summary.content }}
 
     {% assign postID = summary.postID %}
     {% include summary-footer.html %}

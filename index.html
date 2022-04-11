@@ -5,11 +5,7 @@ title: Krieg und Frieden - Index
 {% assign current_book = 0 %}
 <section class="page__section">
 
-    <p>
-        Es sind {{ site.summaries | size}} von {{ chapters | size }} Kapiteln zusammengefasst.
-    </p>
-
-    <table>
+    <table id="index">
     {% for chapter in chapters %}
     {% if current_book != chapter.book_number %}
     {% assign current_book = chapter.book_number %}
