@@ -12,7 +12,7 @@ permalink: lesefassung
 
 <section class="page__section">
 
-    <header class="chapter__header">
+    <header class="summary__header--reading">
 
         {% if current_book != chapter.book_number %}
         {% assign current_book = chapter.book_number %}
@@ -32,7 +32,9 @@ permalink: lesefassung
 
     </header>
 
-    {{ summary.content }}
+    <div class="summary__content">
+        {{ summary.content }}
+    </div>
 
     {% assign postID = summary.postID %}
     {% include summary-footer.html %}

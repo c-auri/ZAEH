@@ -1,13 +1,15 @@
-.summary__header {
-    color: $black;
+.summary__header,
+.summary__header--reading,
+.summary__content p,
+.summary__enumeration,
+.summary__metadata,
+.summary__characters {
+    margin: 0 auto;
+    max-width: $paragraph-width;
 }
 
-.summary__link {
-    color: $black;
-}
-
-.summary__link:hover {
-    color: $primary-clr;
+.summary__header--reading {
+    margin: 1rem auto;
 }
 
 .summary__enumeration {
@@ -15,12 +17,21 @@
 }
 
 .summary__enumeration,
-.summary__metadata {
+.summary__metadata,
+.summary__characters {
     color: $dark-gray;
 }
 
 .summary__metadata {
-    padding: 0;
+    padding: .5rem 0;
+
+    p {
+        margin: .25rem 0;
+    }
+}
+
+.summary__characters {
+    padding-bottom: .5rem;
 }
 
 .summary__footer {

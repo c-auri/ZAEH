@@ -5,17 +5,16 @@ layout: default
 
 <section class="page__section">
 
-    <header class="chapter__header">
+    <header class="summary__header">
         {% include summary-enumeration.html %}
         <h1 class="h1">{{ page.title }}</h1>
-
     </header>
     
     <div class="summary__metadata">
 
         <p>
             {% assign author = site.users | where: 'name', page.author | first %}
-            Zusammengefasst von <a href="{{ author.url }}">{{ author.name }}</a> 
+            von <a href="{{ author.url }}">{{ author.name }}</a> 
             am <span title='Verfasst {{ page.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ page.date_copied | date: "%-d.%-m.%Y, %R"}}'>{{ page.date_written | date: "%-d.%-m.%Y" }}</span>
         </p>
 
@@ -36,8 +35,10 @@ layout: default
         {% endif %}
 
     </div>
-    
-    {{ content }}
+
+    <div class="summary__content">
+        {{ content }}
+    </div>
     
     {% assign postID = page.postID %}
     {% include summary-footer.html %}
