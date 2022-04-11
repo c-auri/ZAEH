@@ -73,8 +73,9 @@ body {
 
     &__footer {
         padding: 1rem 0;
-        color: $medium-gray;
+        color: $almost-white;
         font-family: $ff-sans;
+        background-color: $primary-clr;
 
         a {
             color: inherit;
@@ -83,7 +84,7 @@ body {
         }
 
         a:hover {
-            color: $black;
+            color: $white;
         }
     }
 }
