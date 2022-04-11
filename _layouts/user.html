@@ -4,14 +4,20 @@ layout: default
 ---
 {% assign summaries = site.summaries | where: 'author', page.name %}
 
-<h1>{{ page.name }}</h1>
-<h2>Gelesene Kapitel ({{ summaries.size }}):</h2>
-<ul>
-    {% for summary in summaries %}
-    {% assign chapter = site.data.chapters | where: 'number', summary.chapter | first %}
+<section class="page__section">
+
+    <h1>{{ page.name }}</h1>
+
+    <h2>Gelesene Kapitel ({{ summaries.size }}):</h2>
+
+    <ul>
+        {% for summary in summaries %}
+        {% assign chapter = site.data.chapters | where: 'number', summary.chapter | first %}
         <li>
             {{ chapter.book_name }}, {{ chapter.part_name_in_book }}, Kapitel {{ chapter.number }}: 
             <a href="{{ summary.url }}">{{ summary.title }}</a>
         </li>
-    {% endfor %}
-</ul>
+        {% endfor %}
+    </ul>
+
+</section>

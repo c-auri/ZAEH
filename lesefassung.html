@@ -6,29 +6,32 @@ title: Krieg und Frieden - Lesefassung
 {% assign current_part = 0 %}
 
 {% for chapter in chapters %}
-    {% assign summary = site.summaries | where: 'chapter', chapter.number | first %}
-    {% if summary %}
+{% assign summary = site.summaries | where: 'chapter', chapter.number | first %}
+{% if summary %}
 
-        {% if current_book != chapter.book_number %}
-            {% assign current_book = chapter.book_number %}
-            <h1 class="reading-version">{{ chapter.book_name }}</h1>
-        {% endif %}
+<section class="page__section">
 
-        {% if current_part != chapter.part_number %}
-            {% assign current_part = chapter.part_number %}
-            <h2 class="reading-version">{{ chapter.part_name_in_book }}</h2>
-        {% endif %}
-
-        <h3 class="reading-version">
-            Kapitel {{ chapter.number_in_part }}: 
-            <a href="{{ summary.url }}">  {{ summary.title }} </a>
-        </h3>
-        {{ summary.content }}
-        <div class="reading-version-footer">
-            <a href="#top">
-                Seitenanfang
-            </a>
-        </div>
-
+    {% if current_book != chapter.book_number %}
+    {% assign current_book = chapter.book_number %}
+    <h2>{{ chapter.book_name }}</h2>
     {% endif %}
+
+    {% if current_part != chapter.part_number %}
+    {% assign current_part = chapter.part_number %}
+    <h3>{{ chapter.part_name_in_book }}</h3>
+    {% endif %}
+
+    <h4>
+        Kapitel {{ chapter.number_in_part }}: 
+        <a href="{{ summary.url }}">  {{ summary.title }} </a>
+    </h4>
+    {{ summary.content }}
+
+    <div>
+        <a href="#top">Seitenanfang</a>
+    </div>
+
+</section>
+
+{% endif %}
 {% endfor %}

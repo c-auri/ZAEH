@@ -1,24 +1,40 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-  </head>
-  <body>
-    <div class="content">
-      <header>
-        Krieg und Frieden
-      </header>
-      {% include navigation.html %}
-      <main>
-        {{ content }}
-      </main>
-      <footer>
-        <p>
-          Powered by <a href="{% include thread_url.html %}">Dotasource</a></footer>
-        </p>
-      </footer>
-    </div>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/assets/css/styles.css">
+    </head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header">
+                <span class="page__title">Krieg & Frieden</span>
+            </header>
+    
+            <nav class="page__nav">
+                {% for item in site.data.navigation %}
+                    <a 
+                        href="{{ item.link }}"
+                        {% if page.url == item.link %}
+                        class="current"
+                        {% endif %}>
+                        {{- item.name -}}
+                    </a>
+                {% endfor %}
+            </nav>
+    
+            <main>
+                {{ content }}
+            </main>
+    
+            <footer class="page__footer">
+                Powered by <a href="{% include thread_url.html %}">Dotasource</a>
+            </footer>
+
+        </div>
+
+      </body>
+
 </html>
