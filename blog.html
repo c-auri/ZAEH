@@ -10,15 +10,13 @@ permalink: blog
 <section class="page__section">
 
     <header>
+        {% include chapter-details.html %}
         <a href="{{ summary.url }}">
             <h2 class="h1">{{ summary.title }}</h2>
         </a>
     </header>
 
     <p>
-        <span>
-            {{ chapter.book_name }}, {{ chapter.part_name_in_book }}, Kapitel {{ chapter.number_in_part }} 
-        </span>
         <span>
             
             von <a href="{{ author.url }}">{{ author.name }}</a> am 

@@ -6,12 +6,9 @@ layout: default
 <section class="page__section">
 
     <header>
+        {% include chapter-details.html %}
         <h1 class="h1">{{ page.title }}</h1>
     </header>
-    
-    <p>
-        {{ chapter.book_name }}, {{ chapter.part_name_in_book }}, Kapitel {{ chapter.number_in_part }}
-    <p>
     
     <p>
         {% assign author = site.users | where: 'name', page.author | first %}
