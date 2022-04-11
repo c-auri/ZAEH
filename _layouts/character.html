@@ -34,8 +34,8 @@ layout: default
             {% if summary.characters contains page.alias %}
                 {% assign chapter = site.data.chapters | where: 'number', summary.chapter | first %}
                 <li>
-                    {{ chapter.book_name }}, {{ chapter.part_name_in_book }}, Kapitel {{ chapter.number }}: 
-                    <a href="{{ summary.url }}">{{ summary.title }}</a>
+                    <a class="summary__link" href="{{ summary.url }}">{{ summary.title }}</a>,
+                    <span class="summary__metadata">{{ chapter.book_name }}, {{ chapter.part_name_in_book }}, Kapitel {{ chapter.number }}</span>
                 </li>
             {% endif %}
         {% endfor %}

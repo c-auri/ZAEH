@@ -14,7 +14,7 @@ layout: default
 
         <p>
             {% assign author = site.users | where: 'name', page.author | first %}
-            von <a href="{{ author.url }}">{{ author.name }}</a> 
+            von <a class="author__link" href="{{ author.url }}">{{ author.name }}</a> 
             am <span title='Verfasst {{ page.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ page.date_copied | date: "%-d.%-m.%Y, %R"}}'>{{ page.date_written | date: "%-d.%-m.%Y" }}</span>
         </p>
 

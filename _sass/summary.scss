@@ -12,6 +12,10 @@
     margin: 1rem auto;
 }
 
+.summary__link:hover {
+    color: $primary-clr;
+}
+
 .summary__enumeration {
     font-size: var(--fs-500);
 }
@@ -28,6 +32,15 @@
     p {
         margin: .25rem 0;
     }
+}
+
+.author__link {
+    color: $primary-clr;
+}
+
+.author__link:hover {
+    color: $primary-clr;
+    opacity: .8;
 }
 
 .summary__characters {

@@ -44,6 +44,7 @@ body {
     }
 
     &__title:hover {
+        color: $white;
         opacity: .9;
     }
 
@@ -99,12 +100,6 @@ body {
         font-family: $ff-sans;
         background-color: $primary-clr;
 
-        a {
-            color: inherit;
-            text-decoration: underline;
-            text-decoration-style: dotted;
-        }
-
         a:hover {
             color: $white;
         }
@@ -145,8 +140,12 @@ img {
 }
 
 a {
-    color: $primary-clr;
+    color: inherit;
     text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
 }
 
 @media (min-width: $bp-1) {
