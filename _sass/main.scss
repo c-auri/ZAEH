@@ -32,11 +32,15 @@ body {
         font-weight: bold;
         font-family: $ff-serif;
         user-select: none;
-        background-color: $primary-clr;
+        background: url(/assets/images/header.jpg);
+        background-position: center;
+        background-repeat: none;
+        background-color: $dark-gray;
     }
 
     &__title {
-        color: $almost-white;
+        color: $white;
+        opacity: .8;
     }
 
     &__nav {
@@ -44,19 +48,21 @@ body {
         display: flex;
         justify-content: space-between;
         font-size: clamp(1rem, calc(.1rem + 2.5vw), 1.25rem);
+        font-weight: 500;
         font-family: $ff-sans;
+        background-color: $primary-clr;
     
         a {
-            color: $medium-gray;
+            color: $almost-white;
             text-decoration: none;
         }
     
         a:hover {
-            color: $black;
+            color: $white;
         }
 
         .current {
-            border-bottom: 1px $black solid;
+            border-bottom: 1px $almost-white solid;
         }
     }
 
@@ -118,10 +124,6 @@ img {
 a {
     color: $primary-clr;
     text-decoration: none;
-}
-
-a:hover {
-    opacity: .8;
 }
 
 @media (min-width: $bp-1) {
