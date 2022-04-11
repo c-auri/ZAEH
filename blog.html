@@ -31,15 +31,8 @@ permalink: blog
 
     {{ summary.excerpt }}
 
-    <p> 
-        <a href="{% include thread_url.html %}?postID={{ summary.postID }}#post{{ summary.postID }}">
-            Forenpost
-        </a>
-        - 
-        <a href="#top">
-            Seitenanfang
-        </a>
-    </p>
+    {% assign postID = summary.postID %}
+    {% include summary-footer.html %}
 
 </section>
 

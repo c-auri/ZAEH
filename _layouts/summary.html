@@ -39,14 +39,7 @@ layout: default
     
     {{ content }}
     
-    <p>
-        <a href="{% include thread_url.html %}?postID={{ page.postID }}#post{{ page.postID }}">
-            Forenpost
-        </a>
-        - 
-        <a href="#top">
-            Seitenanfang
-        </a>
-    </p>
+    {% assign postID = page.postID %}
+    {% include summary-footer.html %}
 
 </section>

@@ -34,9 +34,8 @@ permalink: lesefassung
 
     {{ summary.content }}
 
-    <div>
-        <a href="#top">Seitenanfang</a>
-    </div>
+    {% assign postID = summary.postID %}
+    {% include summary-footer.html %}
 
 </section>
 

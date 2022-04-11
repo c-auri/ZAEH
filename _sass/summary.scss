@@ -22,3 +22,17 @@
 .summary__metadata {
     padding: 0;
 }
+
+.summary__footer {
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+        padding: 0 .5rem;
+        color: $dark-gray;
+    }
+
+    a:hover {
+        color: $primary-clr;
+    }
+}
