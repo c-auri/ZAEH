@@ -66,8 +66,25 @@ body {
             color: $white;
         }
 
-        .current {
-            border-bottom: 1px $almost-white solid;
+        a::after,
+        a.current::after,
+        a:hover::after {
+            content: '';
+            margin: 0 auto;
+            height: 1px;
+            width: 90%;
+            display: block;
+            background: $almost-white;
+        }
+
+        a::after {
+            width: 0;
+            transition: width .3s;
+        }
+        
+        a:hover::after {
+            background: $white;
+            transition: width .3s;
         }
     }
 
