@@ -12,20 +12,26 @@ permalink: lesefassung
 
 <section class="page__section">
 
-    {% if current_book != chapter.book_number %}
-    {% assign current_book = chapter.book_number %}
-    <h2>{{ chapter.book_name }}</h2>
-    {% endif %}
+    <header class="chapter">
 
-    {% if current_part != chapter.part_number %}
-    {% assign current_part = chapter.part_number %}
-    <h3>{{ chapter.part_name_in_book }}</h3>
-    {% endif %}
+        {% if current_book != chapter.book_number %}
+        {% assign current_book = chapter.book_number %}
+        <h2 class="h1">{{ chapter.book_name }}</h2>
+        {% endif %}
+    
+        {% if current_part != chapter.part_number %}
+        {% assign current_part = chapter.part_number %}
+        <h3 class="h2">{{ chapter.part_name_in_book }}</h3>
+        {% endif %}
+        
+        <h4 class="h3">
+            <span class="chapter-details">Kapitel {{ chapter.number_in_part }}</span>
+            <br>
+            <a href="{{ summary.url }}">{{ summary.title }}</a>
+        </h4>
 
-    <h4>
-        Kapitel {{ chapter.number_in_part }}: 
-        <a href="{{ summary.url }}">  {{ summary.title }} </a>
-    </h4>
+    </header>
+
     {{ summary.content }}
 
     <div>

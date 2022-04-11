@@ -87,6 +87,35 @@ main {
     grid-gap: $grid-gap;
 }
 
+h1, h2, h3, h4, h5 {
+    margin: inherit;
+    padding: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+.h1, .h2, .h3, .h4 {
+    font-weight: bold;
+}
+
+.h1 {
+    font-size: var(--fs-1000);
+}
+
+.h2 {
+    font-size: var(--fs-900);
+}
+
+.h3 {
+    font-size: var(--fs-800);
+}
+
+.chapter-details {
+    font-size: var(--fs-500);
+    color: $medium-gray;
+}
+
 img {
     max-width: 100%;
 }

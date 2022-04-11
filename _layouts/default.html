@@ -15,13 +15,15 @@
     
             <nav class="page__nav">
                 {% for item in site.data.navigation %}
-                    <a 
-                        href="{{ item.link }}"
-                        {% if page.url == item.link %}
-                        class="current"
-                        {% endif %}>
+                    {% if page.url == item.link %}
+                    <a href="{{ item.link }}" class="current">
+                        <h1>{{- item.name -}}</h1>
+                    </a>
+                    {% else %}
+                    <a href="{{ item.link }}">
                         {{- item.name -}}
                     </a>
+                    {% endif %}
                 {% endfor %}
             </nav>
     
