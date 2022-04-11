@@ -54,6 +54,7 @@ body {
         font-size: clamp(1rem, calc(.1rem + 2.5vw), 1.25rem);
         font-weight: 500;
         font-family: $ff-sans;
+        user-select: none;
         background-color: $primary-clr;
     
         a {
