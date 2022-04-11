@@ -1,10 +1,10 @@
 - name: Index
   link: /
 - name: Blog
-  link: /blog.html
+  link: /blog
 - name: Lesefassung
-  link: /lesefassung.html
+  link: /lesefassung
 - name: Charaktere
-  link: /charaktere.html
+  link: /charaktere
 - name: Mitwirkende
-  link: /mitwirkende.html
+  link: /mitwirkende

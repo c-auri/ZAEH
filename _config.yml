@@ -1,11 +1,14 @@
 collections:
   users:
     output: true
+    permalink: /mitwirkende/:name
   summaries:
     output: true
+    permalink: /lesefassung/:title
   groups:
   characters:
     output: true
+    permalink: /charaktere/:name
 
 defaults:
   - scope:
