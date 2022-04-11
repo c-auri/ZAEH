@@ -1,10 +1,19 @@
 .characters {
+    padding: 1rem .5rem;
     display: grid;
     grid-gap: $grid-gap;
 
-    ul {
-        padding: 0 1rem;
-        color: $black;
+    &__group {
+        header {
+            margin: 1rem 0;
+        }
+
+        p {
+            margin: .2rem 0;
+            font-size: var(--fs-500);
+            line-height: var(--fs-600);
+            color: $black;
+        }
     }
 
     &__column:last-child {

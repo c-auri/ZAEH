@@ -2,6 +2,12 @@
     padding-top: 3rem;
     padding-bottom: 1rem;
     padding-inline: 1rem;
+
+    p {
+        margin: 1rem 0;
+        font-size: var(--fs-600);
+        line-height: 1.5rem;
+    }
 }
 
 @media (min-width: $bp-2) {
@@ -40,6 +46,7 @@
 
     p {
         margin: .25rem 0;
+        font-size: var(--fs-400);
     }
 }
 
@@ -63,10 +70,12 @@
 
     a {
         padding: 0 .5rem;
-        color: $dark-gray;
+        color: $light-gray;
+        font-size: var(--fs-800);
+        font-weight: bold;
     }
 
     a:hover {
-        color: $primary-clr;
+        color: $dark-gray;
     }
 }

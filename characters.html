@@ -15,25 +15,23 @@ permalink: charaktere
                 <h2 class="h3">{{ group.title }}</h2>
             </header>
         
-            <ul>
-                {% assign characters = site.characters | where: 'group', group.title | sort: 'priority' %}
-                {% for character in characters  %}
-                    <li class="character">
-                        <a class="character__link" href="{{ character.url }}">
-                            {% if character.noble %}
-                                {{ character.noble }}
-                            {% endif %}
-                            {% if character.rank %}
-                                {{ character.rank }}
-                            {% endif %}
-                            {{ character.name -}}
-                        </a>
-                        {%- if character.info -%}
-                            , <span class="character__info">{{ character.info }}</span>
+            {% assign characters = site.characters | where: 'group', group.title | sort: 'priority' %}
+            {% for character in characters  %}
+                <p class="character">
+                    <a class="character__link" href="{{ character.url }}">
+                        {% if character.noble %}
+                            {{ character.noble }}
                         {% endif %}
-                    </li>
-                {% endfor %}
-            </ul>
+                        {% if character.rank %}
+                            {{ character.rank }}
+                        {% endif %}
+                        {{ character.name -}}
+                    </a>
+                    {%- if character.info -%}
+                        , <span class="character__info">{{ character.info }}</span>
+                    {% endif %}
+                </p>
+            {% endfor %}
     
         </section>
     
@@ -52,25 +50,23 @@ permalink: charaktere
                 <h2 class="h3">{{ group.title }}</h2>
             </header>
         
-            <ul>
-                {% assign characters = site.characters | where: 'group', group.title | sort: 'priority' %}
-                {% for character in characters  %}
-                    <li class="character">
-                        <a class="character__link" href="{{ character.url }}">
-                            {% if character.noble %}
-                                {{ character.noble }}
-                            {% endif %}
-                            {% if character.rank %}
-                                {{ character.rank }}
-                            {% endif %}
-                            {{ character.name -}}
-                        </a>
-                        {%- if character.info -%}
-                            , <span class="character__info">{{ character.info }}</span>
-                        {% endif %}
-                    </li>
-                {% endfor %}
-            </ul>
+            {% assign characters = site.characters | where: 'group', group.title | sort: 'priority' %}
+            {% for character in characters  %}
+            <p class="character">
+                <a class="character__link" href="{{ character.url }}">
+                    {% if character.noble %}
+                        {{ character.noble }}
+                    {% endif %}
+                    {% if character.rank %}
+                        {{ character.rank }}
+                    {% endif %}
+                    {{ character.name -}}
+                </a>
+                {%- if character.info -%}
+                    , <span class="character__info">{{ character.info }}</span>
+                {% endif %}
+            </p>
+            {% endfor %}
     
         </section>
     
