@@ -43,6 +43,10 @@ body {
         opacity: .8;
     }
 
+    &__title:hover {
+        opacity: .9;
+    }
+
     &__nav {
         padding: 1rem;
         display: flex;
