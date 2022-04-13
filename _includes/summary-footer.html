@@ -1,3 +1,9 @@
+{% if page.postID %}
+{% assign postID = page.postID %}
+{% elsif summary %}
+{% assign postID = summary.postID %}
+{% endif %}
+
 <p class="summary__footer">
     <a 
         href="{% include thread_url.html %}?postID={{ postID }}#post{{ postID }}"
