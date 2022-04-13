@@ -37,6 +37,11 @@ table {
         tr:first-child {
             color: $almost-white;
             background-color: $primary-clr;
+
+            th {
+                font-size: var(--fs-500);
+                padding: .25rem 0;
+            }
         }
     }
 
