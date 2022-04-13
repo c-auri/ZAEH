@@ -15,13 +15,6 @@ body {
 .page {
     &__header,
     &__nav,
-    &__footer,
-    &__section {
-        background-color: $white;
-    }
-
-    &__header,
-    &__nav,
     &__footer {
         text-align: center;
     }
@@ -92,14 +85,23 @@ body {
         }
     }
 
+    &__section {
+       background-color: $white;
+    }
+
     &__footer {
+        margin-bottom: 3rem;
         padding: 1rem 0;
-        color: $almost-white;
+        color: $light-gray;
         font-family: $ff-sans;
-        background-color: $primary-clr;
+        background-color: $medium-light-gray;
+
+        a {
+            color: white;
+        }
 
         a:hover {
-            color: $white;
+            color: $primary-clr-tint-1;
         }
     }
 }

@@ -76,7 +76,7 @@
 }
 
 .author__link:hover {
-    color: $primary-clr-light;
+    color: $primary-clr-tint-1;
 }
 
 .summary__characters {
@@ -91,7 +91,7 @@
     color: $medium-gray;
     
     a:hover {
-        color: $primary-clr-light
+        color: $primary-clr-tint-1;
     }
 
     &__more {

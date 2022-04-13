@@ -3,11 +3,11 @@ table {
     padding: 0;
     width: 100%;
     font-family: $ff-sans;
-    color: $dark-gray;
+    color: $almost-black;
     border-collapse: collapse;
     
     a:hover {
-        color: $primary-clr;
+        color: $almost-white;
     }
     
     thead tr th,
@@ -36,7 +36,7 @@ table {
 
         tr:first-child {
             color: $almost-white;
-            background-color: $primary-clr;
+            background-color: $primary-clr-tint-2;
 
             th {
                 font-size: var(--fs-500);
@@ -53,10 +53,12 @@ table {
         tr:nth-child(even) {
             background-color: $almost-white;
         }
+    }
+}
 
-        tr:hover {
-            color: $black;
-        }
+table.highlight-hover {
+    tbody tr:hover {
+        background-color: $primary-clr-tint-2;
     }
 }
 

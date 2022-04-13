@@ -7,7 +7,7 @@ layout: index
     <div>
         {% assign chapters = site.data.chapters | sort: 'number' %}
         {% assign current_book = 0 %}
-        <table >
+        <table class="highlight-hover">
             {% for chapter in chapters %}
             {% if current_book != chapter.book_number %}
             {% assign current_book = chapter.book_number %}
@@ -57,7 +57,7 @@ layout: index
 
 <aside class="overview__right">
 
-    <table id="leaderboard">
+    <table class="highlight-hover" id="leaderboard">
 
         <thead>
             <tr>

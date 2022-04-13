@@ -25,8 +25,9 @@ $ff-sans: sans-serif;
 // ------------ Colors ------------//
 
 $white: white;
-$almost-white: #eee;
+$almost-white: #f0f0f0;
 $light-gray: #ddd;
+$medium-light-gray: #bbb;
 $medium-gray: #999;
 $dark-gray: #555;
 $almost-black: #282828;
@@ -34,5 +35,5 @@ $black: black;
 
 $bg-clr: #dbdbdb;
 $primary-clr: steelblue;
-
-$primary-clr-light: hsla(207, 44%, 49%, 0.8);
+$primary-clr-tint-1: #6b9bc3;
+$primary-clr-tint-2: #7ea8cb;
