@@ -29,7 +29,7 @@ id: blog
         </p>
     </div>
 
-    {{ summary.excerpt }}
+    {{ summary.excerpt | truncatewords: 30 }}
 
     {% include summary-footer.html %}
 
