@@ -35,10 +35,10 @@ title: Krieg und Frieden - Index
     {% if summary %}
         {% assign author = site.users | find: 'name', summary.author %}
         <tr>
-            <td class="optional-column">{{ chapter.part_number }}</td>
-            <td class="optional-column">{{ chapter.number }}</td>
-            <td>{{ chapter.part_number_in_book }}</td>
-            <td>{{ chapter.number_in_part }}</td>
+            <td class="optional-column text-align-center">{{ chapter.part_number }}</td>
+            <td class="optional-column text-align-center">{{ chapter.number }}</td>
+            <td class="text-align-center">{{ chapter.part_number_in_book }}</td>
+            <td class="text-align-center">{{ chapter.number_in_part }}</td>
             <td><a href="{{ summary.url }}">{{ summary.title }}</a></td>
             <td class="optional-column"><a href="{{ author.url }}">{{ author.name }}</a></td>
         </tr>
@@ -47,6 +47,6 @@ title: Krieg und Frieden - Index
 {% endfor %}
 </table>
 
-<p class="page__section status">
+<p class="page__section text-align-center">
     Es sind {{ site.summaries | size}} von {{ chapters | size }} Kapiteln zusammengefasst.
 </p>

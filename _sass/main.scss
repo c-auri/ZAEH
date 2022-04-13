@@ -140,6 +140,10 @@ a:hover {
     color: inherit;
 }
 
+.text-align-center {
+    text-align: center;
+}
+
 @media (min-width: $bp-1) {
     .page__nav {
         padding-inline: 5rem;
