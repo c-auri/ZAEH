@@ -7,6 +7,12 @@ $grid-gap: .5rem;
 
 // ------------ Fonts -------------//
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@400;600;700&display=swap');
+
+$ff-serif: 'Times New Roman', serif;
+$ff-sans: 'Lato', sans-serif;
+$ff-header: 'Playfair Display', serif;
+
 :root {
     font-size: 16px;
 
@@ -18,9 +24,6 @@ $grid-gap: .5rem;
     --fs-900: 1.75rem;
     --fs-1000: 2rem;
 }
-
-$ff-serif: serif;
-$ff-sans: sans-serif;
 
 // ------------ Colors ------------//
 

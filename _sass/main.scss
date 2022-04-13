@@ -5,6 +5,7 @@
 
 html {
     height: 100%;
+    font-family: $ff-serif;
 }
 
 body {
@@ -24,9 +25,9 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        font-size: clamp(2rem, calc(1rem + 5vw), 4rem);
+        font-family: $ff-header;
+        font-size: clamp(2rem, calc(1rem + 7vw), 6rem);
         font-weight: bold;
-        font-family: $ff-serif;
         user-select: none;
         background: url(/assets/images/header.jpg);
         background-size: 100%;
