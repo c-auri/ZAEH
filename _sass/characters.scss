@@ -31,10 +31,19 @@
 
 .character__link {
     color: inherit;
+
+    &--summary:hover {
+        color: $primary-clr;
+        text-decoration: underline;
+    }
 }
 
 .character__link:hover {
     color: $primary-clr;
+
+    .character__info {
+        color: $primary-clr-light;
+    }
 }
 
 .characters__group {

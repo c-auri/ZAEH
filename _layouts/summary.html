@@ -25,7 +25,7 @@ layout: default
             {% for alias in page.characters %}
                 {% for character in site.characters -%}
                     {%- if character.alias == alias -%}
-                        <a class="character__link" href="{{ character.url }}">{{- character.alias -}}</a>
+                        <a class="character__link--summary" href="{{ character.url }}">{{- character.alias -}}</a>
                     {%- endif -%}
                 {%- endfor -%}
                 {%- unless forloop.last -%},{%- endunless -%}

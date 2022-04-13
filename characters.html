@@ -26,10 +26,10 @@ permalink: charaktere
                             {{ character.rank }}
                         {% endif %}
                         {{ character.name -}}
-                    </a>
-                    {%- if character.info -%}
+                        {%- if character.info -%}
                         , <span class="character__info">{{ character.info }}</span>
-                    {% endif %}
+                        {% endif %}
+                    </a>
                 </p>
             {% endfor %}
     
@@ -61,10 +61,10 @@ permalink: charaktere
                         {{ character.rank }}
                     {% endif %}
                     {{ character.name -}}
-                </a>
-                {%- if character.info -%}
+                    {%- if character.info -%}
                     , <span class="character__info">{{ character.info }}</span>
-                {% endif %}
+                    {% endif %}
+                </a>
             </p>
             {% endfor %}
     
