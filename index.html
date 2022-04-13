@@ -3,9 +3,7 @@ title: Krieg und Frieden - Index
 ---
 {% assign chapters = site.data.chapters | sort: 'number' %}
 {% assign current_book = 0 %}
-<section class="page__section">
-
-    <table id="index">
+<table class="index">
     {% for chapter in chapters %}
     {% if current_book != chapter.book_number %}
     {% assign current_book = chapter.book_number %}
@@ -48,5 +46,7 @@ title: Krieg und Frieden - Index
 
 {% endfor %}
 </table>
-        
-</section>
+
+<p class="page__section status">
+    Es sind {{ site.summaries | size}} von {{ chapters | size }} Kapiteln zusammengefasst.
+</p>
