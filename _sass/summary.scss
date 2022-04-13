@@ -89,23 +89,3 @@
         }
     }
 }
-
-.summary-list {
-    padding: 0 1rem;
-
-    &__item {
-        list-style: none;
-    }
-
-    &__link span:first-child {
-        color: $medium-gray;
-    }
-
-    &__link span:last-child {
-        color: $dark-gray;
-    }
-
-    &__link:hover span {
-        color: $primary-clr;
-    }
-}

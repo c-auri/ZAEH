@@ -6,16 +6,21 @@ permalink:
 
 <section class="page__section">
 
-    <header>
+    <header class="details__header">
         <h1 class="h1">{{ page.name }}</h1>
     </header>
 
-    <h2>Gelesene Kapitel ({{ summaries.size }}):</h2>
+    <section class="details__summaries">
 
-    <ul class="summary-list">
-        {% for summary in summaries %}
-        {% include summary-link.html %}
-        {% endfor %}
-    </ul>
+        <header>
+            <h2 class="h2">Zusammenfassungen ({{ summaries.size }})</h2>
+        </header>
+    
+        <ul class="summary-list">
+            {% for summary in summaries %}
+            {% include summary-link.html %}
+            {% endfor %}
+        </ul>
+    </section>
 
 </section>

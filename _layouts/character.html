@@ -1,41 +1,59 @@
 ---
 layout: default
 ---
-<section class="page__section">
+<section class="page__section details">
 
-    <header>
+    <header class="details__header">
         <h1 class="h1">{{ page.title }}</h1>
     </header>
 
-    <p>
-        {{ page.group -}}
-        {% if page.rank -%}
-            , {{ page.rank -}} 
-        {% endif %}
-        {%- if page.info -%}
-            , {{ page.info -}} 
-        {% endif %}
-        {%- if page.full_name %}
-        <br> Vollständiger Name: {{ page.full_name }}
-        {% endif %}
-        {%- if page.call_name %}
-        <br> Rufname: {{ page.call_name }}
-        {% endif %}
-        {%- if page.birth_name %}
-        <br> Geboren: {{ page.birth_name }}
-        {% endif %}
-    </p>
+    {%- if page.info -%}
+        <p class="details__description">{{ page.info -}}</p>
+    {% endif %}
 
-    <h2>Kapitel:</h2>
+    <div class="details__info">
 
-    {% assign summaries = site.summaries | sort: 'chapter' %}
+        {% if page.noble %}
+        <span>Titel</span>
+        <span>{{ page.noble }}</span>
+        {% endif %}
 
-    <ul class="summary-list">
-        {% for summary in summaries %}
-            {% if summary.characters contains page.alias %}
-            {% include summary-link.html %}
-            {% endif %}
-        {% endfor %}
-    </ul>
+        {% if page.full_name %}
+        <span>vollst. Name</span>
+        <span>{{ page.full_name }}</span>
+        {% endif %}
+
+        {% if page.birth_name %}
+        <span>Geboren</span>
+        <span>{{ page.birth_name }}</span>
+        {% endif %}
+
+        <span>Zugehörigkeit</span>
+        <span>{{ page.group }}</span>
+
+        {% if page.rank %}
+        <span>Rang</span>
+        <span>{{ page.rank }}</span>
+        {% endif %}
+
+    </div>
+
+    <section class="details__summaries">
+
+        <header>
+            <h2 class="h2">Vorkommnisse</h2>
+        </header>
+        
+        {% assign summaries = site.summaries | sort: 'chapter' %}
+    
+        <ul class="summary-list">
+            {% for summary in summaries %}
+                {% if summary.characters contains page.alias %}
+                {% include summary-link.html %}
+                {% endif %}
+            {% endfor %}
+        </ul>
+
+    </section>
 
 </section>
