@@ -55,7 +55,7 @@ body {
         display: flex;
         justify-content: space-between;
         font-size: clamp(1rem, calc(.1rem + 2.5vw), 1.25rem);
-        font-weight: 500;
+        font-weight: bold;
         font-family: $ff-sans;
         user-select: none;
         background-color: $primary-clr;
@@ -64,7 +64,7 @@ body {
             color: $almost-white;
             text-decoration: none;
         }
-    
+
         a:hover {
             color: $white;
         }
@@ -74,7 +74,8 @@ body {
         a:hover::after {
             content: '';
             margin: 0 auto;
-            height: 1px;
+            padding-top: 1px;
+            height: 2px;
             width: 90%;
             display: block;
             background: $almost-white;
