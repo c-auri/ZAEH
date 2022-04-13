@@ -1,11 +1,11 @@
 var leaderboard, rows, switching, i, x, y, shouldSwitch;
-leaderboard = document.getElementById("leaderboard");
+leaderboard = document.getElementById("leaderboard").tBodies[0];
 
 switching = true;
 while (switching) {
     switching = false;
     rows = leaderboard.rows;
-    for (i = 1; i < (rows.length - 1); i++) {
+    for (i = 0; i < (rows.length - 1); i++) {
         shouldSwitch = false;
         firstScore = rows[i].getElementsByTagName("TD")[0];
         secondScore = rows[i + 1].getElementsByTagName("TD")[0];

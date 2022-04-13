@@ -1,4 +1,4 @@
-.index {
+table {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -31,6 +31,7 @@
     }
 
     thead {
+        color: $dark-gray;
         background-color: $almost-white;
 
         tr:first-child {
@@ -53,7 +54,6 @@
         }
     }
 }
-
 
 .empty-row {
     height: 10px !important;

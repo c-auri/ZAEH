@@ -1,0 +1,31 @@
+@media (min-width: $bp-2) {
+    .overview {
+        display: grid;
+        grid-gap: $grid-gap;
+        grid-template-columns: 3fr 1fr;
+
+        header,
+        nav {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    
+        .overview__left,
+        footer {
+            grid-column: 1;
+        }
+
+        .overview__right {
+            display: block;
+            grid-column: 2;
+        }
+    }
+}
+
+.overview__right {
+    display: none;
+}
+
+#leaderboard {
+    margin-bottom: 10px;
+}
