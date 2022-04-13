@@ -11,33 +11,37 @@ id: reading-version
 {% assign summary = site.summaries | where: 'chapter', chapter.number | first %}
 {% if summary %}
 
-<section class="page__section summary">
-
-    <header class="summary__header--reading">
+    {% if current_book != chapter.book_number or current_part != chapter.part_number %}
+    <div class="page__section part-marker">
 
         {% if current_book != chapter.book_number %}
         {% assign current_book = chapter.book_number %}
-        <h2 class="h1">{{ chapter.book_name }}</h2>
-        {% endif %}
-    
-        {% if current_part != chapter.part_number %}
-        {% assign current_part = chapter.part_number %}
-        <h3 class="h2">{{ chapter.part_name_in_book }}</h3>
+        <h2 class="book">{{ chapter.book_name }}</h2>
         {% endif %}
         
-        <h4 class="h3">
-            <span class="summary__enumeration">Kapitel {{ chapter.number_in_part }}</span>
-            <br>
-            <a class="summary__title" href="{{ summary.url }}">{{ summary.title }}</a>
-        </h4>
+        {% if current_part != chapter.part_number %}
+        {% assign current_part = chapter.part_number %}
+        <h3 class="part">{{ chapter.part_name_in_book }}</h3>
+        {% endif %}
 
-    </header>
+    </div>
+    {% endif %}
 
-    {{ summary.content }}
+    <section class="page__section summary">
 
-    {% include summary-footer.html %}
+        <header>
+            <h4 class="h3">
+                <span class="summary__enumeration">Kapitel {{ chapter.number_in_part }}</span>
+                <br>
+                <a class="summary__title" href="{{ summary.url }}">{{ summary.title }}</a>
+            </h4>
+        </header>
 
-</section>
+        {{ summary.content }}
+        
+        {% include summary-footer.html %}
+
+    </section>
 
 {% endif %}
 {% endfor %}

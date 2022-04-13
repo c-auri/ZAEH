@@ -1,3 +1,23 @@
+.part-marker {
+    color: $black;
+    background-color: $almost-white;
+}
+
+.book,
+.part {
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.book {
+    font-size: var(--fs-1000);
+}
+
+.part {
+    font-size: var(--fs-800);
+}
+
 .summary {
     padding-top: 3rem;
     padding-bottom: 1rem;
