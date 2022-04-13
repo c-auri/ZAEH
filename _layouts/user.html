@@ -12,13 +12,9 @@ permalink:
 
     <h2>Gelesene Kapitel ({{ summaries.size }}):</h2>
 
-    <ul>
+    <ul class="summary-list">
         {% for summary in summaries %}
-        {% assign chapter = site.data.chapters | where: 'number', summary.chapter | first %}
-        <li>
-            <a class="summary__link" href="{{ summary.url }}">{{ summary.title }}</a>,
-            <span class="summary__metadata">{{ chapter.book_name }}, {{ chapter.part_name_in_book }}, Kapitel {{ chapter.number }}</span>
-        </li>
+        {% include summary-link.html %}
         {% endfor %}
     </ul>
 

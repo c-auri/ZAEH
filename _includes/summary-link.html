@@ -1,0 +1,13 @@
+{% assign chapter = site.data.chapters | find: 'number', summary.chapter %}
+{% if chapter.book_number == 5 %}
+{% assign book_id = 'E' %}
+{% else %}
+{% assign book_id = chapter.book_number %}
+{% endif %}
+
+<li class="summary-list__item">
+    <a class="summary-list__link" href="{{ summary.url }}">
+        <span>B{{ book_id }} T{{ chapter.part_number_in_book }} K{{ chapter.number_in_part | prepend: '0' | slice: -2, 2 }}: </span>
+        <span>{{ summary.title }}</span>
+    </a>
+</li>

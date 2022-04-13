@@ -30,10 +30,6 @@
     margin: 1rem auto;
 }
 
-.summary__link:hover {
-    color: $primary-clr;
-}
-
 .summary__enumeration {
     font-size: var(--fs-500);
     font-weight: bold;
@@ -91,5 +87,25 @@
             padding-left: .25rem;
             opacity: .7;
         }
+    }
+}
+
+.summary-list {
+    padding: 0 1rem;
+
+    &__item {
+        list-style: none;
+    }
+
+    &__link span:first-child {
+        color: $medium-gray;
+    }
+
+    &__link span:last-child {
+        color: $dark-gray;
+    }
+
+    &__link:hover span {
+        color: $primary-clr;
     }
 }
