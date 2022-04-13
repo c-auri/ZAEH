@@ -30,12 +30,16 @@
 }
 
 .character__link {
-    color: inherit;
+    color: $almost-black;
 
     &--summary:hover {
         color: $primary-clr;
         text-decoration: underline;
     }
+}
+
+.character__info {
+    color: $dark-gray;
 }
 
 .character__link:hover {
@@ -48,10 +52,6 @@
 
 .characters__group {
     padding: 1rem 0;
-}
-
-.character__info {
-    color: $dark-gray;
 }
 
 @media (min-width: $bp-2) {
