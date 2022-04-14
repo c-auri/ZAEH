@@ -19,12 +19,7 @@ id: blog
 
         </header>
 
-        <div class="summary__metadata">
-
-            {% include summary-source.html %}
-
-        </div>
-
+        {% include summary-metadata.html %}
 
         {{ summary.excerpt | truncatewords: 30 }}
 

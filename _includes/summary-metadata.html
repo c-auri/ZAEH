@@ -1,0 +1,36 @@
+{% if page.id == 'blog' %}
+    {% assign author-name = summary.author %}
+    {% assign date = summary.date %}
+    {% assign characters = summary.characters %}
+{% else %}
+    {% assign author-name = page.author %}
+    {% assign date = page.date %}
+    {% assign characters = page.characters %}
+{% endif %}
+
+{% assign author = site.users | find: 'name', author-name %}
+
+<div class="summary__metadata">
+
+    <p>
+        von <a class="author__link" href="{{ author.url }}">{{ author.name }}</a>
+        am {{ date | date: "%-d.%-m.%Y" }}
+    </p>
+
+    {% if characters %}
+
+    <p>
+        Charaktere:
+        {% for alias in characters %}
+            {% for character in site.characters -%}
+                {%- if character.alias == alias -%}
+                    <a class="character__link--summary" href="{{ character.url }}">{{- character.alias -}}</a>
+                {%- endif -%}
+            {%- endfor -%}
+            {%- unless forloop.last -%},{%- endunless -%}
+        {% endfor %}
+    </p>
+
+</div>
+
+{% endif %}
