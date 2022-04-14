@@ -38,22 +38,16 @@ layout: default
 
     </div>
 
-    <section class="details__summaries">
-
-        <header>
-            <h2 class="h2">Vorkommnisse</h2>
-        </header>
-        
-        {% assign summaries = site.summaries | sort: 'chapter' %}
+    <h2 class="h2">Vorkommnisse</h2>
     
-        <ul class="summary-list">
-            {% for summary in summaries %}
-                {% if summary.characters contains page.alias %}
-                {% include summary-link.html %}
-                {% endif %}
-            {% endfor %}
-        </ul>
+    {% assign summaries = site.summaries | sort: 'chapter' %}
 
-    </section>
+    <ul class="summary-list">
+        {% for summary in summaries %}
+            {% if summary.characters contains page.alias %}
+            {% include summary-link.html %}
+            {% endif %}
+        {% endfor %}
+    </ul>
 
 </section>

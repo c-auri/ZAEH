@@ -4,23 +4,18 @@ permalink:
 ---
 {% assign summaries = site.summaries | where: 'author', page.name %}
 
-<section class="page__section">
+<section class="page__section details">
 
     <header class="details__header">
         <h1 class="h1">{{ page.name }}</h1>
     </header>
 
-    <section class="details__summaries">
-
-        <header>
-            <h2 class="h2">Zusammenfassungen ({{ summaries.size }})</h2>
-        </header>
+    <h2 class="h2">Zusammenfassungen ({{ summaries.size }})</h2>
     
-        <ul class="summary-list">
-            {% for summary in summaries %}
-            {% include summary-link.html %}
-            {% endfor %}
-        </ul>
-    </section>
+    <ul class="summary-list">
+        {% for summary in summaries %}
+        {% include summary-link.html %}
+        {% endfor %}
+    </ul>
 
 </section>

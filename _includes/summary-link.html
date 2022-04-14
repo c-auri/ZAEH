@@ -5,7 +5,7 @@
 {% assign book_id = chapter.book_number %}
 {% endif %}
 
-<li class="summary-list__item">
+<li>
     <a class="summary-list__link" href="{{ summary.url }}">
         <span>B{{ book_id }} T{{ chapter.part_number_in_book }} K{{ chapter.number_in_part | prepend: '0' | slice: -2, 2 }} </span>
         <span>{{ summary.title }}</span>
