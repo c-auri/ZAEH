@@ -6,11 +6,11 @@ id: blog
 {% assign summaries = site.summaries | sort: 'date_written' | reverse %}
 {% for summary in summaries %}
     {% assign chapter = site.data.chapters | where: 'number', summary.chapter | first %}
-    {% assign author = site.users | where: 'name', summary.author | first %}
 
 <section class="page__section summary">
 
     <header class="summary__header">
+
         {% include summary-enumeration.html %}
         <a class="summary__title" href="{{ summary.url }}">
             <h2 class="h1">{{ summary.title }}</h2>
@@ -19,15 +19,11 @@ id: blog
     </header>
 
     <div class="summary__metadata">
-        <p>
-            
-            von <a class="author__link" href="{{ author.url }}">{{ author.name }}</a> am 
-            <span 
-            title='Verfasst {{ summary.date_written  | date: "%-d.%-m.%Y, %R" }}&#13;Abgerufen {{ summary.date_copied | date: "%-d.%-m.%Y, %R"}}'>
-                    {{ summary.date_written | date: "%-d.%-m.%Y" }}
-            </span>
-        </p>
+
+        {% include summary-source.html %}
+
     </div>
+
 
     {{ summary.excerpt | truncatewords: 30 }}
 
