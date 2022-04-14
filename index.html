@@ -1,104 +1,107 @@
 ---
 title: Krieg und Frieden - Index
-layout: index
 ---
-<main class="overview__left">
+<div class="index">
 
-        {% assign chapters = site.data.chapters | sort: 'number' %}
-        {% assign current_book = 0 %}
-        <table class="highlight-hover">
-        {% for chapter in chapters %}
-            {% if current_book != chapter.book_number %}
-                {% assign current_book = chapter.book_number %}
-                {% unless current_book == 1 %}
-                <tr class="empty-row"></tr>
-            </tbody>
-                {% endunless %}
+    <div class="index__left">
+    
+            {% assign chapters = site.data.chapters | sort: 'number' %}
+            {% assign current_book = 0 %}
+            <table class="highlight-hover">
+            {% for chapter in chapters %}
+                {% if current_book != chapter.book_number %}
+                    {% assign current_book = chapter.book_number %}
+                    {% unless current_book == 1 %}
+                    <tr class="empty-row"></tr>
+                </tbody>
+                    {% endunless %}
+                <thead>
+                    <tr>
+                        <th colspan="6">{{ chapter.book_name }}</th>
+                    </tr>
+                    <tr>
+                        <th colspan="2" class="optional-column">Fortl.</th>
+                        <th colspan="2">Im Buch</th>
+                        <th rowspan="2">Titel</th>
+                        <th rowspan="2" class="optional-column">Autor</th>
+                    </tr>
+                    <tr>
+                        <th class="mouseover optional-column" title="Teil">T</th>
+                        <th class="mouseover optional-column" title="Kapitel">K</th>
+                        <th class="mouseover" title="Teil">T</th>
+                        <th class="mouseover" title="Kapitel">K</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                {% endif %}
+                    
+                {% assign summary = site.summaries | find: 'chapter', chapter.number %}
+                {% if summary %}
+                    {% assign author = site.users | find: 'name', summary.author %}
+                    <tr>
+                        <td class="optional-column text-align-center">{{ chapter.part_number }}</td>
+                        <td class="optional-column text-align-center">{{ chapter.number }}</td>
+                        <td class="text-align-center">{{ chapter.part_number_in_book }}</td>
+                        <td class="text-align-center">{{ chapter.number_in_part }}</td>
+                        <td><a href="{{ summary.url }}">{{ summary.title }}</a></td>
+                        <td class="optional-column"><a href="{{ author.url }}">{{ author.name }}</a></td>
+                    </tr>
+                {% endif %}
+            
+            {% endfor %}
+            </table>
+        
+    </div>
+    
+    <div class="index__right">
+    
+        <table class="highlight-hover" id="leaderboard">
+    
             <thead>
                 <tr>
-                    <th colspan="6">{{ chapter.book_name }}</th>
+                    <th colspan="2">
+                        Mitwirkende
+                    </th>
                 </tr>
                 <tr>
-                    <th colspan="2" class="optional-column">Fortl.</th>
-                    <th colspan="2">Im Buch</th>
-                    <th rowspan="2">Titel</th>
-                    <th rowspan="2" class="optional-column">Autor</th>
-                </tr>
-                <tr>
-                    <th class="mouseover optional-column" title="Teil">T</th>
-                    <th class="mouseover optional-column" title="Kapitel">K</th>
-                    <th class="mouseover" title="Teil">T</th>
-                    <th class="mouseover" title="Kapitel">K</th>
+                    <th class="mouseover" title="Anzahl Beiträge">#</th>
+                    <th class="text-align-left">Name</th>
                 </tr>
             </thead>
-
+    
             <tbody>
-            {% endif %}
-                
-            {% assign summary = site.summaries | find: 'chapter', chapter.number %}
-            {% if summary %}
-                {% assign author = site.users | find: 'name', summary.author %}
+                {% for user in site.users %}
                 <tr>
-                    <td class="optional-column text-align-center">{{ chapter.part_number }}</td>
-                    <td class="optional-column text-align-center">{{ chapter.number }}</td>
-                    <td class="text-align-center">{{ chapter.part_number_in_book }}</td>
-                    <td class="text-align-center">{{ chapter.number_in_part }}</td>
-                    <td><a href="{{ summary.url }}">{{ summary.title }}</a></td>
-                    <td class="optional-column"><a href="{{ author.url }}">{{ author.name }}</a></td>
+                    {% assign summaries = site.summaries | where: 'author', user.name %}
+                    <td class="text-align-center">{{ summaries.size }}</td>
+                    <td><a href="{{ user.url }}">{{ user.name }}</a></td>
                 </tr>
-            {% endif %}
-        
-        {% endfor %}
+                {% endfor %}
+            </tbody>
+    
         </table>
     
-</main>
+        <table class="page__section status text-align-center">
+    
+            <thead>
+                <tr>
+                    <th>Status</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td>
+                        {{ site.summaries | size}} von {{ chapters | size }} Kapiteln
+                    </td>
+                </tr>
+            </tbody>
+    
+        </table>
+    
+    </div>
 
-<aside class="overview__right">
-
-    <table class="highlight-hover" id="leaderboard">
-
-        <thead>
-            <tr>
-                <th colspan="2">
-                    Mitwirkende
-                </th>
-            </tr>
-            <tr>
-                <th class="mouseover" title="Anzahl Beiträge">#</th>
-                <th class="text-align-left">Name</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            {% for user in site.users %}
-            <tr>
-                {% assign summaries = site.summaries | where: 'author', user.name %}
-                <td class="text-align-center">{{ summaries.size }}</td>
-                <td><a href="{{ user.url }}">{{ user.name }}</a></td>
-            </tr>
-            {% endfor %}
-        </tbody>
-
-    </table>
-
-    <table class="page__section status text-align-center">
-
-        <thead>
-            <tr>
-                <th>Status</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>
-                    {{ site.summaries | size}} von {{ chapters | size }} Kapiteln
-                </td>
-            </tr>
-        </tbody>
-
-    </table>
-
-</aside>
+</div>
 
 <script src="/assets/js/sortLeaderboard.js" defer></script>
