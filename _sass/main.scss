@@ -144,8 +144,18 @@ a:hover {
     color: inherit;
 }
 
+.mouseover {
+    cursor: help;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
 .text-align-center {
     text-align: center;
+}
+
+.text-align-left {
+    text-align: left;
 }
 
 @media (min-width: $bp-1) {
