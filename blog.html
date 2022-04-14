@@ -6,7 +6,7 @@ id: blog
 {% assign summaries = site.summaries | sort: 'date' | reverse %}
 {% for summary in summaries %}
 
-    {% assign chapter = site.data.chapters | where: 'number', summary.chapter | first %}
+    {% assign chapter = site.data.chapters | find: 'number', summary.chapter %}
 
     <section class="page__section summary">
 

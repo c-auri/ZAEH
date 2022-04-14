@@ -13,28 +13,30 @@ layout: default
 
     <div class="details__info">
 
-        {% if page.noble %}
+    {% if page.noble %}
         <span>Titel</span>
         <span>{{ page.noble }}</span>
-        {% endif %}
+    {% endif %}
 
-        {% if page.full_name %}
+    {% if page.full_name %}
         <span>vollst. Name</span>
         <span>{{ page.full_name }}</span>
-        {% endif %}
+    {% endif %}
 
-        {% if page.birth_name %}
+    {% if page.birth_name %}
         <span>Geboren</span>
         <span>{{ page.birth_name }}</span>
-        {% endif %}
+    {% endif %}
 
+    {% if page.group %}
         <span>Zugehörigkeit</span>
         <span>{{ page.group }}</span>
+    {% endif %}
 
-        {% if page.rank %}
+    {% if page.rank %}
         <span>Rang</span>
         <span>{{ page.rank }}</span>
-        {% endif %}
+    {% endif %}
 
     </div>
 
@@ -43,11 +45,11 @@ layout: default
     {% assign summaries = site.summaries | sort: 'chapter' %}
 
     <ul class="summary-list">
-        {% for summary in summaries %}
-            {% if summary.characters contains page.alias %}
-            {% include summary-link.html %}
-            {% endif %}
-        {% endfor %}
+    {% for summary in summaries %}
+        {% if summary.characters contains page.alias %}
+        {% include summary-link.html %}
+        {% endif %}
+    {% endfor %}
     </ul>
 
 </section>

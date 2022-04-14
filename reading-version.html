@@ -8,7 +8,7 @@ id: reading-version
 {% assign current_part = 0 %}
 
 {% for chapter in chapters %}
-{% assign summary = site.summaries | where: 'chapter', chapter.number | first %}
+{% assign summary = site.summaries | find: 'chapter', chapter.number %}
 {% if summary %}
 
     {% if current_book != chapter.book_number or current_part != chapter.part_number %}

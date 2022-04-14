@@ -4,17 +4,16 @@ layout: index
 ---
 <main class="overview__left">
 
-    <div>
         {% assign chapters = site.data.chapters | sort: 'number' %}
         {% assign current_book = 0 %}
         <table class="highlight-hover">
-            {% for chapter in chapters %}
+        {% for chapter in chapters %}
             {% if current_book != chapter.book_number %}
-            {% assign current_book = chapter.book_number %}
-            {% unless current_book == 1 %}
-            <tr class="empty-row"></tr>
+                {% assign current_book = chapter.book_number %}
+                {% unless current_book == 1 %}
+                <tr class="empty-row"></tr>
             </tbody>
-            {% endunless %}
+                {% endunless %}
             <thead>
                 <tr>
                     <th colspan="6">{{ chapter.book_name }}</th>
@@ -32,6 +31,7 @@ layout: index
                     <th class="mouseover" title="Kapitel">K</th>
                 </tr>
             </thead>
+
             <tbody>
             {% endif %}
                 
@@ -51,8 +51,6 @@ layout: index
         {% endfor %}
         </table>
     
-    </div>
-
 </main>
 
 <aside class="overview__right">
@@ -84,11 +82,13 @@ layout: index
     </table>
 
     <table class="page__section status text-align-center">
+
         <thead>
             <tr>
                 <th>Status</th>
             </tr>
         </thead>
+
         <tbody>
             <tr>
                 <td>
@@ -96,6 +96,7 @@ layout: index
                 </td>
             </tr>
         </tbody>
+
     </table>
 
 </aside>

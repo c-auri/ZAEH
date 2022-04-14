@@ -5,21 +5,27 @@
 {% endif %}
 
 <footer class="summary__footer">
+
     {% if page.id == 'blog' %}
     <a class="summary__footer__more" href="{{ summary.url }}">
         weiterlesen
     </a>
     {% endif %}
+
     <span class="summary__footer__icons">
+
         <a 
             href="{% include thread_url.html %}?postID={{ postID }}#post{{ postID }}"
             title="Zum Forenpost">
             &#8619;
         </a>
+
         <a 
             href="#top" 
             title="Zum Seitenanfang">
             &uarr;
         </a>
+
     </span>
+
 </footer>
