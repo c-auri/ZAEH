@@ -4,6 +4,8 @@ permalink: charaktere
 ---
 <div class="page__section characters">
 
+    {% for i in (1..2) %}
+
     <div class="characters__column">
 
         {% assign groups = site.groups | sort: 'priority' %}
@@ -39,39 +41,6 @@ permalink: charaktere
 
     </div>
 
-    <div class="characters__column">
-
-        {% assign groups = site.groups | sort: 'priority' %}
-        {% for group in groups %}
-    
-        <section class="characters__group">
-    
-            <header>
-                <h2 class="h3">{{ group.title }}</h2>
-            </header>
-        
-            {% assign characters = site.characters | where: 'group', group.title | sort: 'priority' %}
-            {% for character in characters  %}
-            <p class="character">
-                <a class="character__link" href="{{ character.url }}">
-                    {% if character.noble %}
-                        {{ character.noble }}
-                    {% endif %}
-                    {% if character.rank %}
-                        {{ character.rank }}
-                    {% endif %}
-                    {{ character.name -}}
-                    {%- if character.info -%}
-                    , <span class="character__info">{{ character.info }}</span>
-                    {% endif %}
-                </a>
-            </p>
-            {% endfor %}
-    
-        </section>
-    
-        {% endfor %}
-
-    </div>
+    {% endfor %}
 
 </section>
