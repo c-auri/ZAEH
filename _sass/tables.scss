@@ -7,7 +7,7 @@ table {
     border-collapse: collapse;
     
     a:hover {
-        color: $almost-white;
+        color: $white;
     }
     
     thead tr th,
@@ -58,7 +58,7 @@ table {
 
 table.highlight-hover {
     tbody tr:hover {
-        background-color: $primary-clr-tint-2;
+        background-color: $primary-clr-tint-4;
     }
 }
 

@@ -32,10 +32,14 @@
     &__link span:first-child {
         color: $dark-gray;
     }
-
-    &__link:hover span {
-        color: $primary-clr;
+    
+    &__link:hover span:first-child {
+        color: $primary-clr-tint-3;
     }
+    
+        &__link:hover span:last-child {
+            color: $primary-clr;
+        }
 }
 
 @media (min-width: $bp-2) {

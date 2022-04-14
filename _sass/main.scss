@@ -93,7 +93,7 @@ body {
     &__footer {
         margin-bottom: 3rem;
         padding: 1rem 0;
-        color: $light-gray;
+        color: $almost-white;
         font-family: $ff-sans;
         background-color: $medium-light-gray;
 
@@ -102,7 +102,7 @@ body {
         }
 
         a:hover {
-            color: $primary-clr-tint-1;
+            color: $primary-clr-tint-2;
         }
     }
 }
