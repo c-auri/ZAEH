@@ -46,8 +46,8 @@
 @media (min-width: $bp-2) {
     .characters {
         padding-top: 5rem;
-        padding-bottom: 3rem;
-        padding-inline: 7rem;
+        padding-bottom: 10rem;
+        padding-inline: $padding-inline;
         grid-template-columns: 1fr 1fr;
         grid-gap: 2rem 0;
     }
