@@ -51,12 +51,12 @@
     margin: 1rem auto;
 }
 
-.summary__enumeration {
+.summary__number {
     font-size: var(--fs-500);
     font-weight: bold;
 }
 
-.summary__enumeration,
+.summary__number,
 .summary__metadata,
 .summary__characters {
     color: $dark-gray;
