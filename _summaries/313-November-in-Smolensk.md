@@ -1,8 +1,7 @@
 ---
 title: November in Smolensk
 author: roterbaron
-date_written: 2022-02-15T21:36:00UTC+1
-date_copied: 2022-02-15T21:45:00UTC+1
+date: 2022-02-15T21:36:00UTC+1
 postID: 1575097
 chapter: 313
 characters: [ ]

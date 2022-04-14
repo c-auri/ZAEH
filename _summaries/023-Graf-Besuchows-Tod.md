@@ -1,8 +1,7 @@
 ---
 title: Graf Besuchows Tod
 author: Rob
-date_written: 2022-01-17T20:59:00UTC+1
-date_copied: 2022-01-19T13:20:00UTC+1
+date: 2022-01-17T20:59:00UTC+1
 postID: 1573796
 chapter: 23
 characters: [ Pierre, Graf Besuchow, Anna Michailowna, Prinzessin Sophie  ]

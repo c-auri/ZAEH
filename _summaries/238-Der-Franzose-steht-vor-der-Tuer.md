@@ -1,8 +1,7 @@
 ---
 title: Der Franzose steht vor der Tür
 author: Dumbaz
-date_written: 2022-01-22T12:04:00UTC+1
-date_copied: 2022-01-22T16:26:00UTC+1
+date: 2022-01-22T12:04:00UTC+1
 postID: 1574123
 chapter: 238
 characters: [ Pierre, Rastoptschin, Wereschtschagin ]

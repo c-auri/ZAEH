@@ -1,8 +1,7 @@
 ---
 title: Donau Dreamin' im Diwanzimmer
 author: myplaren
-date_written: 2022-01-19T09:34:00UTC+1
-date_copied: 2022-01-19T13:57:00UTC+1
+date: 2022-01-19T09:34:00UTC+1
 postID: 1573904
 chapter: 192
 characters: [ Fürst Bolkonskij, Alpatytsch, Andrej ]

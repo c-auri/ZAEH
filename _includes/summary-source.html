@@ -1,9 +1,9 @@
 {% if page.id == 'blog' %}
     {% assign author-name = summary.author %}
-    {% assign date = summary.date_written %}
+    {% assign date = summary.date %}
 {% else %}
     {% assign author-name = page.author %}
-    {% assign date = page.date_written %}
+    {% assign date = page.date %}
 {% endif %}
 
 {% assign author = site.users | find: 'name', author-name %}

@@ -1,8 +1,7 @@
 ---
 title: Pierre und die Maschinerie des Krieges
 author: Zagdil
-date_written: 2022-01-24T08:44:00UTC+1
-date_copied: 2022-01-24T20:02:00UTC+1
+date: 2022-01-24T08:44:00UTC+1
 postID: 1574187
 chapter: 291
 characters: [ Pierre ]

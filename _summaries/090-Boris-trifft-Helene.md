@@ -1,8 +1,7 @@
 ---
 title: Boris trifft Helene
 author: lubold
-date_written: 2022-01-16T23:18:00UTC+1
-date_copied: 2022-01-19T12:19:00UTC+1
+date: 2022-01-16T23:18:00UTC+1
 postID: 1573748
 chapter: 90
 characters: [ Anna Pawlowna, Boris, Helene, Pierre  ]

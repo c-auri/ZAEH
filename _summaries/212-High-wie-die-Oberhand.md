@@ -1,8 +1,7 @@
 ---
 title: High wie die Oberhand
 author: Zagdil
-date_written: 2022-01-26T21:00:00UTC+1
-date_copied: 2022-01-26T22:16:00UTC+1
+date: 2022-01-26T21:00:00UTC+1
 postID: 1574269
 chapter: 212
 characters: [ Pierre, Bennigsen, Kutusow ]

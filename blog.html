@@ -3,32 +3,33 @@ title: Krieg und Frieden - Blog
 permalink: blog
 id: blog
 ---
-{% assign summaries = site.summaries | sort: 'date_written' | reverse %}
+{% assign summaries = site.summaries | sort: 'date' | reverse %}
 {% for summary in summaries %}
+
     {% assign chapter = site.data.chapters | where: 'number', summary.chapter | first %}
 
-<section class="page__section summary">
+    <section class="page__section summary">
 
-    <header class="summary__header">
+        <header class="summary__header">
 
-        {% include summary-enumeration.html %}
-        <a class="summary__title" href="{{ summary.url }}">
-            <h2 class="h1">{{ summary.title }}</h2>
-        </a>
+            {% include summary-enumeration.html %}
+            <a class="summary__title" href="{{ summary.url }}">
+                <h2 class="h1">{{ summary.title }}</h2>
+            </a>
 
-    </header>
+        </header>
 
-    <div class="summary__metadata">
+        <div class="summary__metadata">
 
-        {% include summary-source.html %}
+            {% include summary-source.html %}
 
-    </div>
+        </div>
 
 
-    {{ summary.excerpt | truncatewords: 30 }}
+        {{ summary.excerpt | truncatewords: 30 }}
 
-    {% include summary-footer.html %}
+        {% include summary-footer.html %}
 
-</section>
+    </section>
 
 {% endfor %}

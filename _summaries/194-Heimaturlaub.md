@@ -1,8 +1,7 @@
 ---
 title: Heimaturlaub
 author: THC-Veraechter
-date_written: 2022-01-18T23:05:00UTC+1
-date_copied: 2022-01-19T13:44:00UTC+1
+date: 2022-01-18T23:05:00UTC+1
 postID: 1573888
 chapter: 194
 characters: [ Andrej, Alpatytsch, Bagration, Alexej Andrejewitsch ]

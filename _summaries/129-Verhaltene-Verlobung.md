@@ -1,9 +1,8 @@
 ---
 title: Verhaltene Verlobung
-date_written: 2022-01-22T21:51:00UTC+1
-date_copied: 2022-01-22T23:07:00UTC+1
-postID: 1574131
 author: blutgarten
+date: 2022-01-22T21:51:00UTC+1
+postID: 1574131
 chapter: 129
 characters: [ Andrej, Natascha, Pierre, Gräfin Rostow, Graf Rostow, Sonja, Nikolaj ]
 ---

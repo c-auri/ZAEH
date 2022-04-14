@@ -1,8 +1,7 @@
 ---
 title: Keime der Zersetzung
 author: blutgarten
-date_written: 2022-04-11T10:32:00UTC+1
-date_copied: 2022-04-13T13:59:00UTC+1
+date: 2022-04-11T10:32:00UTC+1
 postID: 1576657
 chapter: 296
 characters: [ 

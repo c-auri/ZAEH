@@ -1,8 +1,7 @@
 ---
 title: Gotteslästerung
 author: Grimm
-date_written: 2022-02-03T07:50:00UTC+1
-date_copied: 2022-02-03T15:25:00UTC+1
+date: 2022-02-03T07:50:00UTC+1
 postID: 1574665
 chapter: 97
 characters: [ 

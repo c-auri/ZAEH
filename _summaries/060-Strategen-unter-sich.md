@@ -1,8 +1,7 @@
 ---
 title: Strategen unter sich
 author: THC-Veraechter
-date_written: 2022-02-02T16:44:00UTC+1
-date_copied: 2022-02-02T21:53:00UTC+1
+date: 2022-02-02T16:44:00UTC+1
 postID: 1574654
 chapter: 60
 characters: [ 

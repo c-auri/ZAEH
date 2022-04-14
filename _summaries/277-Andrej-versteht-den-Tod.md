@@ -1,8 +1,7 @@
 ---
 title: Andrej versteht den Tod
 author: myplaren
-date_written: 2022-01-18T10:05:00UTC+1
-date_copied: 2022-01-19T13:30:00UTC+1
+date: 2022-01-18T10:05:00UTC+1
 postID: 1573820
 chapter: 277
 characters: [ Andrej, Prinzessin Marja, Nikolenka, Natascha ]

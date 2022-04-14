@@ -1,8 +1,7 @@
 ---
 title: Diesseits von Gut und Böse
 author: l0sth0pe
-date_written: 2022-01-19T08:30:00UTC+1
-date_copied: 2022-01-19T13:54:00UTC+1
+date: 2022-01-19T08:30:00UTC+1
 postID: 1573900
 chapter: 315
 characters: [ Napoleon ]

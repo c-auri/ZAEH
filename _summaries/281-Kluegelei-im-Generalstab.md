@@ -1,8 +1,7 @@
 ---
 title: Klüngelei im Generalstab
 author: Apocalypso
-date_written: 2022-01-17T19:11:00UTC+1
-date_copied: 2022-01-19T13:16:00UTC+1
+date: 2022-01-17T19:11:00UTC+1
 postID: 1573782
 chapter: 281
 characters: [ Kutusow, Alexander I., Bagration, Bennigsen, Wintsigerode ]

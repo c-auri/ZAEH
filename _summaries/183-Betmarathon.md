@@ -1,8 +1,7 @@
 ---
 title: Betmarathon
 author: roterbaron
-date_written: 2022-01-19T23:38:00UTC+1
-date_copied: 2022-01-20T09:36:00UTC+1
+date: 2022-01-19T23:38:00UTC+1
 postID: 1573976
 chapter: 183
 characters: [ Natascha, Gräfin Rostow, Petja, Pierre ]

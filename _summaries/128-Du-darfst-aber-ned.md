@@ -1,8 +1,7 @@
 ---
 title: Du darfst aber ned
 author: Apocalypso
-date_written: 2022-02-12T16:51:00UTC+1
-date_copied: 2022-02-12T18:31:00UTC+1
+date: 2022-02-12T16:51:00UTC+1
 postID: 1575041
 chapter: 128
 characters: [ 

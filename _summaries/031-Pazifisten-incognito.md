@@ -1,8 +1,7 @@
 ---
 title: Pazifisten incognito
 author: Zagdil
-date_written: 2022-01-19T22:22:00UTC+1
-date_copied: 2022-01-20T09:20:00UTC+1
+date: 2022-01-19T22:22:00UTC+1
 postID: 1573965
 chapter: 31
 characters: [ Kutusow, Andrej ]

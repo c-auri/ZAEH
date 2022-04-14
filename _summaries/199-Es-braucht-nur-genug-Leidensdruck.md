@@ -1,8 +1,7 @@
 ---
 title: Es braucht nur genug Leidensdruck
 author: Jan
-date_written: 2022-01-19T23:27:00UTC+1
-date_copied: 2022-01-22T23:08:00UTC+1
+date: 2022-01-19T23:27:00UTC+1
 postID: 1573974
 chapter: 199
 characters: [ 

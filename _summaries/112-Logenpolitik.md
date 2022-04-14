@@ -1,8 +1,7 @@
 ---
 title: Logenpolitik
 author: myplaren
-date_written: 2022-01-21T14:18:00UTC+1
-date_copied: 2022-01-21T14:35:00UTC+1
+date: 2022-01-21T14:18:00UTC+1
 postID: 1574080
 chapter: 112
 characters: [ Pierre ]

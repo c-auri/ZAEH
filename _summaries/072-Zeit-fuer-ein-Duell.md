@@ -1,8 +1,7 @@
 ---
 title: Zeit für ein Duell
 author: blutgarten
-date_written: 2022-02-15T23:32:00UTC+1
-date_copied: 2022-02-016T10:50:00UTC+1
+date: 2022-02-15T23:32:00UTC+1
 postID: 1575101
 chapter: 72
 characters: [ 

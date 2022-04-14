@@ -1,8 +1,7 @@
 ---
 title: Wie Mücken in einer Sommernacht
 author: Bighead
-date_written: 2022-01-18T21:51:00UTC+1
-date_copied: 2022-01-19T13:40:00UTC+1
+date: 2022-01-18T21:51:00UTC+1
 postID: 1573885
 chapter: 331
 characters: [ Rastoptschin ]

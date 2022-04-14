@@ -1,8 +1,7 @@
 ---
 title: Weihnachten bei den Rostows
 author: Bighead
-date_written: 2022-01-30T19:35:00UTC+1
-date_copied: 2022-01-30T23:21:00UTC+1
+date: 2022-01-30T19:35:00UTC+1
 postID: 1574524
 chapter: 141
 characters: [ 

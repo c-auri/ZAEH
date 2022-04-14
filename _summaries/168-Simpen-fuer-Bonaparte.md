@@ -1,8 +1,7 @@
 ---
 title: Simpen für Bonaparte
 author: Zagdil
-date_written: 2022-01-18T23:13:00UTC+1
-date_copied: 2022-01-19T13:49:00UTC+1
+date: 2022-01-18T23:13:00UTC+1
 postID: 1573889
 chapter: 168
 characters: [ Napoleon, Marie-Louise ]

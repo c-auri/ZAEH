@@ -1,8 +1,7 @@
 ---
 title: Pfauentanz
 author: Zagdil
-date_written: 2022-01-30T21:59:00UTC+1
-date_copied: 2022-01-30T23:28:00UTC+1
+date: 2022-01-30T21:59:00UTC+1
 postID: 1574526
 chapter: 105
 characters: [ Nikolaj, Boris, Alexander I., Napoleon, Denissow ]

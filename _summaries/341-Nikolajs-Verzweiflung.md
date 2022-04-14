@@ -1,8 +1,7 @@
 ---
 title: Nikolajs Verzweiflung
 author: l0sth0pe
-date_written: 2022-01-18T15:30:00UTC+1
-date_copied: 2022-01-19T13:36:00UTC+1
+date: 2022-01-18T15:30:00UTC+1
 postID: 1573858
 chapter: 341
 characters: [ Nikolaj, Graf Rostow, Gräfin Rostow, Natascha, Pierre, Sonja ]

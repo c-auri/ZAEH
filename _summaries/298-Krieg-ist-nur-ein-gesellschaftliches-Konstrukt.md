@@ -1,8 +1,7 @@
 ---
 title: Krieg ist nur ein gesellschaftliches Konstrukt
 author: Rob
-date_written: 2022-01-18T15:28:00UTC+1
-date_copied: 2022-01-19T13:35:00UTC+1
+date: 2022-01-18T15:28:00UTC+1
 postID: 1573857
 chapter: 298
 characters: [ Napoleon, Alexander I., Kutusow, Fürst Bolkonskij, Graf Besuchow, Graf Rostow ]

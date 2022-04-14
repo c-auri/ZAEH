@@ -1,8 +1,7 @@
 ---
 title: Boris trifft Julie
 author: blutgarten
-date_written: 2022-01-17T06:45:00UTC+1
-date_copied: 2022-01-19T12:45:00UTC+1
+date: 2022-01-17T06:45:00UTC+1
 postID: 1573757
 chapter: 149
 characters: [ Boris, Julie, Anatol, Prinzessin Marja ]

@@ -1,9 +1,8 @@
 ---
 title: Gottes Wege sind unergründlich
-date_written: 2022-01-21T22:57:00UTC+1
-date_copied: 2022-01-21T12:54:00UTC+1
-postID: 1574115
 author: Zagdil
+date: 2022-01-21T22:57:00UTC+1
+postID: 1574115
 chapter: 130
 characters: [ 
     Natascha, 

@@ -1,8 +1,7 @@
 ---
 title: Zwei alte Seelen
 author: blutgarten
-date_written: 2022-04-11T05:02:00UTC+1
-date_copied: 2022-01-13T13:48:00UTC+1
+date: 2022-04-11T05:02:00UTC+1
 postID: 1576655
 chapter: 106
 characters: [ 

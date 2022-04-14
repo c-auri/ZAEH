@@ -1,8 +1,7 @@
 ---
 title: Konterrevolution
 author: Zagdil
-date_written: 2022-01-22T21:30:00UTC+1
-date_copied: 2022-01-22T22:19:00UTC+1
+date: 2022-01-22T21:30:00UTC+1
 postID: 1574130
 chapter: 202
 characters: [ Nikolaj, Prinzessin Marja ]

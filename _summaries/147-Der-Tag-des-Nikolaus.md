@@ -1,8 +1,7 @@
 ---
 title: Der Tag des Nikolaus
 author: blutgarten
-date_written: 2022-01-20T12:31:00UTC+1
-date_copied: 2022-01-22T10:57:00UTC+1
+date: 2022-01-20T12:31:00UTC+1
 postID: 1574010
 chapter: 147
 characters: [ 

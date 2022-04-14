@@ -1,8 +1,7 @@
 ---
 title: Realtalk nach der Bauchpinselung
 author: roterbaron
-date_written: 2022-02-12T13:18:00UTC+1
-date_copied: 2022-02-12T16:00:00UTC+1
+date: 2022-02-12T13:18:00UTC+1
 postID: 1575027
 chapter: 49
 characters: [ Nikolaj, Andrej, Bagration, Tuschin ]

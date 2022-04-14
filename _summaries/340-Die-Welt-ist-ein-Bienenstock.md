@@ -1,8 +1,7 @@
 ---
 title: Die Welt ist ein Bienenstock
 author: Dumbaz
-date_written: 2022-01-17T20:42:00UTC+1
-date_copied: 2022-01-19T13:18:00UTC+1
+date: 2022-01-17T20:42:00UTC+1
 postID: 1573794
 chapter: 340
 characters: [ Napoleon, Alexander I. ]

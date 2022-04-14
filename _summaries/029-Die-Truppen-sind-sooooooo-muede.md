@@ -1,8 +1,7 @@
 ---
 title: Die Truppen sind sooooooo müde
 author: Zagdil
-date_written: 2022-01-20T22:13:00UTC+1
-date_copied: 2022-01-20T23:08:00UTC+1
+date: 2022-01-20T22:13:00UTC+1
 postID: 1574049
 chapter: 29
 characters: [ Kutusow ]

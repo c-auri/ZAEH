@@ -1,8 +1,7 @@
 ---
 title: Nachricht für den Durchlauchtigen
 author: Zagdil
-date_written: 2022-01-23T22:32:00UTC+1
-date_copied: 2022-01-24T19:49:00UTC+1
+date: 2022-01-23T22:32:00UTC+1
 postID: 1574179
 chapter: 294
 characters: [ 

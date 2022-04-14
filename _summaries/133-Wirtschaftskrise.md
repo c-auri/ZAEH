@@ -1,8 +1,7 @@
 ---
 title: Wirtschaftskrise
 author: blutgarten
-date_written: 2022-01-23T11:55:00UTC+1
-date_copied: 2022-01-23T12:04:00UTC+1
+date: 2022-01-23T11:55:00UTC+1
 postID: 1574140
 chapter: 133
 characters: [ Nikolaj, Mitenka, Graf Rostow, Gräfin Rostow, Boris, Anna Michailowna ]

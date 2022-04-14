@@ -1,7 +1,6 @@
 ---
 title: Sleepover bei Maman
-date_written: 2022-01-18T09:03:00UTC+1
-date_copied: 2022-01-19T13:29:00UTC+1
+date: 2022-01-18T09:03:00UTC+1
 postID: 1573816
 author: Zagdil
 chapter: 118

@@ -1,8 +1,7 @@
 ---
 title: Eine reizende Doktorenfrau
 author: blutgarten
-date_written: 2022-02-17T18:31:00UTC+1
-date_copied: 2022-02-17T18:40:00UTC+1
+date: 2022-02-17T18:31:00UTC+1
 postID: 1575134
 chapter: 179
 characters: [ Nikolaj, Iljin, Marja Genrichowna, Lawrentin ]

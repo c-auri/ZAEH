@@ -1,8 +1,7 @@
 ---
 title: Stell dir vor es ist Krieg und keiner geht hin
 author: Zagdil
-date_written: 2022-01-17T22:12:00UTC+1
-date_copied: 2022-01-19T13:22:00UTC+1
+date: 2022-01-17T22:12:00UTC+1
 postID: 1573803
 chapter: 167
 characters: [ Napoleon, Alexander I., Herzog von Oldenburg ]

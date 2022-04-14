@@ -1,8 +1,7 @@
 ---
 title: Verletzter Überraschungsgast
 author: Sunslayer
-date_written: 2022-01-17T17:03:00UTC+1
-date_copied: 2022-01-19T12:59:00UTC+1
+date: 2022-01-17T17:03:00UTC+1
 postID: 1573772
 chapter: 242
 characters: [

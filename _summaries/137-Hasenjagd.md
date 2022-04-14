@@ -1,8 +1,7 @@
 ---
 title: Hasenjagd
 author: blutgarten
-date_written: 2022-01-31T19:55:00UTC+1
-date_copied: 2022-01-31T23:ß5:00UTC+1
+date: 2022-01-31T19:55:00UTC+1
 postID: 1574582
 chapter: 137
 characters: [ 

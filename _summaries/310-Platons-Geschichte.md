@@ -1,8 +1,7 @@
 ---
 title: Platons Geschichte
 author: THC-Veraechter
-date_written: 2022-02-11T0:24:00UTC+1
-date_copied: 2022-02-11T16:00:00UTC+1
+date: 2022-02-11T0:24:00UTC+1
 postID: 1574986
 chapter: 310
 characters: [ Pierre, Karatajew ]

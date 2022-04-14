@@ -1,8 +1,7 @@
 ---
 title: Chillaxen in Litauen
 author: Zagdil
-date_written: 2022-01-25T23:20:00UTC+1
-date_copied: 2022-01-26T13:47:00UTC+1
+date: 2022-01-25T23:20:00UTC+1
 postID: 1574257
 chapter: 327
 characters: [ Kutusow, Alexander I., Graf Tolstoi ]

@@ -1,8 +1,7 @@
 ---
 title: Moskaus Einäscherung
 author: mallegrins
-date_written: 2022-01-30T19:18:00UTC+1
-date_copied: 2022-01-30T23:14:00UTC+1
+date: 2022-01-30T19:18:00UTC+1
 postID: 1574522
 chapter: 233
 characters: [ Kutusow, Rastoptschin ]

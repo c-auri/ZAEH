@@ -1,8 +1,7 @@
 ---
 title: Weihnachtsausgabe
 author: Apocalypso
-date_written: 2022-01-19T19:28:00UTC+1
-date_copied: 2022-01-19T20:33:00UTC+1
+date: 2022-01-19T19:28:00UTC+1
 postID: 1573953
 chapter: 140
 characters: [ 

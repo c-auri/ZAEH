@@ -1,8 +1,7 @@
 ---
 title: Dreiecksbeziehung
 author: blutgarten
-date_written: 2022-01-17T14:56:00UTC+1
-date_copied: 2022-01-19T12:59:00UTC+1
+date: 2022-01-17T14:56:00UTC+1
 postID: 1573767
 chapter: 158
 characters: [ 

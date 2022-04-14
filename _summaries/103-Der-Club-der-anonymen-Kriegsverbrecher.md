@@ -1,8 +1,7 @@
 ---
 title: Der Club der anonymen Kriegsverbrecher
 author: myplaren
-date_written: 2022-01-20T10:23:00UTC+1
-date_copied: 2022-01-20T11:19:00UTC+1
+date: 2022-01-20T10:23:00UTC+1
 postID: 1573999
 chapter: 103
 characters: [ Boris, Nikolaj, Denissow, Napoleon, Alexander I. ]

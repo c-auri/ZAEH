@@ -1,8 +1,7 @@
 ---
 title: Die Geldsorgen der Rostows
 author: Bighead
-date_written: 2022-01-18T00:55:00UTC+1
-date_copied: 2022-01-19T13:24:00UTC+1
+date: 2022-01-18T00:55:00UTC+1
 postID: 1573807
 chapter: 116
 characters: [ Graf Rostow, Berg, Wera, Natascha, Pierre, Boris, Fräulein Peronskaja ]

@@ -1,8 +1,7 @@
 ---
 title: Gigoloprobleme
 author: roterbaron
-date_written: 2022-01-19T22:50:00UTC+1
-date_copied: 2022-01-20T09:26:00UTC+1
+date: 2022-01-19T22:50:00UTC+1
 postID: 1573970
 chapter: 163
 characters: [ Pierre, Andrej, Natascha, Anatol ]
