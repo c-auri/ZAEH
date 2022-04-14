@@ -5,5 +5,5 @@ full_name: Peter Friedrich Georg von Schleswig-Holstein-Gottorf, Prinz von Olden
 alias: Herzog von Oldenburg
 noble: Herzog
 group: Hochadel
-priority: 2
+priority: 3
 ---

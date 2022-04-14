@@ -1,5 +1,5 @@
 ---
 name: Unklar
-alias: Unklar
+alias: unklar
 priority: 11
 ---

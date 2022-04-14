@@ -1,0 +1,28 @@
+<section class="characters__group group-{{ group.alias }}">
+    
+    <header>
+        <h2 class="h2">{{ group.title }}</h2>
+    </header>
+
+    {% assign characters = site.characters | where: 'group', group.title | sort: 'priority' %}
+
+    {% for character in characters %}
+        
+    <p class="character">
+        <a class="character__link" href="{{ character.url }}">
+            {% if character.noble %}
+                {{ character.noble }}
+            {% endif %}
+            {% if character.rank %}
+                {{ character.rank }}
+            {% endif %}
+            {{ character.name -}}
+            {%- if character.info -%}
+            , <span class="character__info">{{ character.info }}</span>
+            {% endif %}
+        </a>
+    </p>
+
+    {% endfor %}
+
+</section>

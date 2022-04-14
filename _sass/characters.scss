@@ -1,10 +1,11 @@
 .characters {
-    padding: 1rem .5rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    padding-inline: .5rem;
     display: grid;
     grid-gap: 2rem;
 
     &__group {
-        padding: 1rem 0;
 
         header {
             margin: 1rem 0;
@@ -48,5 +49,31 @@
         padding-bottom: 3rem;
         padding-inline: 7rem;
         grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem 0;
+    }
+
+    .group-rostow {
+        grid-row: span 3;        
+    }
+
+    .group-bolkonskij,
+    .group-hochadel,
+    .group-armee {
+        grid-row: span 2;
+    }
+
+    .group-besuchow,
+    .group-drubezkoj {
+        grid-row: span 1;
+    }
+
+    .group-unklar {
+        grid-column: span 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        header {
+            grid-column: span 2;
+        }
     }
 }

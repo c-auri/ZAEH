@@ -1,5 +1,5 @@
 ---
 name: Sonstige
-alias: Sonstige
+alias: sonstige
 priority: 10
 ---
