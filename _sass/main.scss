@@ -92,18 +92,24 @@ body {
     }
 
     &__footer {
-        margin-bottom: 3rem;
-        padding: 1rem 0;
-        color: $almost-white;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        color: $medium-light-gray;
         font-family: $ff-sans;
-        background-color: $medium-light-gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        span {
+            padding: .1rem 1rem;
+        }
 
         a {
-            color: white;
+            color: $medium-gray;
         }
 
         a:hover {
-            color: $primary-clr-tint-2;
+            color: $primary-clr;
         }
     }
 }
