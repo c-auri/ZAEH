@@ -12,18 +12,18 @@ id: blog
 
         <header class="summary__header">
 
-            {% include summary-enumeration.html %}
+            {% include summary/number.html %}
             <a class="summary__title" href="{{ summary.url }}">
                 <h2 class="h1">{{ summary.title }}</h2>
             </a>
 
         </header>
 
-        {% include summary-metadata.html %}
+        {% include summary/metadata.html %}
 
         {{ summary.excerpt | truncatewords: 30 }}
 
-        {% include summary-footer.html %}
+        {% include summary/footer.html %}
 
     </section>
 

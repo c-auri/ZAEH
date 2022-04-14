@@ -47,7 +47,7 @@ layout: default
     <ul class="summary-list">
     {% for summary in summaries %}
         {% if summary.characters contains page.alias %}
-        {% include summary-link.html %}
+        {% include summary/link.html %}
         {% endif %}
     {% endfor %}
     </ul>

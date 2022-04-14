@@ -6,14 +6,14 @@ layout: default
 <section class="page__section summary">
 
     <header class="summary__header">
-        {% include summary-enumeration.html %}
+        {% include summary/number.html %}
         <h1 class="h1">{{ page.title }}</h1>
     </header>
 
-    {% include summary-metadata.html %}
+    {% include summary/metadata.html %}
 
     {{ content }}
     
-    {% include summary-footer.html %}
+    {% include summary/footer.html %}
 
 </section>
