@@ -14,7 +14,7 @@ permalink: charaktere
         <section class="characters__group">
     
             <header>
-                <h2 class="h3">{{ group.title }}</h2>
+                <h2 class="h2">{{ group.title }}</h2>
             </header>
         
             {% assign characters = site.characters | where: 'group', group.title | sort: 'priority' %}
