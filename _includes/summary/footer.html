@@ -1,4 +1,4 @@
-{% if page.id == 'blog' or 'reading-version' %}
+{% if page.id == 'blog' or page.id == 'reading-version' %}
 {% assign postID = summary.postID %}
 {% else %}
 {% assign postID = page.postID %}
@@ -14,14 +14,14 @@
 
     <span class="summary__footer__icons">
 
-        <a 
+        <a
             href="{% include thread_url.html %}?postID={{ postID }}#post{{ postID }}"
             title="Zum Forenpost">
             &#8619;
         </a>
 
-        <a 
-            href="#top" 
+        <a
+            href="#top"
             title="Zum Seitenanfang">
             &uarr;
         </a>
