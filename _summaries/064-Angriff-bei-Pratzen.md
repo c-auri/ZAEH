@@ -4,7 +4,7 @@ author: blutgarten
 date: 2022-12-10T18:46:00UTC+1
 postID: 1583093
 chapter: 64
-characters: [ Kutusow, Andrej, Alexander I., Kaiser von Österreich, Miloradowitsch ]
+characters: [ Kutusow, Andrej, Alexander I., Franz I., Miloradowitsch ]
 ---
 Um acht Uhr begab sich Kutusow an der Spitze von Miloradowitschs vierter Kolonne zu Pferd nach Pratzen. Er begrüßte die Mannschaften des Vorderregimentes, erteilte den Befehl, zu marschieren, und zeigte damit, daß er diese Kolonne selber zu führen beabsichtigte. Fürst Andrej, der zu der gewaltigen Schar gehörte, die das Gefolge des Oberkommandierenden bildete, hielt dicht hinter ihm. Er fühlte sich erregt und nervös, gleichzeitig aber auch gelassen und ruhig, wie einem Menschen gewöhnlich zumute ist, wenn ein langersehnter Augenblick endlich herannaht. Links unten, im Nebel, hörte man das Schießen der unsichtbaren Truppen. Da wird man mich hinschicken, dachte er, mit einer Brigade oder einer Division, und dort werde ich mit der Fahne in der Hand allen voranstürmen und alles kurz und klein schlagen, was sich mir in den Weg stellt.
 
